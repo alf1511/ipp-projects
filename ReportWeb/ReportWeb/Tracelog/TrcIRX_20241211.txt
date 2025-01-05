@@ -1,0 +1,6 @@
+Tanggal Tracelog:11/12/2024 14:50:23
+Dari ClsFungsi, Proses GetHubList, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:11/12/2024 15:03:32
+Dari Halaman LAST STATUS AWB - WEB REPORT, Proses Proses, Error : Unable to connect to any of the specified MySQL hosts.
+

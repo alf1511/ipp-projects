@@ -1,0 +1,21 @@
+Tanggal Tracelog:29/11/2024 15:18:18
+Dari ClsSQL, Proses SQLInsertIntoDataset, Error : Incorrect number of arguments for PROCEDURE dev_jenius.report_generate_status_wt; expected 5, got 6
+
+Tanggal Tracelog:29/11/2024 15:20:45
+Dari ClsSQL, Proses SQLInsertIntoDataset, Error : Incorrect number of arguments for PROCEDURE dev_jenius.report_generate_status_wt; expected 5, got 6
+
+Tanggal Tracelog:29/11/2024 15:25:21
+Dari ClsSQL, Proses SQLInsertIntoDataset, Error : Incorrect number of arguments for PROCEDURE dev_jenius.report_generate_status_wt; expected 5, got 6
+
+Tanggal Tracelog:29/11/2024 15:25:37
+Dari ClsSQL, Proses SQLInsertIntoDataset, Error : Incorrect number of arguments for PROCEDURE dev_jenius.report_generate_status_wt; expected 5, got 6
+
+Tanggal Tracelog:29/11/2024 15:27:39
+Dari ClsSQL, Proses SQLInsertIntoDataset, Error : Incorrect number of arguments for PROCEDURE dev_jenius.report_otherexpedition_2; expected 5, got 6
+
+Tanggal Tracelog:29/11/2024 15:30:51
+Dari Halaman Laporan Status WT - WEB REPORT, Proses Proses, Error : Unable to connect to any of the specified MySQL hosts.
+
+Tanggal Tracelog:29/11/2024 15:31:00
+Dari ClsSQL, Proses SQLInsertIntoDataset, Error : Unknown column 'o.ExpenseType' in 'where clause'
+

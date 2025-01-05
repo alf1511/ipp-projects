@@ -1,0 +1,48 @@
+Tanggal Tracelog:06/11/2024 09:07:08
+Dari ClsFungsi, Proses GetHubList, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:06/11/2024 09:10:21
+Dari ClsFungsi, Proses GetHubList, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:06/11/2024 09:52:00
+Dari ClsFungsi, Proses GetHubList, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:06/11/2024 11:00:23
+Dari ClsFungsi, Proses GetHubList, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:06/11/2024 11:47:57
+Dari ClsFungsi, Proses GetHubList, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:06/11/2024 12:38:51
+Dari ClsFungsi, Proses GetHubList, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:06/11/2024 12:38:51
+Dari Halaman REKAP SURAT JALAN, Proses LoadData, Error : The process cannot access the file 'D:\WebReportLocal\ReportWeb\ReportWeb\Tracelog\TrcIRX_20241106.txt' because it is being used by another process.
+
+Tanggal Tracelog:06/11/2024 15:00:01
+Dari ClsFungsi, Proses GetHubList, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:06/11/2024 15:03:06
+Dari ClsFungsi, Proses GetHubList, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:06/11/2024 15:04:49
+Dari ClsFungsi, Proses GetHubList, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:06/11/2024 15:11:37
+Dari ClsFungsi, Proses GetHubList, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:06/11/2024 15:30:16
+Dari ClsFungsi, Proses GetHubList, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:06/11/2024 15:56:44
+Dari ClsFungsi, Proses GetHubList, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:06/11/2024 15:58:15
+Dari ClsFungsi, Proses GetHubList, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:06/11/2024 16:01:02
+Dari ClsFungsi, Proses GetHubList, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:06/11/2024 16:07:12
+Dari ClsFungsi, Proses GetHubList, Error : Object reference not set to an instance of an object.
+

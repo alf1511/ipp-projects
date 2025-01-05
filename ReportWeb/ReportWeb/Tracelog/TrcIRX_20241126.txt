@@ -1,0 +1,135 @@
+Tanggal Tracelog:26/11/2024 09:24:47
+WriteFileExcel TemplateLaporanBASelisih_20241126092447.xlsx, Masuk
+
+Tanggal Tracelog:26/11/2024 09:24:47
+WriteFileExcel TemplateLaporanBASelisih_20241126092447.xlsx, Path = 
+
+Tanggal Tracelog:26/11/2024 09:24:47
+WriteFileExcel TemplateLaporanBASelisih_20241126092447.xlsx, Path = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\
+
+Tanggal Tracelog:26/11/2024 09:24:47
+WriteFileExcel TemplateLaporanBASelisih_20241126092447.xlsx, Path After Replace = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\
+
+Tanggal Tracelog:26/11/2024 09:24:47
+WriteFileExcel TemplateLaporanBASelisih_20241126092447.xlsx, UserDirectory True
+
+Tanggal Tracelog:26/11/2024 09:24:47
+WriteFileExcel TemplateLaporanBASelisih_20241126092447.xlsx, UserDirectory FullPath = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\TemplateLaporanBASelisih_20241126092447.xlsx
+
+Tanggal Tracelog:26/11/2024 09:24:47
+WriteFileExcel TemplateLaporanBASelisih_20241126092447.xlsx, Declare MConExcel Done
+
+Tanggal Tracelog:26/11/2024 09:24:47
+WriteFileExcel TemplateLaporanBASelisih_20241126092447.xlsx, Create Column Start
+
+Tanggal Tracelog:26/11/2024 09:24:47
+WriteFileExcel TemplateLaporanBASelisih_20241126092447.xlsx, Create Column End
+
+Tanggal Tracelog:26/11/2024 09:24:47
+WriteFileExcel TemplateLaporanBASelisih_20241126092447.xlsx, Kolom = SB.ToString
+
+Tanggal Tracelog:26/11/2024 09:24:47
+WriteFileExcel TemplateLaporanBASelisih_20241126092447.xlsx, MConExcel Set to FullPath D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\TemplateLaporanBASelisih_20241126092447.xlsx
+
+Tanggal Tracelog:26/11/2024 09:24:49
+WriteFileExcel TemplateLaporanBASelisih_20241126092447.xlsx, MConExcel Open Done
+
+Tanggal Tracelog:26/11/2024 09:24:49
+WriteFileExcel TemplateLaporanBASelisih_20241126092447.xlsx, MConExcel CREATE TABLE `Sheet1` Done
+
+Tanggal Tracelog:26/11/2024 09:24:49
+WriteFileExcel TemplateLaporanBASelisih_20241126092447.xlsx, MConExcel INSERT INTO `Sheet1` Done
+
+Tanggal Tracelog:26/11/2024 09:29:22
+Dari ClsSQL, Proses SQLExecuteNonQuery, Error : Duplicate entry '939-4508-2968' for key 'PRIMARY', Query : Insert Into `TempLaporanRekapBASelisih` (`Tipe`, `Ekspedisi`, `Nama`, `Ori`, `Dest`, `Resi`, `Tanggal`, `PeriodeInvoice`, `KeteranganBA`) Values (@Tipe0,@Ekspedisi0,@Nama0,@Ori0,@Dest0,@Resi0,@Tanggal0,@PeriodeInvoice0,@KeteranganBA0),(@Tipe1,@Ekspedisi1,@Nama1,@Ori1,@Dest1,@Resi1,@Tanggal1,@PeriodeInvoice1,@KeteranganBA1),(@Tipe2,@Ekspedisi2,@Nama2,@Ori2,@Dest2,@Resi2,@Tanggal2,@PeriodeInvoice2,@KeteranganBA2)
+
+Tanggal Tracelog:26/11/2024 09:33:30
+Dari Halaman UploadLaporanRekapBASelisih - WEB REPORT, Proses UpdateData, Error : Unable to connect to any of the specified MySQL hosts.
+
+Tanggal Tracelog:26/11/2024 09:39:40
+Dari ClsSQL, Proses SQLExecuteNonQuery, Error : Duplicate entry '939-4508-2968' for key 'PRIMARY', Query : Insert Into `TempLaporanRekapBASelisih` (`Tipe`, `Ekspedisi`, `Nama`, `Ori`, `Dest`, `Resi`, `Tanggal`, `PeriodeInvoice`, `KeteranganBA`) Values (@Tipe0,@Ekspedisi0,@Nama0,@Ori0,@Dest0,@Resi0,@Tanggal0,@PeriodeInvoice0,@KeteranganBA0),(@Tipe1,@Ekspedisi1,@Nama1,@Ori1,@Dest1,@Resi1,@Tanggal1,@PeriodeInvoice1,@KeteranganBA1),(@Tipe2,@Ekspedisi2,@Nama2,@Ori2,@Dest2,@Resi2,@Tanggal2,@PeriodeInvoice2,@KeteranganBA2)
+
+Tanggal Tracelog:26/11/2024 09:52:29
+Dari ClsSQL, Proses SQLExecuteNonQuery, Error : Duplicate entry '939-4508-2968' for key 'PRIMARY', Query : Insert Into `TempLaporanRekapBASelisih` (`Tipe`, `Ekspedisi`, `Nama`, `Ori`, `Dest`, `Resi`, `Tanggal`, `PeriodeInvoice`, `KeteranganBA`) Values (@Tipe0,@Ekspedisi0,@Nama0,@Ori0,@Dest0,@Resi0,@Tanggal0,@PeriodeInvoice0,@KeteranganBA0),(@Tipe1,@Ekspedisi1,@Nama1,@Ori1,@Dest1,@Resi1,@Tanggal1,@PeriodeInvoice1,@KeteranganBA1),(@Tipe2,@Ekspedisi2,@Nama2,@Ori2,@Dest2,@Resi2,@Tanggal2,@PeriodeInvoice2,@KeteranganBA2)
+
+Tanggal Tracelog:26/11/2024 10:08:01
+Dari ClsSQL, Proses SQLInsertIntoDatatable, Error : Duplicate entry '939-4508-2966' for key 'PRIMARY'
+
+Tanggal Tracelog:26/11/2024 14:16:38
+Dari ClsSQL, Proses SQLInsertIntoDataset, Error : Incorrect number of arguments for PROCEDURE dev_jenius.report_margin_first_mile; expected 6, got 5
+
+Tanggal Tracelog:26/11/2024 14:37:46
+Dari ClsFungsi, Proses GetHubList, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:26/11/2024 15:16:44
+Dari ClsFungsi, Proses GetHubList, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:26/11/2024 16:14:19
+Dari ClsSQL, Proses SQLInsertIntoDataset, Error : Unknown column 'param_tanggal_awal' in 'field list'
+
+Tanggal Tracelog:26/11/2024 16:38:48
+WriteFileExcel TemplateLaporanBASelisih_20241126163848.xlsx, Masuk
+
+Tanggal Tracelog:26/11/2024 16:38:48
+WriteFileExcel TemplateLaporanBASelisih_20241126163848.xlsx, Path = 
+
+Tanggal Tracelog:26/11/2024 16:38:48
+WriteFileExcel TemplateLaporanBASelisih_20241126163848.xlsx, Path = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\
+
+Tanggal Tracelog:26/11/2024 16:38:48
+WriteFileExcel TemplateLaporanBASelisih_20241126163848.xlsx, Path After Replace = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\
+
+Tanggal Tracelog:26/11/2024 16:38:48
+WriteFileExcel TemplateLaporanBASelisih_20241126163848.xlsx, UserDirectory True
+
+Tanggal Tracelog:26/11/2024 16:38:48
+WriteFileExcel TemplateLaporanBASelisih_20241126163848.xlsx, UserDirectory FullPath = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\TemplateLaporanBASelisih_20241126163848.xlsx
+
+Tanggal Tracelog:26/11/2024 16:38:48
+WriteFileExcel TemplateLaporanBASelisih_20241126163848.xlsx, Declare MConExcel Done
+
+Tanggal Tracelog:26/11/2024 16:38:48
+WriteFileExcel TemplateLaporanBASelisih_20241126163848.xlsx, Create Column Start
+
+Tanggal Tracelog:26/11/2024 16:38:48
+WriteFileExcel TemplateLaporanBASelisih_20241126163848.xlsx, Create Column End
+
+Tanggal Tracelog:26/11/2024 16:38:48
+WriteFileExcel TemplateLaporanBASelisih_20241126163848.xlsx, Kolom = SB.ToString
+
+Tanggal Tracelog:26/11/2024 16:38:48
+WriteFileExcel TemplateLaporanBASelisih_20241126163848.xlsx, MConExcel Set to FullPath D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\TemplateLaporanBASelisih_20241126163848.xlsx
+
+Tanggal Tracelog:26/11/2024 16:38:48
+WriteFileExcel TemplateLaporanBASelisih_20241126163848.xlsx, MConExcel Open Done
+
+Tanggal Tracelog:26/11/2024 16:38:48
+WriteFileExcel TemplateLaporanBASelisih_20241126163848.xlsx, MConExcel CREATE TABLE `Sheet1` Done
+
+Tanggal Tracelog:26/11/2024 16:38:48
+WriteFileExcel TemplateLaporanBASelisih_20241126163848.xlsx, MConExcel INSERT INTO `Sheet1` Done
+
+Tanggal Tracelog:26/11/2024 16:44:04
+Dari ClsSQL, Proses SQLInsertIntoDatatable, Error : Duplicate entry '939-4508-2966' for key 'PRIMARY'
+
+Tanggal Tracelog:26/11/2024 16:46:48
+Dari ClsSQL, Proses SQLInsertIntoDatatable, Error : Duplicate entry '939-4508-2966' for key 'PRIMARY'
+
+Tanggal Tracelog:26/11/2024 16:48:54
+Dari ClsSQL, Proses SQLInsertIntoDatatable, Error : Duplicate entry '939-4508-2966' for key 'PRIMARY'
+
+Tanggal Tracelog:26/11/2024 16:50:22
+Dari ClsSQL, Proses SQLInsertIntoDatatable, Error : Duplicate entry '939-4508-2966' for key 'PRIMARY'
+
+Tanggal Tracelog:26/11/2024 16:52:36
+Dari ClsSQL, Proses SQLInsertIntoDatatable, Error : Duplicate entry 'TRX10010' for key 'PRIMARY'
+
+Tanggal Tracelog:26/11/2024 17:03:03
+Dari ClsSQL, Proses SQLInsertIntoDatatable, Error : Duplicate entry 'TRX10010' for key 'PRIMARY'
+
+Tanggal Tracelog:26/11/2024 17:03:34
+Dari ClsSQL, Proses SQLInsertIntoDatatable, Error : Duplicate entry 'TRX10010' for key 'PRIMARY'
+
+Tanggal Tracelog:26/11/2024 17:06:42
+Dari ClsSQL, Proses SQLInsertIntoDatatable, Error : Duplicate entry 'TRX10013' for key 'PRIMARY'
+

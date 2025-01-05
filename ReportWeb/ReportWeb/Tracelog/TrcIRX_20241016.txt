@@ -1,0 +1,36 @@
+Tanggal Tracelog:16/10/2024 08:12:28
+Dari ClsFungsi, Proses ddlBound, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:16/10/2024 08:12:28
+Dari Halaman Laporan Status MTO/RET, Proses LoadData, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:16/10/2024 08:19:22
+Dari ClsFungsi, Proses ddlBound, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:16/10/2024 08:19:22
+Dari Halaman Laporan Status MTO/RET, Proses LoadData, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:16/10/2024 08:20:25
+Dari ClsFungsi, Proses ddlBound, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:16/10/2024 08:20:25
+Dari Halaman Laporan Status MTO/RET, Proses LoadData, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:16/10/2024 08:33:47
+Dari ClsFungsi, Proses ddlBound, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:16/10/2024 08:33:47
+Dari Halaman Laporan Status MTO/RET, Proses LoadData, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:16/10/2024 08:33:59
+Dari ClsFungsi, Proses ddlBound, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:16/10/2024 08:33:59
+Dari Halaman Laporan Status MTO/RET, Proses LoadData, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:16/10/2024 09:02:07
+Dari Halaman Laporan Status MTO/RET, Proses LoadData, Error : Cannot find column [Type].
+
+Tanggal Tracelog:16/10/2024 09:16:56
+Dari Halaman Laporan Status MTO/RET, Proses LoadData, Error : The method or operation is not implemented.
+

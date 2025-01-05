@@ -1,0 +1,1329 @@
+Tanggal Tracelog:09/09/2024 07:52:58
+Dari Halaman QUERY TOOLS - WEB REPORT, Proses QueryTools, Error : The method or operation is not implemented.
+
+Tanggal Tracelog:09/09/2024 07:53:58
+Dari Halaman QUERY TOOLS - WEB REPORT, Proses QueryTools, Error : The method or operation is not implemented.
+
+Tanggal Tracelog:09/09/2024 07:54:13
+WriteFileExcel QueryTools_20240909075413.xlsx, Masuk
+
+Tanggal Tracelog:09/09/2024 07:54:13
+WriteFileExcel QueryTools_20240909075413.xlsx, Path = 
+
+Tanggal Tracelog:09/09/2024 07:54:13
+WriteFileExcel QueryTools_20240909075413.xlsx, Path = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\
+
+Tanggal Tracelog:09/09/2024 07:54:13
+WriteFileExcel QueryTools_20240909075413.xlsx, Path After Replace = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\
+
+Tanggal Tracelog:09/09/2024 07:54:13
+WriteFileExcel QueryTools_20240909075413.xlsx, UserDirectory True
+
+Tanggal Tracelog:09/09/2024 07:54:13
+WriteFileExcel QueryTools_20240909075413.xlsx, UserDirectory FullPath = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\QueryTools_20240909075413.xlsx
+
+Tanggal Tracelog:09/09/2024 07:54:13
+WriteFileExcel QueryTools_20240909075413.xlsx, Declare MConExcel Done
+
+Tanggal Tracelog:09/09/2024 07:54:13
+WriteFileExcel QueryTools_20240909075413.xlsx, Create Column Start
+
+Tanggal Tracelog:09/09/2024 07:54:13
+WriteFileExcel QueryTools_20240909075413.xlsx, Create Column End
+
+Tanggal Tracelog:09/09/2024 07:54:13
+WriteFileExcel QueryTools_20240909075413.xlsx, Kolom = SB.ToString
+
+Tanggal Tracelog:09/09/2024 07:54:13
+WriteFileExcel QueryTools_20240909075413.xlsx, MConExcel Set to FullPath D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\QueryTools_20240909075413.xlsx
+
+Tanggal Tracelog:09/09/2024 07:54:13
+WriteFileExcel QueryTools_20240909075413.xlsx, MConExcel Open Done
+
+Tanggal Tracelog:09/09/2024 07:54:13
+WriteFileExcel QueryTools_20240909075413.xlsx, MConExcel CREATE TABLE `Sheet1` Done
+
+Tanggal Tracelog:09/09/2024 07:54:13
+WriteFileExcel QueryTools_20240909075413.xlsx, MConExcel INSERT INTO `Sheet1` Done
+
+Tanggal Tracelog:09/09/2024 08:11:00
+WriteFileExcel QueryTools_20240909081100.xlsx, Masuk
+
+Tanggal Tracelog:09/09/2024 08:11:00
+WriteFileExcel QueryTools_20240909081100.xlsx, Path = 
+
+Tanggal Tracelog:09/09/2024 08:11:00
+WriteFileExcel QueryTools_20240909081100.xlsx, Path = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\
+
+Tanggal Tracelog:09/09/2024 08:11:00
+WriteFileExcel QueryTools_20240909081100.xlsx, Path After Replace = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\
+
+Tanggal Tracelog:09/09/2024 08:11:00
+WriteFileExcel QueryTools_20240909081100.xlsx, UserDirectory True
+
+Tanggal Tracelog:09/09/2024 08:11:00
+WriteFileExcel QueryTools_20240909081100.xlsx, UserDirectory FullPath = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\QueryTools_20240909081100.xlsx
+
+Tanggal Tracelog:09/09/2024 08:11:00
+WriteFileExcel QueryTools_20240909081100.xlsx, Declare MConExcel Done
+
+Tanggal Tracelog:09/09/2024 08:11:00
+WriteFileExcel QueryTools_20240909081100.xlsx, Create Column Start
+
+Tanggal Tracelog:09/09/2024 08:11:00
+WriteFileExcel QueryTools_20240909081100.xlsx, Create Column End
+
+Tanggal Tracelog:09/09/2024 08:11:00
+WriteFileExcel QueryTools_20240909081100.xlsx, Kolom = SB.ToString
+
+Tanggal Tracelog:09/09/2024 08:11:00
+WriteFileExcel QueryTools_20240909081100.xlsx, MConExcel Set to FullPath D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\QueryTools_20240909081100.xlsx
+
+Tanggal Tracelog:09/09/2024 08:11:00
+WriteFileExcel QueryTools_20240909081100.xlsx, MConExcel Open Done
+
+Tanggal Tracelog:09/09/2024 08:11:00
+WriteFileExcel QueryTools_20240909081100.xlsx, 'ACCOUNT [PREFIX]<BR><BR>PERUSAHAAN<BR><BR>MERK DAGANG<BR><BR>KATEGORIAccount [Prefix]  Perusahaan  Merk Dagang  Kategori' is not a valid name. Make sure that it does not include invalid characters or punctuation and that it is not too long.
+
+Tanggal Tracelog:09/09/2024 08:13:15
+WriteFileExcel QueryTools_20240909081315.xlsx, Masuk
+
+Tanggal Tracelog:09/09/2024 08:13:15
+WriteFileExcel QueryTools_20240909081315.xlsx, Path = 
+
+Tanggal Tracelog:09/09/2024 08:13:15
+WriteFileExcel QueryTools_20240909081315.xlsx, Path = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\
+
+Tanggal Tracelog:09/09/2024 08:13:15
+WriteFileExcel QueryTools_20240909081315.xlsx, Path After Replace = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\
+
+Tanggal Tracelog:09/09/2024 08:13:15
+WriteFileExcel QueryTools_20240909081315.xlsx, UserDirectory True
+
+Tanggal Tracelog:09/09/2024 08:13:15
+WriteFileExcel QueryTools_20240909081315.xlsx, UserDirectory FullPath = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\QueryTools_20240909081315.xlsx
+
+Tanggal Tracelog:09/09/2024 08:13:15
+WriteFileExcel QueryTools_20240909081315.xlsx, Declare MConExcel Done
+
+Tanggal Tracelog:09/09/2024 08:13:15
+WriteFileExcel QueryTools_20240909081315.xlsx, Create Column Start
+
+Tanggal Tracelog:09/09/2024 08:13:15
+WriteFileExcel QueryTools_20240909081315.xlsx, Create Column End
+
+Tanggal Tracelog:09/09/2024 08:13:15
+WriteFileExcel QueryTools_20240909081315.xlsx, Kolom = SB.ToString
+
+Tanggal Tracelog:09/09/2024 08:13:15
+WriteFileExcel QueryTools_20240909081315.xlsx, MConExcel Set to FullPath D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\QueryTools_20240909081315.xlsx
+
+Tanggal Tracelog:09/09/2024 08:13:15
+WriteFileExcel QueryTools_20240909081315.xlsx, MConExcel Open Done
+
+Tanggal Tracelog:09/09/2024 08:13:15
+WriteFileExcel QueryTools_20240909081315.xlsx, 'ACCOUNT [PREFIX]<BR><BR>PERUSAHAAN<BR><BR>MERK DAGANG<BR><BR>KATEGORIAccount [Prefix]&nbsp &nbsp Perusahaan&nbsp &nbsp Merk Dagang&nbsp &nbsp Kategori' is not a valid name. Make sure that it does not include invalid characters or punctuation and that it is not too long.
+
+Tanggal Tracelog:09/09/2024 08:13:57
+WriteFileExcel QueryTools_20240909081357.xlsx, Masuk
+
+Tanggal Tracelog:09/09/2024 08:13:57
+WriteFileExcel QueryTools_20240909081357.xlsx, Path = 
+
+Tanggal Tracelog:09/09/2024 08:13:57
+WriteFileExcel QueryTools_20240909081357.xlsx, Path = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\
+
+Tanggal Tracelog:09/09/2024 08:13:57
+WriteFileExcel QueryTools_20240909081357.xlsx, Path After Replace = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\
+
+Tanggal Tracelog:09/09/2024 08:13:57
+WriteFileExcel QueryTools_20240909081357.xlsx, UserDirectory True
+
+Tanggal Tracelog:09/09/2024 08:13:57
+WriteFileExcel QueryTools_20240909081357.xlsx, UserDirectory FullPath = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\QueryTools_20240909081357.xlsx
+
+Tanggal Tracelog:09/09/2024 08:13:57
+WriteFileExcel QueryTools_20240909081357.xlsx, Declare MConExcel Done
+
+Tanggal Tracelog:09/09/2024 08:13:57
+WriteFileExcel QueryTools_20240909081357.xlsx, Create Column Start
+
+Tanggal Tracelog:09/09/2024 08:13:57
+WriteFileExcel QueryTools_20240909081357.xlsx, Create Column End
+
+Tanggal Tracelog:09/09/2024 08:13:57
+WriteFileExcel QueryTools_20240909081357.xlsx, Kolom = SB.ToString
+
+Tanggal Tracelog:09/09/2024 08:13:57
+WriteFileExcel QueryTools_20240909081357.xlsx, MConExcel Set to FullPath D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\QueryTools_20240909081357.xlsx
+
+Tanggal Tracelog:09/09/2024 08:13:57
+WriteFileExcel QueryTools_20240909081357.xlsx, MConExcel Open Done
+
+Tanggal Tracelog:09/09/2024 08:13:57
+WriteFileExcel QueryTools_20240909081357.xlsx, 'ACCOUNT [PREFIX]<BR><BR>PERUSAHAAN<BR><BR>MERK DAGANG<BR><BR>KATEGORIAccount [Prefix]&nbsp &nbsp Perusahaan&nbsp &nbsp Merk Dagang&nbsp &nbsp Kategori' is not a valid name. Make sure that it does not include invalid characters or punctuation and that it is not too long.
+
+Tanggal Tracelog:09/09/2024 08:14:02
+WriteFileExcel QueryTools_20240909081402.xlsx, Masuk
+
+Tanggal Tracelog:09/09/2024 08:14:02
+WriteFileExcel QueryTools_20240909081402.xlsx, Path = 
+
+Tanggal Tracelog:09/09/2024 08:14:02
+WriteFileExcel QueryTools_20240909081402.xlsx, Path = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\
+
+Tanggal Tracelog:09/09/2024 08:14:02
+WriteFileExcel QueryTools_20240909081402.xlsx, Path After Replace = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\
+
+Tanggal Tracelog:09/09/2024 08:14:02
+WriteFileExcel QueryTools_20240909081402.xlsx, UserDirectory True
+
+Tanggal Tracelog:09/09/2024 08:14:02
+WriteFileExcel QueryTools_20240909081402.xlsx, UserDirectory FullPath = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\QueryTools_20240909081402.xlsx
+
+Tanggal Tracelog:09/09/2024 08:14:02
+WriteFileExcel QueryTools_20240909081402.xlsx, Declare MConExcel Done
+
+Tanggal Tracelog:09/09/2024 08:14:02
+WriteFileExcel QueryTools_20240909081402.xlsx, Create Column Start
+
+Tanggal Tracelog:09/09/2024 08:14:02
+WriteFileExcel QueryTools_20240909081402.xlsx, Create Column End
+
+Tanggal Tracelog:09/09/2024 08:14:02
+WriteFileExcel QueryTools_20240909081402.xlsx, Kolom = SB.ToString
+
+Tanggal Tracelog:09/09/2024 08:14:02
+WriteFileExcel QueryTools_20240909081402.xlsx, MConExcel Set to FullPath D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\QueryTools_20240909081402.xlsx
+
+Tanggal Tracelog:09/09/2024 08:14:03
+WriteFileExcel QueryTools_20240909081402.xlsx, MConExcel Open Done
+
+Tanggal Tracelog:09/09/2024 08:14:03
+WriteFileExcel QueryTools_20240909081402.xlsx, 'ACCOUNT [PREFIX]<BR><BR>PERUSAHAAN<BR><BR>MERK DAGANG<BR><BR>KATEGORIAccount [Prefix]&nbsp &nbsp Perusahaan&nbsp &nbsp Merk Dagang&nbsp &nbsp Kategori' is not a valid name. Make sure that it does not include invalid characters or punctuation and that it is not too long.
+
+Tanggal Tracelog:09/09/2024 08:15:11
+WriteFileExcel QueryTools_20240909081511.xlsx, Masuk
+
+Tanggal Tracelog:09/09/2024 08:15:11
+WriteFileExcel QueryTools_20240909081511.xlsx, Path = 
+
+Tanggal Tracelog:09/09/2024 08:15:11
+WriteFileExcel QueryTools_20240909081511.xlsx, Path = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\
+
+Tanggal Tracelog:09/09/2024 08:15:11
+WriteFileExcel QueryTools_20240909081511.xlsx, Path After Replace = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\
+
+Tanggal Tracelog:09/09/2024 08:15:11
+WriteFileExcel QueryTools_20240909081511.xlsx, UserDirectory True
+
+Tanggal Tracelog:09/09/2024 08:15:11
+WriteFileExcel QueryTools_20240909081511.xlsx, UserDirectory FullPath = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\QueryTools_20240909081511.xlsx
+
+Tanggal Tracelog:09/09/2024 08:15:11
+WriteFileExcel QueryTools_20240909081511.xlsx, Declare MConExcel Done
+
+Tanggal Tracelog:09/09/2024 08:15:11
+WriteFileExcel QueryTools_20240909081511.xlsx, Create Column Start
+
+Tanggal Tracelog:09/09/2024 08:15:11
+WriteFileExcel QueryTools_20240909081511.xlsx, Create Column End
+
+Tanggal Tracelog:09/09/2024 08:15:11
+WriteFileExcel QueryTools_20240909081511.xlsx, Kolom = SB.ToString
+
+Tanggal Tracelog:09/09/2024 08:15:11
+WriteFileExcel QueryTools_20240909081511.xlsx, MConExcel Set to FullPath D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\QueryTools_20240909081511.xlsx
+
+Tanggal Tracelog:09/09/2024 08:15:11
+WriteFileExcel QueryTools_20240909081511.xlsx, MConExcel Open Done
+
+Tanggal Tracelog:09/09/2024 08:15:11
+WriteFileExcel QueryTools_20240909081511.xlsx, 'ACCOUNT [PREFIX]<BR><BR>PERUSAHAAN<BR><BR>MERK DAGANG<BR><BR>KATEGORI' is not a valid name. Make sure that it does not include invalid characters or punctuation and that it is not too long.
+
+Tanggal Tracelog:09/09/2024 08:27:09
+WriteFileExcel QueryTools_20240909082709.xlsx, Masuk
+
+Tanggal Tracelog:09/09/2024 08:27:09
+WriteFileExcel QueryTools_20240909082709.xlsx, Path = 
+
+Tanggal Tracelog:09/09/2024 08:27:09
+WriteFileExcel QueryTools_20240909082709.xlsx, Path = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\
+
+Tanggal Tracelog:09/09/2024 08:27:09
+WriteFileExcel QueryTools_20240909082709.xlsx, Path After Replace = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\
+
+Tanggal Tracelog:09/09/2024 08:27:09
+WriteFileExcel QueryTools_20240909082709.xlsx, UserDirectory True
+
+Tanggal Tracelog:09/09/2024 08:27:09
+WriteFileExcel QueryTools_20240909082709.xlsx, UserDirectory FullPath = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\QueryTools_20240909082709.xlsx
+
+Tanggal Tracelog:09/09/2024 08:27:09
+WriteFileExcel QueryTools_20240909082709.xlsx, Declare MConExcel Done
+
+Tanggal Tracelog:09/09/2024 08:27:09
+WriteFileExcel QueryTools_20240909082709.xlsx, Create Column Start
+
+Tanggal Tracelog:09/09/2024 08:27:09
+WriteFileExcel QueryTools_20240909082709.xlsx, Create Column End
+
+Tanggal Tracelog:09/09/2024 08:27:09
+WriteFileExcel QueryTools_20240909082709.xlsx, Kolom = SB.ToString
+
+Tanggal Tracelog:09/09/2024 08:27:09
+WriteFileExcel QueryTools_20240909082709.xlsx, MConExcel Set to FullPath D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\QueryTools_20240909082709.xlsx
+
+Tanggal Tracelog:09/09/2024 08:27:09
+WriteFileExcel QueryTools_20240909082709.xlsx, MConExcel Open Done
+
+Tanggal Tracelog:09/09/2024 08:27:09
+WriteFileExcel QueryTools_20240909082709.xlsx, 'ACCOUNT [PREFIX]<BR><BR>PERUSAHAAN<BR><BR>MERK DAGANG<BR><BR>KATEGORI' is not a valid name. Make sure that it does not include invalid characters or punctuation and that it is not too long.
+
+Tanggal Tracelog:09/09/2024 08:27:55
+WriteFileExcel QueryTools_20240909082755.xlsx, Masuk
+
+Tanggal Tracelog:09/09/2024 08:27:55
+WriteFileExcel QueryTools_20240909082755.xlsx, Path = 
+
+Tanggal Tracelog:09/09/2024 08:27:55
+WriteFileExcel QueryTools_20240909082755.xlsx, Path = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\
+
+Tanggal Tracelog:09/09/2024 08:27:55
+WriteFileExcel QueryTools_20240909082755.xlsx, Path After Replace = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\
+
+Tanggal Tracelog:09/09/2024 08:27:55
+WriteFileExcel QueryTools_20240909082755.xlsx, UserDirectory True
+
+Tanggal Tracelog:09/09/2024 08:27:55
+WriteFileExcel QueryTools_20240909082755.xlsx, UserDirectory FullPath = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\QueryTools_20240909082755.xlsx
+
+Tanggal Tracelog:09/09/2024 08:27:55
+WriteFileExcel QueryTools_20240909082755.xlsx, Declare MConExcel Done
+
+Tanggal Tracelog:09/09/2024 08:27:55
+WriteFileExcel QueryTools_20240909082755.xlsx, Create Column Start
+
+Tanggal Tracelog:09/09/2024 08:27:55
+WriteFileExcel QueryTools_20240909082755.xlsx, Create Column End
+
+Tanggal Tracelog:09/09/2024 08:27:55
+WriteFileExcel QueryTools_20240909082755.xlsx, Kolom = SB.ToString
+
+Tanggal Tracelog:09/09/2024 08:27:55
+WriteFileExcel QueryTools_20240909082755.xlsx, MConExcel Set to FullPath D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\QueryTools_20240909082755.xlsx
+
+Tanggal Tracelog:09/09/2024 08:27:55
+WriteFileExcel QueryTools_20240909082755.xlsx, MConExcel Open Done
+
+Tanggal Tracelog:09/09/2024 08:27:55
+WriteFileExcel QueryTools_20240909082755.xlsx, 'ACCOUNT [PREFIX]<BR><BR>PERUSAHAAN<BR><BR>MERK DAGANG<BR><BR>KATEGORI' is not a valid name. Make sure that it does not include invalid characters or punctuation and that it is not too long.
+
+Tanggal Tracelog:09/09/2024 08:38:31
+WriteFileExcel QueryTools_20240909083831.xlsx, Masuk
+
+Tanggal Tracelog:09/09/2024 08:38:31
+WriteFileExcel QueryTools_20240909083831.xlsx, Path = 
+
+Tanggal Tracelog:09/09/2024 08:38:31
+WriteFileExcel QueryTools_20240909083831.xlsx, Path = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\
+
+Tanggal Tracelog:09/09/2024 08:38:31
+WriteFileExcel QueryTools_20240909083831.xlsx, Path After Replace = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\
+
+Tanggal Tracelog:09/09/2024 08:38:31
+WriteFileExcel QueryTools_20240909083831.xlsx, UserDirectory True
+
+Tanggal Tracelog:09/09/2024 08:38:31
+WriteFileExcel QueryTools_20240909083831.xlsx, UserDirectory FullPath = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\QueryTools_20240909083831.xlsx
+
+Tanggal Tracelog:09/09/2024 08:38:31
+WriteFileExcel QueryTools_20240909083831.xlsx, Declare MConExcel Done
+
+Tanggal Tracelog:09/09/2024 08:38:31
+WriteFileExcel QueryTools_20240909083831.xlsx, Create Column Start
+
+Tanggal Tracelog:09/09/2024 08:38:31
+WriteFileExcel QueryTools_20240909083831.xlsx, Create Column End
+
+Tanggal Tracelog:09/09/2024 08:38:31
+WriteFileExcel QueryTools_20240909083831.xlsx, Kolom = SB.ToString
+
+Tanggal Tracelog:09/09/2024 08:38:31
+WriteFileExcel QueryTools_20240909083831.xlsx, MConExcel Set to FullPath D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\QueryTools_20240909083831.xlsx
+
+Tanggal Tracelog:09/09/2024 08:38:31
+WriteFileExcel QueryTools_20240909083831.xlsx, MConExcel Open Done
+
+Tanggal Tracelog:09/09/2024 08:38:31
+WriteFileExcel QueryTools_20240909083831.xlsx, 'ACCOUNT [PREFIX]<BR><BR>PERUSAHAAN<BR><BR>MERK DAGANG<BR><BR>KATEGORI' is not a valid name. Make sure that it does not include invalid characters or punctuation and that it is not too long.
+
+Tanggal Tracelog:09/09/2024 08:38:33
+WriteFileExcel QueryTools_20240909083833.xlsx, Masuk
+
+Tanggal Tracelog:09/09/2024 08:38:33
+WriteFileExcel QueryTools_20240909083833.xlsx, Path = 
+
+Tanggal Tracelog:09/09/2024 08:38:33
+WriteFileExcel QueryTools_20240909083833.xlsx, Path = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\
+
+Tanggal Tracelog:09/09/2024 08:38:33
+WriteFileExcel QueryTools_20240909083833.xlsx, Path After Replace = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\
+
+Tanggal Tracelog:09/09/2024 08:38:33
+WriteFileExcel QueryTools_20240909083833.xlsx, UserDirectory True
+
+Tanggal Tracelog:09/09/2024 08:38:33
+WriteFileExcel QueryTools_20240909083833.xlsx, UserDirectory FullPath = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\QueryTools_20240909083833.xlsx
+
+Tanggal Tracelog:09/09/2024 08:38:33
+WriteFileExcel QueryTools_20240909083833.xlsx, Declare MConExcel Done
+
+Tanggal Tracelog:09/09/2024 08:38:33
+WriteFileExcel QueryTools_20240909083833.xlsx, Create Column Start
+
+Tanggal Tracelog:09/09/2024 08:38:33
+WriteFileExcel QueryTools_20240909083833.xlsx, Create Column End
+
+Tanggal Tracelog:09/09/2024 08:38:33
+WriteFileExcel QueryTools_20240909083833.xlsx, Kolom = SB.ToString
+
+Tanggal Tracelog:09/09/2024 08:38:33
+WriteFileExcel QueryTools_20240909083833.xlsx, MConExcel Set to FullPath D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\QueryTools_20240909083833.xlsx
+
+Tanggal Tracelog:09/09/2024 08:38:33
+WriteFileExcel QueryTools_20240909083833.xlsx, MConExcel Open Done
+
+Tanggal Tracelog:09/09/2024 08:38:33
+WriteFileExcel QueryTools_20240909083833.xlsx, 'ACCOUNT [PREFIX]<BR><BR>PERUSAHAAN<BR><BR>MERK DAGANG<BR><BR>KATEGORI' is not a valid name. Make sure that it does not include invalid characters or punctuation and that it is not too long.
+
+Tanggal Tracelog:09/09/2024 08:38:34
+WriteFileExcel QueryTools_20240909083834.xlsx, Masuk
+
+Tanggal Tracelog:09/09/2024 08:38:34
+WriteFileExcel QueryTools_20240909083834.xlsx, Path = 
+
+Tanggal Tracelog:09/09/2024 08:38:34
+WriteFileExcel QueryTools_20240909083834.xlsx, Path = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\
+
+Tanggal Tracelog:09/09/2024 08:38:34
+WriteFileExcel QueryTools_20240909083834.xlsx, Path After Replace = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\
+
+Tanggal Tracelog:09/09/2024 08:38:34
+WriteFileExcel QueryTools_20240909083834.xlsx, UserDirectory True
+
+Tanggal Tracelog:09/09/2024 08:38:34
+WriteFileExcel QueryTools_20240909083834.xlsx, UserDirectory FullPath = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\QueryTools_20240909083834.xlsx
+
+Tanggal Tracelog:09/09/2024 08:38:34
+WriteFileExcel QueryTools_20240909083834.xlsx, Declare MConExcel Done
+
+Tanggal Tracelog:09/09/2024 08:38:34
+WriteFileExcel QueryTools_20240909083834.xlsx, Create Column Start
+
+Tanggal Tracelog:09/09/2024 08:38:34
+WriteFileExcel QueryTools_20240909083834.xlsx, Create Column End
+
+Tanggal Tracelog:09/09/2024 08:38:34
+WriteFileExcel QueryTools_20240909083834.xlsx, Kolom = SB.ToString
+
+Tanggal Tracelog:09/09/2024 08:38:34
+WriteFileExcel QueryTools_20240909083834.xlsx, MConExcel Set to FullPath D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\QueryTools_20240909083834.xlsx
+
+Tanggal Tracelog:09/09/2024 08:38:34
+WriteFileExcel QueryTools_20240909083834.xlsx, MConExcel Open Done
+
+Tanggal Tracelog:09/09/2024 08:38:34
+WriteFileExcel QueryTools_20240909083834.xlsx, 'ACCOUNT [PREFIX]<BR><BR>PERUSAHAAN<BR><BR>MERK DAGANG<BR><BR>KATEGORI' is not a valid name. Make sure that it does not include invalid characters or punctuation and that it is not too long.
+
+Tanggal Tracelog:09/09/2024 08:38:34
+WriteFileExcel QueryTools_20240909083834.xlsx, Masuk
+
+Tanggal Tracelog:09/09/2024 08:38:34
+WriteFileExcel QueryTools_20240909083834.xlsx, Path = 
+
+Tanggal Tracelog:09/09/2024 08:38:34
+WriteFileExcel QueryTools_20240909083834.xlsx, Path = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\
+
+Tanggal Tracelog:09/09/2024 08:38:34
+WriteFileExcel QueryTools_20240909083834.xlsx, Path After Replace = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\
+
+Tanggal Tracelog:09/09/2024 08:38:34
+WriteFileExcel QueryTools_20240909083834.xlsx, UserDirectory True
+
+Tanggal Tracelog:09/09/2024 08:38:34
+WriteFileExcel QueryTools_20240909083834.xlsx, UserDirectory FullPath = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\QueryTools_20240909083834.xlsx
+
+Tanggal Tracelog:09/09/2024 08:38:34
+WriteFileExcel QueryTools_20240909083834.xlsx, Declare MConExcel Done
+
+Tanggal Tracelog:09/09/2024 08:38:34
+WriteFileExcel QueryTools_20240909083834.xlsx, Create Column Start
+
+Tanggal Tracelog:09/09/2024 08:38:34
+WriteFileExcel QueryTools_20240909083834.xlsx, Create Column End
+
+Tanggal Tracelog:09/09/2024 08:38:34
+WriteFileExcel QueryTools_20240909083834.xlsx, Kolom = SB.ToString
+
+Tanggal Tracelog:09/09/2024 08:38:34
+WriteFileExcel QueryTools_20240909083834.xlsx, MConExcel Set to FullPath D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\QueryTools_20240909083834.xlsx
+
+Tanggal Tracelog:09/09/2024 08:38:34
+WriteFileExcel QueryTools_20240909083834.xlsx, MConExcel Open Done
+
+Tanggal Tracelog:09/09/2024 08:38:34
+WriteFileExcel QueryTools_20240909083834.xlsx, Table 'Sheet1' already exists.
+
+Tanggal Tracelog:09/09/2024 08:38:46
+WriteFileExcel QueryTools_20240909083846.xlsx, Masuk
+
+Tanggal Tracelog:09/09/2024 08:38:46
+WriteFileExcel QueryTools_20240909083846.xlsx, Path = 
+
+Tanggal Tracelog:09/09/2024 08:38:46
+WriteFileExcel QueryTools_20240909083846.xlsx, Path = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\
+
+Tanggal Tracelog:09/09/2024 08:38:46
+WriteFileExcel QueryTools_20240909083846.xlsx, Path After Replace = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\
+
+Tanggal Tracelog:09/09/2024 08:38:46
+WriteFileExcel QueryTools_20240909083846.xlsx, UserDirectory True
+
+Tanggal Tracelog:09/09/2024 08:38:46
+WriteFileExcel QueryTools_20240909083846.xlsx, UserDirectory FullPath = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\QueryTools_20240909083846.xlsx
+
+Tanggal Tracelog:09/09/2024 08:38:46
+WriteFileExcel QueryTools_20240909083846.xlsx, Declare MConExcel Done
+
+Tanggal Tracelog:09/09/2024 08:38:46
+WriteFileExcel QueryTools_20240909083846.xlsx, Create Column Start
+
+Tanggal Tracelog:09/09/2024 08:38:46
+WriteFileExcel QueryTools_20240909083846.xlsx, Create Column End
+
+Tanggal Tracelog:09/09/2024 08:38:46
+WriteFileExcel QueryTools_20240909083846.xlsx, Kolom = SB.ToString
+
+Tanggal Tracelog:09/09/2024 08:38:46
+WriteFileExcel QueryTools_20240909083846.xlsx, MConExcel Set to FullPath D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\QueryTools_20240909083846.xlsx
+
+Tanggal Tracelog:09/09/2024 08:38:46
+WriteFileExcel QueryTools_20240909083846.xlsx, MConExcel Open Done
+
+Tanggal Tracelog:09/09/2024 08:38:46
+WriteFileExcel QueryTools_20240909083846.xlsx, 'ACCOUNT [PREFIX]<BR><BR>PERUSAHAAN<BR><BR>MERK DAGANG<BR><BR>KATEGORI' is not a valid name. Make sure that it does not include invalid characters or punctuation and that it is not too long.
+
+Tanggal Tracelog:09/09/2024 08:38:49
+WriteFileExcel QueryTools_20240909083849.xlsx, Masuk
+
+Tanggal Tracelog:09/09/2024 08:38:49
+WriteFileExcel QueryTools_20240909083849.xlsx, Path = 
+
+Tanggal Tracelog:09/09/2024 08:38:49
+WriteFileExcel QueryTools_20240909083849.xlsx, Path = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\
+
+Tanggal Tracelog:09/09/2024 08:38:49
+WriteFileExcel QueryTools_20240909083849.xlsx, Path After Replace = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\
+
+Tanggal Tracelog:09/09/2024 08:38:49
+WriteFileExcel QueryTools_20240909083849.xlsx, UserDirectory True
+
+Tanggal Tracelog:09/09/2024 08:38:49
+WriteFileExcel QueryTools_20240909083849.xlsx, UserDirectory FullPath = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\QueryTools_20240909083849.xlsx
+
+Tanggal Tracelog:09/09/2024 08:38:49
+WriteFileExcel QueryTools_20240909083849.xlsx, Declare MConExcel Done
+
+Tanggal Tracelog:09/09/2024 08:38:49
+WriteFileExcel QueryTools_20240909083849.xlsx, Create Column Start
+
+Tanggal Tracelog:09/09/2024 08:38:49
+WriteFileExcel QueryTools_20240909083849.xlsx, Create Column End
+
+Tanggal Tracelog:09/09/2024 08:38:49
+WriteFileExcel QueryTools_20240909083849.xlsx, Kolom = SB.ToString
+
+Tanggal Tracelog:09/09/2024 08:38:49
+WriteFileExcel QueryTools_20240909083849.xlsx, MConExcel Set to FullPath D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\QueryTools_20240909083849.xlsx
+
+Tanggal Tracelog:09/09/2024 08:38:49
+WriteFileExcel QueryTools_20240909083849.xlsx, MConExcel Open Done
+
+Tanggal Tracelog:09/09/2024 08:38:49
+WriteFileExcel QueryTools_20240909083849.xlsx, 'ACCOUNT [PREFIX]<BR><BR>PERUSAHAAN<BR><BR>MERK DAGANG<BR><BR>KATEGORI' is not a valid name. Make sure that it does not include invalid characters or punctuation and that it is not too long.
+
+Tanggal Tracelog:09/09/2024 08:38:49
+WriteFileExcel QueryTools_20240909083849.xlsx, Masuk
+
+Tanggal Tracelog:09/09/2024 08:38:49
+WriteFileExcel QueryTools_20240909083849.xlsx, Path = 
+
+Tanggal Tracelog:09/09/2024 08:38:49
+WriteFileExcel QueryTools_20240909083849.xlsx, Path = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\
+
+Tanggal Tracelog:09/09/2024 08:38:49
+WriteFileExcel QueryTools_20240909083849.xlsx, Path After Replace = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\
+
+Tanggal Tracelog:09/09/2024 08:38:49
+WriteFileExcel QueryTools_20240909083849.xlsx, UserDirectory True
+
+Tanggal Tracelog:09/09/2024 08:38:49
+WriteFileExcel QueryTools_20240909083849.xlsx, UserDirectory FullPath = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\QueryTools_20240909083849.xlsx
+
+Tanggal Tracelog:09/09/2024 08:38:49
+WriteFileExcel QueryTools_20240909083849.xlsx, Declare MConExcel Done
+
+Tanggal Tracelog:09/09/2024 08:38:49
+WriteFileExcel QueryTools_20240909083849.xlsx, Create Column Start
+
+Tanggal Tracelog:09/09/2024 08:38:49
+WriteFileExcel QueryTools_20240909083849.xlsx, Create Column End
+
+Tanggal Tracelog:09/09/2024 08:38:49
+WriteFileExcel QueryTools_20240909083849.xlsx, Kolom = SB.ToString
+
+Tanggal Tracelog:09/09/2024 08:38:49
+WriteFileExcel QueryTools_20240909083849.xlsx, MConExcel Set to FullPath D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\QueryTools_20240909083849.xlsx
+
+Tanggal Tracelog:09/09/2024 08:38:49
+WriteFileExcel QueryTools_20240909083849.xlsx, MConExcel Open Done
+
+Tanggal Tracelog:09/09/2024 08:38:49
+WriteFileExcel QueryTools_20240909083849.xlsx, Table 'Sheet1' already exists.
+
+Tanggal Tracelog:09/09/2024 08:38:54
+WriteFileExcel QueryTools_20240909083854.xlsx, Masuk
+
+Tanggal Tracelog:09/09/2024 08:38:54
+WriteFileExcel QueryTools_20240909083854.xlsx, Path = 
+
+Tanggal Tracelog:09/09/2024 08:38:54
+WriteFileExcel QueryTools_20240909083854.xlsx, Path = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\
+
+Tanggal Tracelog:09/09/2024 08:38:54
+WriteFileExcel QueryTools_20240909083854.xlsx, Path After Replace = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\
+
+Tanggal Tracelog:09/09/2024 08:38:54
+WriteFileExcel QueryTools_20240909083854.xlsx, UserDirectory True
+
+Tanggal Tracelog:09/09/2024 08:38:54
+WriteFileExcel QueryTools_20240909083854.xlsx, UserDirectory FullPath = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\QueryTools_20240909083854.xlsx
+
+Tanggal Tracelog:09/09/2024 08:38:54
+WriteFileExcel QueryTools_20240909083854.xlsx, Declare MConExcel Done
+
+Tanggal Tracelog:09/09/2024 08:38:54
+WriteFileExcel QueryTools_20240909083854.xlsx, Create Column Start
+
+Tanggal Tracelog:09/09/2024 08:38:54
+WriteFileExcel QueryTools_20240909083854.xlsx, Create Column End
+
+Tanggal Tracelog:09/09/2024 08:38:54
+WriteFileExcel QueryTools_20240909083854.xlsx, Kolom = SB.ToString
+
+Tanggal Tracelog:09/09/2024 08:38:54
+WriteFileExcel QueryTools_20240909083854.xlsx, MConExcel Set to FullPath D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\QueryTools_20240909083854.xlsx
+
+Tanggal Tracelog:09/09/2024 08:38:54
+WriteFileExcel QueryTools_20240909083854.xlsx, MConExcel Open Done
+
+Tanggal Tracelog:09/09/2024 08:38:54
+WriteFileExcel QueryTools_20240909083854.xlsx, 'ACCOUNT [PREFIX]<BR><BR>PERUSAHAAN<BR><BR>MERK DAGANG<BR><BR>KATEGORI' is not a valid name. Make sure that it does not include invalid characters or punctuation and that it is not too long.
+
+Tanggal Tracelog:09/09/2024 08:38:57
+WriteFileExcel QueryTools_20240909083857.xlsx, Masuk
+
+Tanggal Tracelog:09/09/2024 08:38:57
+WriteFileExcel QueryTools_20240909083857.xlsx, Path = 
+
+Tanggal Tracelog:09/09/2024 08:38:57
+WriteFileExcel QueryTools_20240909083857.xlsx, Path = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\
+
+Tanggal Tracelog:09/09/2024 08:38:57
+WriteFileExcel QueryTools_20240909083857.xlsx, Path After Replace = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\
+
+Tanggal Tracelog:09/09/2024 08:38:57
+WriteFileExcel QueryTools_20240909083857.xlsx, UserDirectory True
+
+Tanggal Tracelog:09/09/2024 08:38:57
+WriteFileExcel QueryTools_20240909083857.xlsx, UserDirectory FullPath = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\QueryTools_20240909083857.xlsx
+
+Tanggal Tracelog:09/09/2024 08:38:57
+WriteFileExcel QueryTools_20240909083857.xlsx, Declare MConExcel Done
+
+Tanggal Tracelog:09/09/2024 08:38:57
+WriteFileExcel QueryTools_20240909083857.xlsx, Create Column Start
+
+Tanggal Tracelog:09/09/2024 08:38:57
+WriteFileExcel QueryTools_20240909083857.xlsx, Create Column End
+
+Tanggal Tracelog:09/09/2024 08:38:57
+WriteFileExcel QueryTools_20240909083857.xlsx, Kolom = SB.ToString
+
+Tanggal Tracelog:09/09/2024 08:38:57
+WriteFileExcel QueryTools_20240909083857.xlsx, MConExcel Set to FullPath D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\QueryTools_20240909083857.xlsx
+
+Tanggal Tracelog:09/09/2024 08:38:57
+WriteFileExcel QueryTools_20240909083857.xlsx, MConExcel Open Done
+
+Tanggal Tracelog:09/09/2024 08:38:57
+WriteFileExcel QueryTools_20240909083857.xlsx, 'ACCOUNT [PREFIX]<BR><BR>PERUSAHAAN<BR><BR>MERK DAGANG<BR><BR>KATEGORI' is not a valid name. Make sure that it does not include invalid characters or punctuation and that it is not too long.
+
+Tanggal Tracelog:09/09/2024 08:43:29
+WriteFileExcel QueryTools_20240909084329.xlsx, Masuk
+
+Tanggal Tracelog:09/09/2024 08:43:29
+WriteFileExcel QueryTools_20240909084329.xlsx, Path = 
+
+Tanggal Tracelog:09/09/2024 08:43:29
+WriteFileExcel QueryTools_20240909084329.xlsx, Path = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\
+
+Tanggal Tracelog:09/09/2024 08:43:29
+WriteFileExcel QueryTools_20240909084329.xlsx, Path After Replace = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\
+
+Tanggal Tracelog:09/09/2024 08:43:29
+WriteFileExcel QueryTools_20240909084329.xlsx, UserDirectory True
+
+Tanggal Tracelog:09/09/2024 08:43:29
+WriteFileExcel QueryTools_20240909084329.xlsx, UserDirectory FullPath = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\QueryTools_20240909084329.xlsx
+
+Tanggal Tracelog:09/09/2024 08:43:29
+WriteFileExcel QueryTools_20240909084329.xlsx, Declare MConExcel Done
+
+Tanggal Tracelog:09/09/2024 08:43:29
+WriteFileExcel QueryTools_20240909084329.xlsx, Create Column Start
+
+Tanggal Tracelog:09/09/2024 08:43:29
+WriteFileExcel QueryTools_20240909084329.xlsx, Create Column End
+
+Tanggal Tracelog:09/09/2024 08:43:29
+WriteFileExcel QueryTools_20240909084329.xlsx, Kolom = SB.ToString
+
+Tanggal Tracelog:09/09/2024 08:43:29
+WriteFileExcel QueryTools_20240909084329.xlsx, MConExcel Set to FullPath D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\QueryTools_20240909084329.xlsx
+
+Tanggal Tracelog:09/09/2024 08:43:30
+WriteFileExcel QueryTools_20240909084329.xlsx, MConExcel Open Done
+
+Tanggal Tracelog:09/09/2024 08:43:30
+WriteFileExcel QueryTools_20240909084329.xlsx, 'ACCOUNT [PREFIX]<BR><BR>PERUSAHAAN<BR><BR>MERK DAGANG<BR><BR>KATEGORI' is not a valid name. Make sure that it does not include invalid characters or punctuation and that it is not too long.
+
+Tanggal Tracelog:09/09/2024 08:46:37
+WriteFileExcel QueryTools_20240909084629.xlsx, Masuk
+
+Tanggal Tracelog:09/09/2024 08:46:40
+WriteFileExcel QueryTools_20240909084629.xlsx, Path = 
+
+Tanggal Tracelog:09/09/2024 08:46:43
+WriteFileExcel QueryTools_20240909084629.xlsx, Path = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\
+
+Tanggal Tracelog:09/09/2024 08:46:48
+WriteFileExcel QueryTools_20240909084629.xlsx, Path After Replace = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\
+
+Tanggal Tracelog:09/09/2024 08:46:59
+WriteFileExcel QueryTools_20240909084629.xlsx, UserDirectory True
+
+Tanggal Tracelog:09/09/2024 08:47:03
+WriteFileExcel QueryTools_20240909084629.xlsx, UserDirectory FullPath = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\QueryTools_20240909084629.xlsx
+
+Tanggal Tracelog:09/09/2024 08:47:06
+WriteFileExcel QueryTools_20240909084629.xlsx, Declare MConExcel Done
+
+Tanggal Tracelog:09/09/2024 08:47:11
+WriteFileExcel QueryTools_20240909084629.xlsx, Create Column Start
+
+Tanggal Tracelog:09/09/2024 08:47:53
+WriteFileExcel QueryTools_20240909084629.xlsx, Create Column End
+
+Tanggal Tracelog:09/09/2024 08:47:55
+WriteFileExcel QueryTools_20240909084629.xlsx, Kolom = SB.ToString
+
+Tanggal Tracelog:09/09/2024 08:47:57
+WriteFileExcel QueryTools_20240909084629.xlsx, MConExcel Set to FullPath D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\QueryTools_20240909084629.xlsx
+
+Tanggal Tracelog:09/09/2024 08:48:09
+WriteFileExcel QueryTools_20240909084629.xlsx, MConExcel Open Done
+
+Tanggal Tracelog:09/09/2024 08:48:14
+WriteFileExcel QueryTools_20240909084629.xlsx, 'ACCOUNT [PREFIX]<BR><BR>PERUSAHAAN<BR><BR>MERK DAGANG<BR><BR>KATEGORI' is not a valid name. Make sure that it does not include invalid characters or punctuation and that it is not too long.
+
+Tanggal Tracelog:09/09/2024 08:49:32
+WriteFileExcel QueryTools_20240909084929.xlsx, Masuk
+
+Tanggal Tracelog:09/09/2024 08:49:32
+WriteFileExcel QueryTools_20240909084929.xlsx, Path = 
+
+Tanggal Tracelog:09/09/2024 08:49:33
+WriteFileExcel QueryTools_20240909084929.xlsx, Path = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\
+
+Tanggal Tracelog:09/09/2024 08:49:33
+WriteFileExcel QueryTools_20240909084929.xlsx, Path After Replace = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\
+
+Tanggal Tracelog:09/09/2024 08:49:36
+WriteFileExcel QueryTools_20240909084929.xlsx, UserDirectory True
+
+Tanggal Tracelog:09/09/2024 08:49:37
+WriteFileExcel QueryTools_20240909084929.xlsx, UserDirectory FullPath = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\QueryTools_20240909084929.xlsx
+
+Tanggal Tracelog:09/09/2024 08:49:38
+WriteFileExcel QueryTools_20240909084929.xlsx, Declare MConExcel Done
+
+Tanggal Tracelog:09/09/2024 08:49:38
+WriteFileExcel QueryTools_20240909084929.xlsx, Create Column Start
+
+Tanggal Tracelog:09/09/2024 08:50:00
+WriteFileExcel QueryTools_20240909084929.xlsx, Create Column End
+
+Tanggal Tracelog:09/09/2024 08:50:10
+WriteFileExcel QueryTools_20240909084929.xlsx, Kolom = SB.ToString
+
+Tanggal Tracelog:09/09/2024 08:50:12
+WriteFileExcel QueryTools_20240909084929.xlsx, MConExcel Set to FullPath D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\QueryTools_20240909084929.xlsx
+
+Tanggal Tracelog:09/09/2024 08:50:14
+WriteFileExcel QueryTools_20240909084929.xlsx, MConExcel Open Done
+
+Tanggal Tracelog:09/09/2024 08:50:20
+WriteFileExcel QueryTools_20240909084929.xlsx, 'ACCOUNT [PREFIX]<BR><BR>PERUSAHAAN<BR><BR>MERK DAGANG<BR><BR>KATEGORI' is not a valid name. Make sure that it does not include invalid characters or punctuation and that it is not too long.
+
+Tanggal Tracelog:09/09/2024 08:59:24
+WriteFileExcel QueryTools_20240909085900.xlsx, Masuk
+
+Tanggal Tracelog:09/09/2024 08:59:42
+WriteFileExcel QueryTools_20240909085900.xlsx, Path = 
+
+Tanggal Tracelog:09/09/2024 08:59:51
+WriteFileExcel QueryTools_20240909085900.xlsx, Path = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\
+
+Tanggal Tracelog:09/09/2024 09:00:17
+WriteFileExcel QueryTools_20240909085900.xlsx, Path After Replace = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\
+
+Tanggal Tracelog:09/09/2024 09:01:08
+WriteFileExcel QueryTools_20240909085900.xlsx, UserDirectory True
+
+Tanggal Tracelog:09/09/2024 09:01:46
+WriteFileExcel QueryTools_20240909085900.xlsx, UserDirectory FullPath = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\QueryTools_20240909085900.xlsx
+
+Tanggal Tracelog:09/09/2024 09:01:55
+WriteFileExcel QueryTools_20240909085900.xlsx, Declare MConExcel Done
+
+Tanggal Tracelog:09/09/2024 09:02:02
+WriteFileExcel QueryTools_20240909085900.xlsx, Create Column Start
+
+Tanggal Tracelog:09/09/2024 09:07:33
+WriteFileExcel QueryTools_20240909085900.xlsx, Create Column End
+
+Tanggal Tracelog:09/09/2024 09:07:33
+WriteFileExcel QueryTools_20240909085900.xlsx, Kolom = SB.ToString
+
+Tanggal Tracelog:09/09/2024 09:07:33
+WriteFileExcel QueryTools_20240909085900.xlsx, MConExcel Set to FullPath D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\QueryTools_20240909085900.xlsx
+
+Tanggal Tracelog:09/09/2024 09:07:33
+WriteFileExcel QueryTools_20240909085900.xlsx, MConExcel Open Done
+
+Tanggal Tracelog:09/09/2024 09:07:33
+WriteFileExcel QueryTools_20240909085900.xlsx, 'ACCOUNT [PREFIX]<BR><BR>PERUSAHAAN<BR><BR>MERK DAGANG<BR><BR>KATEGORI' is not a valid name. Make sure that it does not include invalid characters or punctuation and that it is not too long.
+
+Tanggal Tracelog:09/09/2024 09:10:19
+WriteFileExcel QueryTools_20240909091019.xlsx, Masuk
+
+Tanggal Tracelog:09/09/2024 09:10:19
+WriteFileExcel QueryTools_20240909091019.xlsx, Path = 
+
+Tanggal Tracelog:09/09/2024 09:10:19
+WriteFileExcel QueryTools_20240909091019.xlsx, Path = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\
+
+Tanggal Tracelog:09/09/2024 09:10:19
+WriteFileExcel QueryTools_20240909091019.xlsx, Path After Replace = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\
+
+Tanggal Tracelog:09/09/2024 09:10:19
+WriteFileExcel QueryTools_20240909091019.xlsx, UserDirectory True
+
+Tanggal Tracelog:09/09/2024 09:10:19
+WriteFileExcel QueryTools_20240909091019.xlsx, UserDirectory FullPath = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\QueryTools_20240909091019.xlsx
+
+Tanggal Tracelog:09/09/2024 09:10:19
+WriteFileExcel QueryTools_20240909091019.xlsx, Declare MConExcel Done
+
+Tanggal Tracelog:09/09/2024 09:10:19
+WriteFileExcel QueryTools_20240909091019.xlsx, Create Column Start
+
+Tanggal Tracelog:09/09/2024 09:10:19
+WriteFileExcel QueryTools_20240909091019.xlsx, Create Column End
+
+Tanggal Tracelog:09/09/2024 09:10:19
+WriteFileExcel QueryTools_20240909091019.xlsx, Kolom = SB.ToString
+
+Tanggal Tracelog:09/09/2024 09:10:19
+WriteFileExcel QueryTools_20240909091019.xlsx, MConExcel Set to FullPath D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\QueryTools_20240909091019.xlsx
+
+Tanggal Tracelog:09/09/2024 09:10:20
+WriteFileExcel QueryTools_20240909091019.xlsx, MConExcel Open Done
+
+Tanggal Tracelog:09/09/2024 09:10:20
+WriteFileExcel QueryTools_20240909091019.xlsx, MConExcel CREATE TABLE `Sheet1` Done
+
+Tanggal Tracelog:09/09/2024 09:10:20
+WriteFileExcel QueryTools_20240909091019.xlsx, MConExcel INSERT INTO `Sheet1` Done
+
+Tanggal Tracelog:09/09/2024 10:04:13
+WriteFileExcel QueryTools_20240909100413.xlsx, Masuk
+
+Tanggal Tracelog:09/09/2024 10:04:13
+WriteFileExcel QueryTools_20240909100413.xlsx, Path = 
+
+Tanggal Tracelog:09/09/2024 10:04:13
+WriteFileExcel QueryTools_20240909100413.xlsx, Path = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\
+
+Tanggal Tracelog:09/09/2024 10:04:13
+WriteFileExcel QueryTools_20240909100413.xlsx, Path After Replace = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\
+
+Tanggal Tracelog:09/09/2024 10:04:13
+WriteFileExcel QueryTools_20240909100413.xlsx, UserDirectory True
+
+Tanggal Tracelog:09/09/2024 10:04:13
+WriteFileExcel QueryTools_20240909100413.xlsx, UserDirectory FullPath = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\QueryTools_20240909100413.xlsx
+
+Tanggal Tracelog:09/09/2024 10:04:13
+WriteFileExcel QueryTools_20240909100413.xlsx, Declare MConExcel Done
+
+Tanggal Tracelog:09/09/2024 10:04:13
+WriteFileExcel QueryTools_20240909100413.xlsx, Create Column Start
+
+Tanggal Tracelog:09/09/2024 10:04:13
+WriteFileExcel QueryTools_20240909100413.xlsx, Create Column End
+
+Tanggal Tracelog:09/09/2024 10:04:13
+WriteFileExcel QueryTools_20240909100413.xlsx, Kolom = SB.ToString
+
+Tanggal Tracelog:09/09/2024 10:04:13
+WriteFileExcel QueryTools_20240909100413.xlsx, MConExcel Set to FullPath D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\QueryTools_20240909100413.xlsx
+
+Tanggal Tracelog:09/09/2024 10:04:13
+WriteFileExcel QueryTools_20240909100413.xlsx, MConExcel Open Done
+
+Tanggal Tracelog:09/09/2024 10:04:13
+WriteFileExcel QueryTools_20240909100413.xlsx, 'ACCOUNT [PREFIX]@  PERUSAHAAN ! MERK DAGANG  KATEGORI' is not a valid name. Make sure that it does not include invalid characters or punctuation and that it is not too long.
+
+Tanggal Tracelog:09/09/2024 10:08:09
+Dari Halaman QUERY TOOLS - WEB REPORT, Proses QueryTools, Error : The method or operation is not implemented.
+
+Tanggal Tracelog:09/09/2024 10:09:40
+Dari Halaman QUERY TOOLS - WEB REPORT, Proses QueryTools, Error : The method or operation is not implemented.
+
+Tanggal Tracelog:09/09/2024 10:10:23
+Dari Halaman QUERY TOOLS - WEB REPORT, Proses QueryTools, Error : The method or operation is not implemented.
+
+Tanggal Tracelog:09/09/2024 10:11:45
+WriteFileExcel QueryTools_20240909101145.xlsx, Masuk
+
+Tanggal Tracelog:09/09/2024 10:11:45
+WriteFileExcel QueryTools_20240909101145.xlsx, Path = 
+
+Tanggal Tracelog:09/09/2024 10:11:45
+WriteFileExcel QueryTools_20240909101145.xlsx, Path = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\
+
+Tanggal Tracelog:09/09/2024 10:11:45
+WriteFileExcel QueryTools_20240909101145.xlsx, Path After Replace = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\
+
+Tanggal Tracelog:09/09/2024 10:11:45
+WriteFileExcel QueryTools_20240909101145.xlsx, UserDirectory True
+
+Tanggal Tracelog:09/09/2024 10:11:45
+WriteFileExcel QueryTools_20240909101145.xlsx, UserDirectory FullPath = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\QueryTools_20240909101145.xlsx
+
+Tanggal Tracelog:09/09/2024 10:11:45
+WriteFileExcel QueryTools_20240909101145.xlsx, Declare MConExcel Done
+
+Tanggal Tracelog:09/09/2024 10:11:45
+WriteFileExcel QueryTools_20240909101145.xlsx, Create Column Start
+
+Tanggal Tracelog:09/09/2024 10:11:45
+WriteFileExcel QueryTools_20240909101145.xlsx, Create Column End
+
+Tanggal Tracelog:09/09/2024 10:11:45
+WriteFileExcel QueryTools_20240909101145.xlsx, Kolom = SB.ToString
+
+Tanggal Tracelog:09/09/2024 10:11:45
+WriteFileExcel QueryTools_20240909101145.xlsx, MConExcel Set to FullPath D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\QueryTools_20240909101145.xlsx
+
+Tanggal Tracelog:09/09/2024 10:11:45
+WriteFileExcel QueryTools_20240909101145.xlsx, MConExcel Open Done
+
+Tanggal Tracelog:09/09/2024 10:11:45
+WriteFileExcel QueryTools_20240909101145.xlsx, 'ACCOUNT [PREFIX]@<BR><BR>PERUSAHAAN<BR>!<BR>MERK DAGANG<BR><BR>KATEGORI' is not a valid name. Make sure that it does not include invalid characters or punctuation and that it is not too long.
+
+Tanggal Tracelog:09/09/2024 10:24:58
+WriteFileExcel QueryTools_20240909102458.xlsx, Masuk
+
+Tanggal Tracelog:09/09/2024 10:24:58
+WriteFileExcel QueryTools_20240909102458.xlsx, Path = 
+
+Tanggal Tracelog:09/09/2024 10:24:58
+WriteFileExcel QueryTools_20240909102458.xlsx, Path = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\
+
+Tanggal Tracelog:09/09/2024 10:24:58
+WriteFileExcel QueryTools_20240909102458.xlsx, Path After Replace = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\
+
+Tanggal Tracelog:09/09/2024 10:24:58
+WriteFileExcel QueryTools_20240909102458.xlsx, UserDirectory True
+
+Tanggal Tracelog:09/09/2024 10:24:58
+WriteFileExcel QueryTools_20240909102458.xlsx, UserDirectory FullPath = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\QueryTools_20240909102458.xlsx
+
+Tanggal Tracelog:09/09/2024 10:24:58
+WriteFileExcel QueryTools_20240909102458.xlsx, Declare MConExcel Done
+
+Tanggal Tracelog:09/09/2024 10:24:58
+WriteFileExcel QueryTools_20240909102458.xlsx, Create Column Start
+
+Tanggal Tracelog:09/09/2024 10:24:58
+WriteFileExcel QueryTools_20240909102458.xlsx, Index was outside the bounds of the array.
+
+Tanggal Tracelog:09/09/2024 10:26:54
+WriteFileExcel QueryTools_20240909102654.xlsx, Masuk
+
+Tanggal Tracelog:09/09/2024 10:26:54
+WriteFileExcel QueryTools_20240909102654.xlsx, Path = 
+
+Tanggal Tracelog:09/09/2024 10:26:54
+WriteFileExcel QueryTools_20240909102654.xlsx, Path = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\
+
+Tanggal Tracelog:09/09/2024 10:26:54
+WriteFileExcel QueryTools_20240909102654.xlsx, Path After Replace = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\
+
+Tanggal Tracelog:09/09/2024 10:26:54
+WriteFileExcel QueryTools_20240909102654.xlsx, UserDirectory True
+
+Tanggal Tracelog:09/09/2024 10:26:54
+WriteFileExcel QueryTools_20240909102654.xlsx, UserDirectory FullPath = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\QueryTools_20240909102654.xlsx
+
+Tanggal Tracelog:09/09/2024 10:26:54
+WriteFileExcel QueryTools_20240909102654.xlsx, Declare MConExcel Done
+
+Tanggal Tracelog:09/09/2024 10:26:55
+WriteFileExcel QueryTools_20240909102654.xlsx, Create Column Start
+
+Tanggal Tracelog:09/09/2024 10:26:55
+WriteFileExcel QueryTools_20240909102654.xlsx, Index was outside the bounds of the array.
+
+Tanggal Tracelog:09/09/2024 10:28:05
+WriteFileExcel QueryTools_20240909102805.xlsx, Masuk
+
+Tanggal Tracelog:09/09/2024 10:28:05
+WriteFileExcel QueryTools_20240909102805.xlsx, Path = 
+
+Tanggal Tracelog:09/09/2024 10:28:05
+WriteFileExcel QueryTools_20240909102805.xlsx, Path = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\
+
+Tanggal Tracelog:09/09/2024 10:28:05
+WriteFileExcel QueryTools_20240909102805.xlsx, Path After Replace = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\
+
+Tanggal Tracelog:09/09/2024 10:28:05
+WriteFileExcel QueryTools_20240909102805.xlsx, UserDirectory True
+
+Tanggal Tracelog:09/09/2024 10:28:05
+WriteFileExcel QueryTools_20240909102805.xlsx, UserDirectory FullPath = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\QueryTools_20240909102805.xlsx
+
+Tanggal Tracelog:09/09/2024 10:28:05
+WriteFileExcel QueryTools_20240909102805.xlsx, Declare MConExcel Done
+
+Tanggal Tracelog:09/09/2024 10:28:05
+WriteFileExcel QueryTools_20240909102805.xlsx, Create Column Start
+
+Tanggal Tracelog:09/09/2024 10:30:57
+Dari Halaman QUERY TOOLS - WEB REPORT, Proses QueryTools, Error : The method or operation is not implemented.
+
+Tanggal Tracelog:09/09/2024 10:34:18
+WriteFileExcel QueryTools_20240909103418.xlsx, Masuk
+
+Tanggal Tracelog:09/09/2024 10:34:18
+WriteFileExcel QueryTools_20240909103418.xlsx, Path = 
+
+Tanggal Tracelog:09/09/2024 10:34:18
+WriteFileExcel QueryTools_20240909103418.xlsx, Path = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\
+
+Tanggal Tracelog:09/09/2024 10:34:18
+WriteFileExcel QueryTools_20240909103418.xlsx, Path After Replace = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\
+
+Tanggal Tracelog:09/09/2024 10:34:18
+WriteFileExcel QueryTools_20240909103418.xlsx, UserDirectory True
+
+Tanggal Tracelog:09/09/2024 10:34:18
+WriteFileExcel QueryTools_20240909103418.xlsx, UserDirectory FullPath = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\QueryTools_20240909103418.xlsx
+
+Tanggal Tracelog:09/09/2024 10:34:18
+WriteFileExcel QueryTools_20240909103418.xlsx, Declare MConExcel Done
+
+Tanggal Tracelog:09/09/2024 10:34:18
+WriteFileExcel QueryTools_20240909103418.xlsx, Create Column Start
+
+Tanggal Tracelog:09/09/2024 10:34:18
+WriteFileExcel QueryTools_20240909103418.xlsx, Create Column End
+
+Tanggal Tracelog:09/09/2024 10:34:18
+WriteFileExcel QueryTools_20240909103418.xlsx, Kolom = SB.ToString
+
+Tanggal Tracelog:09/09/2024 10:34:18
+WriteFileExcel QueryTools_20240909103418.xlsx, MConExcel Set to FullPath D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\QueryTools_20240909103418.xlsx
+
+Tanggal Tracelog:09/09/2024 10:34:19
+WriteFileExcel QueryTools_20240909103418.xlsx, MConExcel Open Done
+
+Tanggal Tracelog:09/09/2024 10:34:19
+WriteFileExcel QueryTools_20240909103418.xlsx, Syntax error in CREATE TABLE statement.
+
+Tanggal Tracelog:09/09/2024 10:41:02
+Dari Halaman QUERY TOOLS - WEB REPORT, Proses QueryTools, Error : The method or operation is not implemented.
+
+Tanggal Tracelog:09/09/2024 10:41:20
+WriteFileExcel QueryTools_20240909104120.xlsx, Masuk
+
+Tanggal Tracelog:09/09/2024 10:41:20
+WriteFileExcel QueryTools_20240909104120.xlsx, Path = 
+
+Tanggal Tracelog:09/09/2024 10:41:20
+WriteFileExcel QueryTools_20240909104120.xlsx, Path = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\
+
+Tanggal Tracelog:09/09/2024 10:41:20
+WriteFileExcel QueryTools_20240909104120.xlsx, Path After Replace = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\
+
+Tanggal Tracelog:09/09/2024 10:41:20
+WriteFileExcel QueryTools_20240909104120.xlsx, UserDirectory True
+
+Tanggal Tracelog:09/09/2024 10:41:20
+WriteFileExcel QueryTools_20240909104120.xlsx, UserDirectory FullPath = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\QueryTools_20240909104120.xlsx
+
+Tanggal Tracelog:09/09/2024 10:41:20
+WriteFileExcel QueryTools_20240909104120.xlsx, Declare MConExcel Done
+
+Tanggal Tracelog:09/09/2024 10:41:20
+WriteFileExcel QueryTools_20240909104120.xlsx, Create Column Start
+
+Tanggal Tracelog:09/09/2024 10:41:20
+WriteFileExcel QueryTools_20240909104120.xlsx, Create Column End
+
+Tanggal Tracelog:09/09/2024 10:41:20
+WriteFileExcel QueryTools_20240909104120.xlsx, Kolom = SB.ToString
+
+Tanggal Tracelog:09/09/2024 10:41:20
+WriteFileExcel QueryTools_20240909104120.xlsx, MConExcel Set to FullPath D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\QueryTools_20240909104120.xlsx
+
+Tanggal Tracelog:09/09/2024 10:41:21
+WriteFileExcel QueryTools_20240909104120.xlsx, MConExcel Open Done
+
+Tanggal Tracelog:09/09/2024 10:41:21
+WriteFileExcel QueryTools_20240909104120.xlsx, Syntax error in CREATE TABLE statement.
+
+Tanggal Tracelog:09/09/2024 10:41:25
+WriteFileExcel QueryTools_20240909104125.xlsx, Masuk
+
+Tanggal Tracelog:09/09/2024 10:41:25
+WriteFileExcel QueryTools_20240909104125.xlsx, Path = 
+
+Tanggal Tracelog:09/09/2024 10:41:25
+WriteFileExcel QueryTools_20240909104125.xlsx, Path = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\
+
+Tanggal Tracelog:09/09/2024 10:41:25
+WriteFileExcel QueryTools_20240909104125.xlsx, Path After Replace = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\
+
+Tanggal Tracelog:09/09/2024 10:41:25
+WriteFileExcel QueryTools_20240909104125.xlsx, UserDirectory True
+
+Tanggal Tracelog:09/09/2024 10:41:25
+WriteFileExcel QueryTools_20240909104125.xlsx, UserDirectory FullPath = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\QueryTools_20240909104125.xlsx
+
+Tanggal Tracelog:09/09/2024 10:41:25
+WriteFileExcel QueryTools_20240909104125.xlsx, Declare MConExcel Done
+
+Tanggal Tracelog:09/09/2024 10:41:25
+WriteFileExcel QueryTools_20240909104125.xlsx, Create Column Start
+
+Tanggal Tracelog:09/09/2024 10:41:25
+WriteFileExcel QueryTools_20240909104125.xlsx, Create Column End
+
+Tanggal Tracelog:09/09/2024 10:41:25
+WriteFileExcel QueryTools_20240909104125.xlsx, Kolom = SB.ToString
+
+Tanggal Tracelog:09/09/2024 10:41:25
+WriteFileExcel QueryTools_20240909104125.xlsx, MConExcel Set to FullPath D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\QueryTools_20240909104125.xlsx
+
+Tanggal Tracelog:09/09/2024 10:41:25
+WriteFileExcel QueryTools_20240909104125.xlsx, MConExcel Open Done
+
+Tanggal Tracelog:09/09/2024 10:41:25
+WriteFileExcel QueryTools_20240909104125.xlsx, Syntax error in CREATE TABLE statement.
+
+Tanggal Tracelog:09/09/2024 10:50:24
+Dari Halaman QUERY TOOLS - WEB REPORT, Proses QueryTools, Error : The method or operation is not implemented.
+
+Tanggal Tracelog:09/09/2024 10:50:55
+Dari Halaman QUERY TOOLS - WEB REPORT, Proses QueryTools, Error : The method or operation is not implemented.
+
+Tanggal Tracelog:09/09/2024 10:51:39
+WriteFileExcel QueryTools_20240909105139.xlsx, Masuk
+
+Tanggal Tracelog:09/09/2024 10:51:39
+WriteFileExcel QueryTools_20240909105139.xlsx, Path = 
+
+Tanggal Tracelog:09/09/2024 10:51:39
+WriteFileExcel QueryTools_20240909105139.xlsx, Path = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\
+
+Tanggal Tracelog:09/09/2024 10:51:39
+WriteFileExcel QueryTools_20240909105139.xlsx, Path After Replace = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\
+
+Tanggal Tracelog:09/09/2024 10:51:39
+WriteFileExcel QueryTools_20240909105139.xlsx, UserDirectory True
+
+Tanggal Tracelog:09/09/2024 10:51:39
+WriteFileExcel QueryTools_20240909105139.xlsx, UserDirectory FullPath = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\QueryTools_20240909105139.xlsx
+
+Tanggal Tracelog:09/09/2024 10:51:39
+WriteFileExcel QueryTools_20240909105139.xlsx, Declare MConExcel Done
+
+Tanggal Tracelog:09/09/2024 10:51:39
+WriteFileExcel QueryTools_20240909105139.xlsx, Create Column Start
+
+Tanggal Tracelog:09/09/2024 10:51:39
+WriteFileExcel QueryTools_20240909105139.xlsx, Create Column End
+
+Tanggal Tracelog:09/09/2024 10:51:39
+WriteFileExcel QueryTools_20240909105139.xlsx, Kolom = SB.ToString
+
+Tanggal Tracelog:09/09/2024 10:51:39
+WriteFileExcel QueryTools_20240909105139.xlsx, MConExcel Set to FullPath D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\QueryTools_20240909105139.xlsx
+
+Tanggal Tracelog:09/09/2024 10:51:40
+WriteFileExcel QueryTools_20240909105139.xlsx, MConExcel Open Done
+
+Tanggal Tracelog:09/09/2024 10:51:40
+WriteFileExcel QueryTools_20240909105139.xlsx, MConExcel CREATE TABLE `Sheet1` Done
+
+Tanggal Tracelog:09/09/2024 10:51:40
+WriteFileExcel QueryTools_20240909105139.xlsx, MConExcel INSERT INTO `Sheet1` Done
+
+Tanggal Tracelog:09/09/2024 13:03:36
+Dari Halaman QUERY TOOLS - WEB REPORT, Proses QueryTools, Error : The method or operation is not implemented.
+
+Tanggal Tracelog:09/09/2024 13:11:08
+Dari Halaman QUERY TOOLS - WEB REPORT, Proses QueryTools, Error : The method or operation is not implemented.
+
+Tanggal Tracelog:09/09/2024 13:11:51
+Dari Halaman QUERY TOOLS - WEB REPORT, Proses QueryTools, Error : The method or operation is not implemented.
+
+Tanggal Tracelog:09/09/2024 13:12:45
+Dari Halaman QUERY TOOLS - WEB REPORT, Proses QueryTools, Error : The method or operation is not implemented.
+
+Tanggal Tracelog:09/09/2024 14:22:22
+WriteFileExcel QueryTools_20240909142222.xlsx, Masuk
+
+Tanggal Tracelog:09/09/2024 14:22:22
+WriteFileExcel QueryTools_20240909142222.xlsx, Path = 
+
+Tanggal Tracelog:09/09/2024 14:22:22
+WriteFileExcel QueryTools_20240909142222.xlsx, Path = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\
+
+Tanggal Tracelog:09/09/2024 14:22:22
+WriteFileExcel QueryTools_20240909142222.xlsx, Path After Replace = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\
+
+Tanggal Tracelog:09/09/2024 14:22:22
+WriteFileExcel QueryTools_20240909142222.xlsx, UserDirectory True
+
+Tanggal Tracelog:09/09/2024 14:22:22
+WriteFileExcel QueryTools_20240909142222.xlsx, UserDirectory FullPath = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\QueryTools_20240909142222.xlsx
+
+Tanggal Tracelog:09/09/2024 14:22:22
+WriteFileExcel QueryTools_20240909142222.xlsx, Declare MConExcel Done
+
+Tanggal Tracelog:09/09/2024 14:22:22
+WriteFileExcel QueryTools_20240909142222.xlsx, Create Column Start
+
+Tanggal Tracelog:09/09/2024 14:22:22
+WriteFileExcel QueryTools_20240909142222.xlsx, Create Column End
+
+Tanggal Tracelog:09/09/2024 14:22:22
+WriteFileExcel QueryTools_20240909142222.xlsx, Kolom = SB.ToString
+
+Tanggal Tracelog:09/09/2024 14:22:22
+WriteFileExcel QueryTools_20240909142222.xlsx, MConExcel Set to FullPath D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\QueryTools_20240909142222.xlsx
+
+Tanggal Tracelog:09/09/2024 14:22:22
+WriteFileExcel QueryTools_20240909142222.xlsx, MConExcel Open Done
+
+Tanggal Tracelog:09/09/2024 14:22:22
+WriteFileExcel QueryTools_20240909142222.xlsx, MConExcel CREATE TABLE `Sheet1` Done
+
+Tanggal Tracelog:09/09/2024 14:22:22
+WriteFileExcel QueryTools_20240909142222.xlsx, MConExcel INSERT INTO `Sheet1` Done
+
+Tanggal Tracelog:09/09/2024 14:59:40
+Dari Halaman QUERY TOOLS - WEB REPORT, Proses QueryTools, Error : Index was outside the bounds of the array.
+
+Tanggal Tracelog:09/09/2024 14:59:42
+Dari Halaman QUERY TOOLS - WEB REPORT, Proses QueryTools, Error : Index was outside the bounds of the array.
+
+Tanggal Tracelog:09/09/2024 14:59:49
+Dari Halaman QUERY TOOLS - WEB REPORT, Proses QueryTools, Error : Index was outside the bounds of the array.
+
+Tanggal Tracelog:09/09/2024 14:59:50
+Dari Halaman QUERY TOOLS - WEB REPORT, Proses QueryTools, Error : Index was outside the bounds of the array.
+
+Tanggal Tracelog:09/09/2024 14:59:50
+Dari Halaman QUERY TOOLS - WEB REPORT, Proses QueryTools, Error : Index was outside the bounds of the array.
+
+Tanggal Tracelog:09/09/2024 14:59:55
+Dari Halaman QUERY TOOLS - WEB REPORT, Proses QueryTools, Error : Index was outside the bounds of the array.
+
+Tanggal Tracelog:09/09/2024 14:59:55
+Dari Halaman QUERY TOOLS - WEB REPORT, Proses QueryTools, Error : Index was outside the bounds of the array.
+
+Tanggal Tracelog:09/09/2024 14:59:56
+Dari Halaman QUERY TOOLS - WEB REPORT, Proses QueryTools, Error : Index was outside the bounds of the array.
+
+Tanggal Tracelog:09/09/2024 14:59:56
+Dari Halaman QUERY TOOLS - WEB REPORT, Proses QueryTools, Error : Index was outside the bounds of the array.
+
+Tanggal Tracelog:09/09/2024 15:01:41
+Dari Halaman QUERY TOOLS - WEB REPORT, Proses QueryTools, Error : Index was outside the bounds of the array.
+
+Tanggal Tracelog:09/09/2024 15:01:49
+Dari Halaman QUERY TOOLS - WEB REPORT, Proses QueryTools, Error : Index was outside the bounds of the array.
+
+Tanggal Tracelog:09/09/2024 15:01:53
+Dari Halaman QUERY TOOLS - WEB REPORT, Proses QueryTools, Error : Index was outside the bounds of the array.
+
+Tanggal Tracelog:09/09/2024 15:02:31
+Dari Halaman QUERY TOOLS - WEB REPORT, Proses QueryTools, Error : Index was outside the bounds of the array.
+
+Tanggal Tracelog:09/09/2024 15:02:35
+Dari Halaman QUERY TOOLS - WEB REPORT, Proses QueryTools, Error : Index was outside the bounds of the array.
+
+Tanggal Tracelog:09/09/2024 15:02:36
+Dari Halaman QUERY TOOLS - WEB REPORT, Proses QueryTools, Error : Index was outside the bounds of the array.
+
+Tanggal Tracelog:09/09/2024 15:02:39
+Dari Halaman QUERY TOOLS - WEB REPORT, Proses QueryTools, Error : Index was outside the bounds of the array.
+
+Tanggal Tracelog:09/09/2024 15:02:44
+Dari Halaman QUERY TOOLS - WEB REPORT, Proses QueryTools, Error : Index was outside the bounds of the array.
+
+Tanggal Tracelog:09/09/2024 15:02:45
+Dari Halaman QUERY TOOLS - WEB REPORT, Proses QueryTools, Error : Index was outside the bounds of the array.
+
+Tanggal Tracelog:09/09/2024 15:02:46
+Dari Halaman QUERY TOOLS - WEB REPORT, Proses QueryTools, Error : Index was outside the bounds of the array.
+
+Tanggal Tracelog:09/09/2024 15:02:46
+Dari Halaman QUERY TOOLS - WEB REPORT, Proses QueryTools, Error : Index was outside the bounds of the array.
+
+Tanggal Tracelog:09/09/2024 15:04:46
+Dari Halaman QUERY TOOLS - WEB REPORT, Proses QueryTools, Error : The method or operation is not implemented.
+
+Tanggal Tracelog:09/09/2024 15:08:11
+Dari Halaman QUERY TOOLS - WEB REPORT, Proses QueryTools, Error : The method or operation is not implemented.
+
+Tanggal Tracelog:09/09/2024 15:28:47
+Dari Halaman QUERY TOOLS - WEB REPORT, Proses QueryTools, Error : The method or operation is not implemented.
+

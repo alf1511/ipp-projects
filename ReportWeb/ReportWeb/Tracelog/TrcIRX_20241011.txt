@@ -1,0 +1,12 @@
+Tanggal Tracelog:11/10/2024 11:12:43
+Dari ClsSQL, Proses SQLInsertIntoDatatable, Error : Incorrect number of arguments for PROCEDURE dev_jenius.report_historysrr; expected 8, got 4
+
+Tanggal Tracelog:11/10/2024 16:57:55
+Dari Halaman LAPORAN TINDAK LANJUT SGA - WEB REPORT, Proses Proses, Error : Index was outside the bounds of the array.
+
+Tanggal Tracelog:11/10/2024 16:58:17
+Dari Halaman LAPORAN TINDAK LANJUT SGA - WEB REPORT, Proses Proses, Error : Index was outside the bounds of the array.
+
+Tanggal Tracelog:11/10/2024 16:58:26
+Dari Halaman LAPORAN TINDAK LANJUT SGA - WEB REPORT, Proses Proses, Error : Index was outside the bounds of the array.
+

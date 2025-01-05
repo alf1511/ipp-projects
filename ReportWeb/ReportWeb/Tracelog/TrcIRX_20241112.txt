@@ -1,0 +1,140 @@
+Tanggal Tracelog:12/11/2024 14:04:20
+Dari ClsFungsi, Proses GetHubList, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:12/11/2024 14:56:23
+Dari ClsFungsi, Proses GetHubProcessTypeExpedition, Error : Value cannot be null.
+Parameter name: uriString
+
+Tanggal Tracelog:12/11/2024 15:03:17
+Dari ClsFungsi, Proses GetHubList, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:12/11/2024 15:03:49
+Dari ClsFungsi, Proses GetHubProcessTypeExpedition, Error : Value cannot be null.
+Parameter name: uriString
+
+Tanggal Tracelog:12/11/2024 15:09:38
+Dari ClsFungsi, Proses GetHubList, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:12/11/2024 15:30:02
+Dari ClsFungsi, Proses GetHubList, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:12/11/2024 15:54:26
+Dari ClsFungsi, Proses GetHubList, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:12/11/2024 16:03:56
+Dari ClsFungsi, Proses GetHubList, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:12/11/2024 16:26:24
+Dari ClsFungsi, Proses GetHubList, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:12/11/2024 16:26:38
+Dari ClsFungsi, Proses GetHubList, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:12/11/2024 16:46:53
+Dari ClsFungsi, Proses ddlBound, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:12/11/2024 16:46:53
+Dari ClsFungsi, Proses ddlBound, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:12/11/2024 16:46:53
+Dari ClsFungsi, Proses chkBound, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:12/11/2024 16:46:53
+Dari ClsFungsi, Proses GetHubList, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:12/11/2024 16:46:53
+Dari ClsFungsi, Proses ddlBound, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:12/11/2024 16:46:53
+Dari ClsFungsi, Proses chkBound, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:12/11/2024 16:46:53
+Dari ClsFungsi, Proses chkBound, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:12/11/2024 16:47:34
+Dari ClsFungsi, Proses ddlBound, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:12/11/2024 16:47:34
+Dari ClsFungsi, Proses ddlBound, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:12/11/2024 16:47:34
+Dari ClsFungsi, Proses chkBound, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:12/11/2024 16:47:34
+Dari ClsFungsi, Proses GetHubList, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:12/11/2024 16:47:34
+Dari ClsFungsi, Proses ddlBound, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:12/11/2024 16:47:34
+Dari ClsFungsi, Proses chkBound, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:12/11/2024 16:47:34
+Dari ClsFungsi, Proses chkBound, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:12/11/2024 16:52:09
+Dari ClsFungsi, Proses chkBound, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:12/11/2024 16:52:10
+Dari ClsFungsi, Proses GetHubList, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:12/11/2024 16:52:10
+Dari ClsFungsi, Proses ddlBound, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:12/11/2024 16:52:10
+Dari ClsFungsi, Proses chkBound, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:12/11/2024 16:52:10
+Dari ClsFungsi, Proses chkBound, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:12/11/2024 16:52:25
+Dari ClsFungsi, Proses chkBound, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:12/11/2024 16:52:25
+Dari ClsFungsi, Proses GetHubList, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:12/11/2024 16:52:25
+Dari ClsFungsi, Proses ddlBound, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:12/11/2024 16:52:25
+Dari ClsFungsi, Proses chkBound, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:12/11/2024 16:52:25
+Dari ClsFungsi, Proses chkBound, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:12/11/2024 16:52:37
+Dari ClsFungsi, Proses chkBound, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:12/11/2024 16:52:37
+Dari ClsFungsi, Proses GetHubList, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:12/11/2024 16:52:37
+Dari ClsFungsi, Proses ddlBound, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:12/11/2024 16:52:37
+Dari ClsFungsi, Proses chkBound, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:12/11/2024 16:52:37
+Dari ClsFungsi, Proses chkBound, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:12/11/2024 17:06:02
+Dari ClsFungsi, Proses chkBound, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:12/11/2024 17:06:03
+Dari ClsFungsi, Proses GetHubList, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:12/11/2024 17:06:03
+Dari ClsFungsi, Proses ddlBound, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:12/11/2024 17:06:03
+Dari ClsFungsi, Proses chkBound, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:12/11/2024 17:06:03
+Dari ClsFungsi, Proses chkBound, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:12/11/2024 17:08:17
+Dari ClsFungsi, Proses GetHubList, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:12/11/2024 17:25:23
+Dari ClsFungsi, Proses GetHubList, Error : Object reference not set to an instance of an object.
+

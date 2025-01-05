@@ -1,0 +1,18 @@
+Tanggal Tracelog:26/09/2024 10:31:09
+Dari ClsFungsi, Proses ddlBound, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:26/09/2024 10:31:09
+Dari Halaman Laporan Status TPK/AOK, Proses LoadData, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:26/09/2024 10:32:37
+Dari ClsFungsi, Proses ddlBound, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:26/09/2024 10:32:37
+Dari Halaman Laporan Status TPK/AOK, Proses LoadData, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:26/09/2024 10:37:52
+Dari ClsFungsi, Proses ddlBound, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:26/09/2024 10:37:52
+Dari Halaman Laporan Status TPK/AOK, Proses LoadData, Error : Object reference not set to an instance of an object.
+

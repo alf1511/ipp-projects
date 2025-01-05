@@ -1,0 +1,42 @@
+Tanggal Tracelog:21/11/2024 14:31:37
+WriteFileExcel LastMileExpedition_20241121143137.xlsx, Masuk
+
+Tanggal Tracelog:21/11/2024 14:31:37
+WriteFileExcel LastMileExpedition_20241121143137.xlsx, Path = 
+
+Tanggal Tracelog:21/11/2024 14:31:37
+WriteFileExcel LastMileExpedition_20241121143137.xlsx, Path = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\LastMileExpedition\
+
+Tanggal Tracelog:21/11/2024 14:31:37
+WriteFileExcel LastMileExpedition_20241121143137.xlsx, Path After Replace = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\LastMileExpedition\
+
+Tanggal Tracelog:21/11/2024 14:31:37
+WriteFileExcel LastMileExpedition_20241121143137.xlsx, UserDirectory True
+
+Tanggal Tracelog:21/11/2024 14:31:38
+WriteFileExcel LastMileExpedition_20241121143137.xlsx, UserDirectory FullPath = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\LastMileExpedition\LastMileExpedition_20241121143137.xlsx
+
+Tanggal Tracelog:21/11/2024 14:31:38
+WriteFileExcel LastMileExpedition_20241121143137.xlsx, Declare MConExcel Done
+
+Tanggal Tracelog:21/11/2024 14:31:38
+WriteFileExcel LastMileExpedition_20241121143137.xlsx, Create Column Start
+
+Tanggal Tracelog:21/11/2024 14:31:38
+WriteFileExcel LastMileExpedition_20241121143137.xlsx, Create Column End
+
+Tanggal Tracelog:21/11/2024 14:31:38
+WriteFileExcel LastMileExpedition_20241121143137.xlsx, Kolom = SB.ToString
+
+Tanggal Tracelog:21/11/2024 14:31:38
+WriteFileExcel LastMileExpedition_20241121143137.xlsx, MConExcel Set to FullPath D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\LastMileExpedition\LastMileExpedition_20241121143137.xlsx
+
+Tanggal Tracelog:21/11/2024 14:31:38
+WriteFileExcel LastMileExpedition_20241121143137.xlsx, MConExcel Open Done
+
+Tanggal Tracelog:21/11/2024 14:31:38
+WriteFileExcel LastMileExpedition_20241121143137.xlsx, MConExcel CREATE TABLE `Sheet1` Done
+
+Tanggal Tracelog:21/11/2024 14:31:38
+WriteFileExcel LastMileExpedition_20241121143137.xlsx, MConExcel INSERT INTO `Sheet1` Done
+

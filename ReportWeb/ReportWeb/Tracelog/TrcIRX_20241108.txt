@@ -1,0 +1,367 @@
+Tanggal Tracelog:11/8/2024 1:23:31 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Error : Session Kosong, redirect ke AWB3PL.aspx
+
+Tanggal Tracelog:11/8/2024 1:23:31 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Masuk LoadData
+
+Tanggal Tracelog:11/8/2024 1:23:31 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Error : Session Kosong, redirect ke AWB3PL.aspx
+
+Tanggal Tracelog:11/8/2024 1:23:31 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Masuk LoadData
+
+Tanggal Tracelog:11/8/2024 1:23:31 PM
+Dari ClsFungsi, Proses GetHubList2, Error : Value cannot be null.
+Parameter name: uriString
+
+Tanggal Tracelog:11/8/2024 1:25:37 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Error : Session Kosong, redirect ke AWB3PL.aspx
+
+Tanggal Tracelog:11/8/2024 1:25:37 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Masuk LoadData
+
+Tanggal Tracelog:11/8/2024 1:25:37 PM
+Dari ClsFungsi, Proses GetHubList2, Error : Value cannot be null.
+Parameter name: uriString
+
+Tanggal Tracelog:11/8/2024 1:27:39 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Error : Session Kosong, redirect ke AWB3PL.aspx
+
+Tanggal Tracelog:11/8/2024 1:27:39 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Masuk LoadData
+
+Tanggal Tracelog:11/8/2024 1:27:39 PM
+Dari ClsFungsi, Proses GetHubList2, Error : Value cannot be null.
+Parameter name: uriString
+
+Tanggal Tracelog:11/8/2024 1:51:40 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Error : Session Kosong, redirect ke AWB3PL.aspx
+
+Tanggal Tracelog:11/8/2024 1:51:40 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Masuk LoadData
+
+Tanggal Tracelog:11/8/2024 1:51:40 PM
+Dari ClsFungsi, Proses GetHubList2, Error : Value cannot be null.
+Parameter name: uriString
+
+Tanggal Tracelog:11/8/2024 1:53:13 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Error : Session Kosong, redirect ke AWB3PL.aspx
+
+Tanggal Tracelog:11/8/2024 1:53:13 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Masuk LoadData
+
+Tanggal Tracelog:11/8/2024 1:53:13 PM
+Dari ClsFungsi, Proses GetHubList2, Error : Value cannot be null.
+Parameter name: uriString
+
+Tanggal Tracelog:11/8/2024 2:10:22 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Error : Session Kosong, redirect ke AWB3PL.aspx
+
+Tanggal Tracelog:11/8/2024 2:10:22 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Masuk LoadData
+
+Tanggal Tracelog:11/8/2024 2:10:22 PM
+Dari ClsFungsi, Proses GetHubExpeditionList, Percobaan Konek Coreservice ke 1, Error : The method or operation is not implemented.
+
+Tanggal Tracelog:11/8/2024 2:10:22 PM
+Dari ClsFungsi, Proses GetHubExpeditionList, Percobaan Konek Coreservice ke 2, Error : The method or operation is not implemented.
+
+Tanggal Tracelog:11/8/2024 2:10:22 PM
+Dari ClsFungsi, Proses GetHubExpeditionList, Percobaan Konek Coreservice ke 3, Error : The method or operation is not implemented.
+
+Tanggal Tracelog:11/8/2024 2:10:22 PM
+Dari ClsFungsi, Proses GetHubExpeditionList, Error : Gagal Konek ke Coreservice 3x
+
+Tanggal Tracelog:11/8/2024 2:10:22 PM
+Dari ClsFungsi, Proses GetHubList2, Error : Value cannot be null.
+Parameter name: uriString
+
+Tanggal Tracelog:11/8/2024 2:13:34 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Error : Session Kosong, redirect ke AWB3PL.aspx
+
+Tanggal Tracelog:11/8/2024 2:13:35 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Masuk LoadData
+
+Tanggal Tracelog:11/8/2024 2:37:53 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Error : Session Kosong, redirect ke AWB3PL.aspx
+
+Tanggal Tracelog:11/8/2024 2:37:53 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Masuk LoadData
+
+Tanggal Tracelog:11/8/2024 2:37:54 PM
+Dari ClsFungsi, Proses GetHubList2, Error : Value cannot be null.
+Parameter name: uriString
+
+Tanggal Tracelog:11/8/2024 2:45:22 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Error : Session Kosong, redirect ke AWB3PL.aspx
+
+Tanggal Tracelog:11/8/2024 2:45:22 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Masuk LoadData
+
+Tanggal Tracelog:11/8/2024 2:45:22 PM
+Dari ClsFungsi, Proses GetHubList2, Error : Value cannot be null.
+Parameter name: uriString
+
+Tanggal Tracelog:11/8/2024 2:49:13 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Error : Session Kosong, redirect ke AWB3PL.aspx
+
+Tanggal Tracelog:11/8/2024 2:49:13 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Masuk LoadData
+
+Tanggal Tracelog:11/8/2024 2:49:14 PM
+Dari ClsFungsi, Proses GetHubList2, Error : Value cannot be null.
+Parameter name: uriString
+
+Tanggal Tracelog:11/8/2024 2:50:04 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Error : Session Kosong, redirect ke AWB3PL.aspx
+
+Tanggal Tracelog:11/8/2024 2:50:04 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Masuk LoadData
+
+Tanggal Tracelog:11/8/2024 2:50:04 PM
+Dari ClsFungsi, Proses GetHubList2, Error : Value cannot be null.
+Parameter name: uriString
+
+Tanggal Tracelog:11/8/2024 2:51:25 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Error : Session Kosong, redirect ke AWB3PL.aspx
+
+Tanggal Tracelog:11/8/2024 2:51:25 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Masuk LoadData
+
+Tanggal Tracelog:11/8/2024 2:51:26 PM
+Dari ClsFungsi, Proses GetHubList2, Error : Value cannot be null.
+Parameter name: uriString
+
+Tanggal Tracelog:11/8/2024 2:53:45 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Error : Session Kosong, redirect ke AWB3PL.aspx
+
+Tanggal Tracelog:11/8/2024 2:53:45 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Masuk LoadData
+
+Tanggal Tracelog:11/8/2024 2:53:46 PM
+Dari ClsFungsi, Proses GetHubList2, Error : Value cannot be null.
+Parameter name: uriString
+
+Tanggal Tracelog:11/8/2024 3:24:04 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Error : Session Kosong, redirect ke AWB3PL.aspx
+
+Tanggal Tracelog:11/8/2024 3:24:04 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Masuk LoadData
+
+Tanggal Tracelog:11/8/2024 3:24:11 PM
+Dari ClsFungsi, Proses GetHubList2, Error : Value cannot be null.
+Parameter name: uriString
+
+Tanggal Tracelog:11/8/2024 3:25:18 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Error : Session Kosong, redirect ke AWB3PL.aspx
+
+Tanggal Tracelog:11/8/2024 3:25:18 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Masuk LoadData
+
+Tanggal Tracelog:11/8/2024 3:25:24 PM
+Dari ClsFungsi, Proses GetHubList2, Error : Value cannot be null.
+Parameter name: uriString
+
+Tanggal Tracelog:11/8/2024 3:25:31 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL - WEB HUB, Proses GetCheckedConsNum, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:11/8/2024 3:26:28 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Error : Session Kosong, redirect ke AWB3PL.aspx
+
+Tanggal Tracelog:11/8/2024 3:26:28 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Masuk LoadData
+
+Tanggal Tracelog:11/8/2024 3:26:35 PM
+Dari ClsFungsi, Proses GetHubList2, Error : Value cannot be null.
+Parameter name: uriString
+
+Tanggal Tracelog:11/8/2024 3:26:42 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL - WEB HUB, Proses GetCheckedConsNum, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:11/8/2024 3:30:58 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Error : Session Kosong, redirect ke AWB3PL.aspx
+
+Tanggal Tracelog:11/8/2024 3:30:58 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Masuk LoadData
+
+Tanggal Tracelog:11/8/2024 3:31:15 PM
+Dari ClsFungsi, Proses GetHubList2, Error : Value cannot be null.
+Parameter name: uriString
+
+Tanggal Tracelog:11/8/2024 3:35:55 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL - WEB HUB, Proses GetCheckedConsNum, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:11/8/2024 3:37:39 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Error : Session Kosong, redirect ke AWB3PL.aspx
+
+Tanggal Tracelog:11/8/2024 3:37:39 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Masuk LoadData
+
+Tanggal Tracelog:11/8/2024 3:37:45 PM
+Dari ClsFungsi, Proses GetHubList2, Error : Value cannot be null.
+Parameter name: uriString
+
+Tanggal Tracelog:11/8/2024 3:41:07 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Error : Session Kosong, redirect ke AWB3PL.aspx
+
+Tanggal Tracelog:11/8/2024 3:41:07 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Masuk LoadData
+
+Tanggal Tracelog:11/8/2024 3:41:16 PM
+Dari ClsFungsi, Proses GetHubList2, Error : Value cannot be null.
+Parameter name: uriString
+
+Tanggal Tracelog:11/8/2024 3:41:26 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL - WEB HUB, Proses GetCheckedConsNum, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:11/8/2024 3:41:42 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL - WEB HUB, Proses GetCheckedConsNum, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:11/8/2024 3:42:13 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Error : Session Kosong, redirect ke AWB3PL.aspx
+
+Tanggal Tracelog:11/8/2024 3:42:13 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Masuk LoadData
+
+Tanggal Tracelog:11/8/2024 3:42:26 PM
+Dari ClsFungsi, Proses GetHubList2, Error : Value cannot be null.
+Parameter name: uriString
+
+Tanggal Tracelog:11/8/2024 3:42:38 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL - WEB HUB, Proses GetCheckedConsNum, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:11/8/2024 3:46:27 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Error : Session Kosong, redirect ke AWB3PL.aspx
+
+Tanggal Tracelog:11/8/2024 3:46:27 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Masuk LoadData
+
+Tanggal Tracelog:11/8/2024 3:49:28 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Error : Session Kosong, redirect ke AWB3PL.aspx
+
+Tanggal Tracelog:11/8/2024 3:49:28 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Masuk LoadData
+
+Tanggal Tracelog:11/8/2024 3:57:16 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Error : Session Kosong, redirect ke AWB3PL.aspx
+
+Tanggal Tracelog:11/8/2024 3:57:16 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Masuk LoadData
+
+Tanggal Tracelog:11/8/2024 3:57:23 PM
+Dari ClsFungsi, Proses GetHubList2, Error : Value cannot be null.
+Parameter name: uriString
+
+Tanggal Tracelog:11/8/2024 3:58:16 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Error : Session Kosong, redirect ke AWB3PL.aspx
+
+Tanggal Tracelog:11/8/2024 3:58:16 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Masuk LoadData
+
+Tanggal Tracelog:11/8/2024 3:58:24 PM
+Dari ClsFungsi, Proses GetHubList2, Error : Value cannot be null.
+Parameter name: uriString
+
+Tanggal Tracelog:11/8/2024 3:59:11 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL - WEB HUB, Proses GetCheckedConsNum, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:11/8/2024 3:59:22 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL - WEB HUB, Proses GetCheckedConsNum, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:11/8/2024 4:06:29 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Error : Session Kosong, redirect ke AWB3PL.aspx
+
+Tanggal Tracelog:11/8/2024 4:06:33 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Masuk LoadData
+
+Tanggal Tracelog:11/8/2024 4:08:07 PM
+Dari ClsFungsi, Proses GetHubList2, Error : Value cannot be null.
+Parameter name: uriString
+
+Tanggal Tracelog:11/8/2024 4:09:27 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Error : Session Kosong, redirect ke AWB3PL.aspx
+
+Tanggal Tracelog:11/8/2024 4:09:27 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Masuk LoadData
+
+Tanggal Tracelog:11/8/2024 4:09:38 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL - WEB HUB, Proses GetCheckedConsNum, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:11/8/2024 4:10:10 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Error : Session Kosong, redirect ke AWB3PL.aspx
+
+Tanggal Tracelog:11/8/2024 4:10:10 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Masuk LoadData
+
+Tanggal Tracelog:11/8/2024 4:14:01 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL - WEB HUB, Proses GetCheckedConsNum, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:11/8/2024 4:17:13 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Error : Session Kosong, redirect ke AWB3PL.aspx
+
+Tanggal Tracelog:11/8/2024 4:17:13 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Masuk LoadData
+
+Tanggal Tracelog:11/8/2024 4:17:20 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL - WEB HUB, Proses GetCheckedConsNum, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:11/8/2024 4:18:40 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Error : Session Kosong, redirect ke AWB3PL.aspx
+
+Tanggal Tracelog:11/8/2024 4:18:40 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Masuk LoadData
+
+Tanggal Tracelog:11/8/2024 4:19:08 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL - WEB HUB, Proses GetCheckedConsNum, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:11/8/2024 4:20:24 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Error : Session Kosong, redirect ke AWB3PL.aspx
+
+Tanggal Tracelog:11/8/2024 4:20:24 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Masuk LoadData
+
+Tanggal Tracelog:11/8/2024 4:20:31 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL - WEB HUB, Proses GetCheckedConsNum, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:11/8/2024 4:20:31 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL - WEB HUB, Proses SetOtherExpeditionAWB, Error : The method or operation is not implemented.
+
+Tanggal Tracelog:11/8/2024 4:26:59 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Error : Session Kosong, redirect ke AWB3PL.aspx
+
+Tanggal Tracelog:11/8/2024 4:26:59 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Masuk LoadData
+
+Tanggal Tracelog:11/8/2024 4:27:17 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL - WEB HUB, Proses GetCheckedConsNum, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:11/8/2024 4:37:46 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Error : Session Kosong, redirect ke AWB3PL.aspx
+
+Tanggal Tracelog:11/8/2024 4:37:46 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Masuk LoadData
+
+Tanggal Tracelog:11/8/2024 4:38:26 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL - WEB HUB, Proses GetCheckedConsNum, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:11/8/2024 4:38:28 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL - WEB HUB, Proses SetOtherExpeditionAWB, Error : The method or operation is not implemented.
+
+Tanggal Tracelog:11/8/2024 4:45:26 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Error : Session Kosong, redirect ke AWB3PL.aspx
+
+Tanggal Tracelog:11/8/2024 4:45:27 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Masuk LoadData
+
+Tanggal Tracelog:11/8/2024 4:48:06 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL - WEB HUB, Proses GetCheckedConsNum, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:11/8/2024 5:01:52 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Error : Session Kosong, redirect ke AWB3PL.aspx
+
+Tanggal Tracelog:11/8/2024 5:01:52 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Masuk LoadData
+
+Tanggal Tracelog:11/8/2024 5:02:08 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL - WEB HUB, Proses GetCheckedConsNum, Error : Object reference not set to an instance of an object.
+

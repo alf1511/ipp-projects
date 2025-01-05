@@ -1,0 +1,63 @@
+Tanggal Tracelog:02/01/2025 14:07:55
+Dari ClsFungsi, Proses ddlBound, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:02/01/2025 14:08:36
+Dari ClsFungsi, Proses ddlBound, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:02/01/2025 14:08:36
+Dari ClsFungsi, Proses chkBound, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:02/01/2025 14:38:18
+Dari ClsFungsi, Proses GetHubList, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:02/01/2025 14:38:59
+Dari ClsFungsi, Proses GetHubList, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:02/01/2025 14:39:46
+Dari ClsFungsi, Proses GetHubList, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:02/01/2025 14:39:55
+Dari ClsFungsi, Proses GetHubList, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:02/01/2025 14:40:22
+Dari ClsFungsi, Proses GetHubList, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:02/01/2025 15:28:47
+Dari ClsFungsi, Proses GetHubList, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:02/01/2025 15:30:22
+Dari ClsFungsi, Proses GetHubList, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:02/01/2025 15:48:05
+Dari ClsFungsi, Proses GetHubList, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:02/01/2025 15:50:11
+Dari ClsSQL, Proses SQLInsertIntoDatatable, Error : PROCEDURE dev_jenius.report_dcrequest does not exist
+
+Tanggal Tracelog:02/01/2025 16:14:15
+Dari ClsFungsi, Proses GetHubList, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:02/01/2025 16:16:43
+Dari ClsSQL, Proses SQLInsertIntoDatatable, Error : PROCEDURE dev_jenius.report_dcrequest does not exist
+
+Tanggal Tracelog:02/01/2025 16:20:33
+Dari ClsFungsi, Proses GetHubList, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:02/01/2025 16:24:40
+Dari ClsFungsi, Proses GetHubList, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:02/01/2025 16:27:18
+Dari ClsFungsi, Proses GetHubList, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:02/01/2025 16:27:36
+Dari ClsSQL, Proses SQLInsertIntoDatatable, Error : PROCEDURE dev_jenius.report_dcrequest does not exist
+
+Tanggal Tracelog:02/01/2025 16:32:02
+Dari ClsFungsi, Proses GetHubList, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:02/01/2025 16:32:02
+Dari ClsFungsi, Proses GetHubList, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:02/01/2025 16:38:33
+Dari ClsSQL, Proses SQLInsertIntoDatatable, Error : PROCEDURE dev_jenius.report_dcrequest does not exist
+

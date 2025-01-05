@@ -1,0 +1,981 @@
+﻿<%@ Master Language="VB" CodeBehind="MasterPage.master.vb" Inherits="ReportWeb.MasterPage" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head id="Head1" runat="server">
+	<title>WEB REPORT</title>
+
+	<link rel="stylesheet" href="css/Default.css" />
+	<%--
+	<script src="js/bootstrap-datetimepicker.min.js" type="text/javascript"></script>
+	<script src="js/bootstrap-datetimepicker.id.js" type="text/javascript"></script>
+	--%><link href="js/jquery-ui.css" rel="stylesheet" />
+    <script src="js/external/jquery/jquery.js"></script>
+    <script src="js/jquery-ui.js"></script>
+	
+	<script type="text/javascript" src="js/jquery-modal/jquery.modal.min.js"></script>
+	<link rel="stylesheet" href="js/jquery-modal/jquery.modal.min.css" />
+
+<style type="text/css">
+
+.ScaleUp input[type=checkbox]
+{
+  /* Double-sized Checkboxes */
+  -ms-transform: scale(3); /* IE */
+  -moz-transform: scale(3); /* FF */
+  -webkit-transform: scale(3); /* Safari and Chrome */
+  -o-transform: scale(3); /* Opera */
+  transform: scale(3);
+}
+
+</style>
+
+</head>
+
+<body>
+	<form id="form1" runat="server">
+	<asp:ScriptManager ID="ScriptManager1" runat="server" />
+
+    <script type="text/javascript">
+        function DisableMe(MyButton) {
+            var DelayDisableButton = document.getElementById('DelayDisableButton').value;
+            setTimeout(function() {
+                MyButton.disabled = true;
+            }, DelayDisableButton);
+        }
+    </script>
+
+	<div class="Parent">
+	    <div class="LeftMenu">
+	        <div class="LogoBox">
+                <asp:Image ID="logo" CssClass="logo" runat="server" ImageUrl="~/images/logo.jpg"/>
+                <br />
+                <asp:Label ID="lblAppName" CssClass="AppName" runat="server" Text="WEB REPORT DEV" />
+                <br />
+                <div class="VersiWeb">
+                    <asp:Label ID="lblAppVer" CssClass="AppVer" runat="server" Text="v. XXX" />
+                </div>
+	        </div>
+	        <asp:UpdatePanel runat="server" ID="UpdatePanelMenu">
+	        <ContentTemplate>
+            <div id="Menu">
+                <ul id="MyList2" runat="server">
+                    <li id="liQueryTools" runat="server" visible="false"><a id="LinkQueryTools" runat="server" href="QueryTools.aspx">QueryTools</a>
+                    </li>
+                </ul>
+                <div class="MenuWithChild">
+                <ul id="MenuPerformance" visible="false" runat="server">
+                    <li class="SectionMenu">
+                        <asp:LinkButton ID="LBPerformance" runat="server">Performance</asp:LinkButton>
+                        <ul id="MenuPerformanceItems" visible="false" runat="server">
+                            <li id="liPerformBulananAllLayanan" runat="server" visible="false"><a id="LinkPerformBulananAllLayanan" runat="server" href="PerformBulananAllLayanan.aspx">Perform Sales Bulanan All Layanan</a>
+                            </li>
+                            <li id="liPerformBulananPerEkspedisi" runat="server" visible="false"><a id="LinkPerformBulananPerEkspedisi" runat="server" href="PerformBulananPerEkspedisi.aspx">Perform Sales Bulanan Per Ekspedisi</a>
+                            </li>
+                            <li id="liPerformSLAPerCabang" runat="server" visible="false"><a id="LinkPerformSLAPerCabang" runat="server" href="PerformSLAPerCabang.aspx">Perform SLA Per Cabang</a>
+                            </li>
+                            <li id="liPerformASAM" runat="server" visible="false"><a id="LinkPerformASAM" runat="server" href="PerformASAM.aspx">Performance AS AM</a>
+                            </li>
+                            <li id="liPerformDRO" runat="server" visible="false"><a id="LinkPerformDRO" runat="server" href="PerformDRO.aspx">Performance TPK</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul id="MenuCheckMonitor" visible="false" runat="server">
+                    <li class="SectionMenu">
+                        <asp:LinkButton ID="LBCheckMonitor" runat="server">Checking / Monitoring</asp:LinkButton>
+                        <ul id="MenuCheckMonitorItems" visible="false" runat="server">
+                            <li id="liAWBStatus" runat="server" visible="false"><a id="LinkAWBStatus" runat="server" href="AWBStatus.aspx">Status AWB</a>
+                            </li>
+                            <li id="liCariPaket" runat="server" visible="false"><a id="LinkCariPaket" runat="server" href="CariPaket.aspx">Cari Paket</a>
+                            </li>                            
+                            <li id="liCariKodePOS" runat="server" visible="false"><a id="LinkCariKodePOS" runat="server" href="CariKodePOS.aspx">Cari Kode POS</a>
+                            </li>
+                            <li id="liCariToko" runat="server" visible="false"><a id="LinkCariToko" runat="server" href="CariToko.aspx">Cari Toko</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul id="MenuDataUmum" visible="false" runat="server">
+                    <li class="SectionMenu">
+                        <asp:LinkButton ID="LBDataUmum" runat="server">Data Umum</asp:LinkButton>
+                        <ul id="MenuDataUmumItems" visible="false" runat="server">
+                            <li id="liAWBMovement" runat="server" visible="false"><a id="LinkAWBMovement" runat="server" href="AWBMovement.aspx">AWB Movement</a>
+                            </li>
+                            <li id="liLastStatusAWB" runat="server" visible="false"><a id="LinkLastStatusAWB" runat="server" href="LastStatusAWB.aspx">Last Status AWB</a>
+                            </li>                            
+                            <li id="liDaftarAWBBaru" runat="server" visible="false"><a id="LinkDaftarAWBBaru" runat="server" href="DaftarAWBBaru.aspx">Daftar AWB Baru</a>
+                            </li>
+                            <li id="liTPKMTORTS" runat="server" visible="false"><a id="LinkTPKMTORTS" runat="server" href="TPKMTORTS.aspx">Daftar AWB TPK MTO-RTS</a>
+                            </li>
+                            <li id="liMTOJPTHKP" runat="server" visible="false"><a id="LinkMTOJPTHKP" runat="server" href="MTOJPTHKP.aspx">Daftar AWB MTO JPT HKP</a>
+                            </li>
+                            <li id="liMHBMRKPDCKRKHKPKNS" runat="server" visible="false"><a id="LinkMHBMRKPDCKRKHKPKNS" runat="server" href="MHBMRKPDCKRKHKPKNS.aspx">Daftar AWB MHB MRK PDC KRK HKP KNS</a>
+                            </li>
+                            <li id="liDaftarTransaksi" runat="server" visible="false"><a id="LinkDaftarTransaksi" runat="server" href="DaftarTransaksi.aspx">Daftar Transaksi</a>
+                            </li>
+                            <li id="liDetailTrxPerSellerCategory" runat="server" visible="false"><a id="LinkDetailTrxPerSellerCategory" runat="server" href="DetailTrxPerSellerCategory.aspx">Detail Transaksi Per Seller Category</a>
+                            </li>
+                            <li id="liDaftarKons" runat="server" visible="false"><a id="LinkDaftarKons" runat="server" href="DaftarKons.aspx">Daftar Kons</a>
+                            </li>
+                            <li id="liDaftarKonsHOIPP" runat="server" visible="false"><a id="LinkDaftarKonsHOIPP" runat="server" href="DaftarKonsHOIPP.aspx">Daftar Kons HO IPP</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul id="MenuReportSLA" visible="false" runat="server">
+                    <li class="SectionMenu">
+                        <asp:LinkButton ID="LBReportSLA" runat="server">Report SLA</asp:LinkButton>
+                        <ul id="MenuReportSLAItems" visible="false" runat="server">
+                            <li id="liPerformanceAWB" runat="server" visible="false"><a id="LinkPerformanceAWB" runat="server" href="PerformanceAWB.aspx">Performance AWB</a>
+                            </li>
+                            <li id="liPerformanceDC" runat="server" visible="false"><a id="LinkPerformanceDC" runat="server" href="PerformanceDC.aspx">Performance DC</a>
+                            </li>
+                            <li id="liRekapStatusTidakWajar" runat="server" visible="false"><a id="LinkRekapStatusTidakWajar" runat="server" href="RekapStatusTidakWajar.aspx">Rekap Status Tidak Wajar</a>
+                            </li>
+                            <li id="liRekapLastStatus" runat="server" visible="false"><a id="LinkRekapLastStatus" runat="server" href="RekapLastStatus.aspx">Rekap Last Status</a>
+                            </li>
+                            <li id="liRekapOnDelivery" runat="server" visible="false"><a id="LinkRekapOnDelivery" runat="server" href="RekapOnDelivery.aspx">Rekap On Delivery</a>
+                            </li>
+                            <li id="liRekapLewatSLA" runat="server" visible="false"><a id="LinkRekapLewatSLA" runat="server" href="RekapLewatSLA.aspx">Rekap Lewat SLA</a>
+                            </li>
+                            <li id="liPaketDiterima" runat="server" visible="false"><a id="LinkPaketDiterima" runat="server" href="PaketDiterima.aspx">Paket Diterima Per Tanggal</a>
+                            </li>
+                            <li id="liPaketDiterimaPerCabang" runat="server" visible="false"><a id="LinkPaketDiterimaPerCabang" runat="server" href="PaketDiterimaPerCabang.aspx">Paket Diterima Per Cabang</a>
+                            </li>
+                            <li id="liPaketDiterimaPerCabangPerEcom" runat="server" visible="false"><a id="LinkPaketDiterimaPerCabangPerEcom" runat="server" href="PaketDiterimaPerCabangPerEcom.aspx">Paket Diterima Per Cabang Per Ecom</a>
+                            </li>
+                            <li id="liPerhitunganSLA" runat="server" visible="false"><a id="LinkPerhitunganSLA" runat="server" href="PerhitunganSLA.aspx">Perhitungan SLA</a>
+                            </li>
+                            <li id="liEvaluasiKeterlambatan" runat="server" visible="false"><a id="LinkEvaluasiKeterlambatan" runat="server" href="EvaluasiKeterlambatan.aspx">Evaluasi Keterlambatan</a>
+                            </li>
+                            <li id="liEvaluasiKeterlambatanSLA" runat="server" visible="false"><a id="LinkEvaluasiKeterlambatanSLA" runat="server" href="EvaluasiKeterlambatanSLA.aspx">Evaluasi Keterlambatan Perhitungan SLA</a>
+                            </li>
+                            <li id="liReportKPI" runat="server" visible="false"><a id="LinkReportKPI" runat="server" href="ReportKPI.aspx">Laporan KPI Hub</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul id="MenuOpr" visible="false" runat="server">
+                    <li class="SectionMenu">
+                        <asp:LinkButton ID="LBOpr" runat="server">Operational</asp:LinkButton>
+                        <ul id="MenuOprItems" visible="false" runat="server">
+                            <li id="liPINRequest" runat="server" visible="false"><a id="LinkPINRequest" runat="server" href="PINRequest.aspx">Permintaan PIN</a>
+                            </li>
+                            <li id="liPindahAlamatAsalAWB" runat="server" visible="false"><a id="LinkPindahAlamatAsalAWB" runat="server" href="PindahAlamatAsalAWB.aspx">Pindah Alamat Asal / Tujuan pada AWB</a>
+                            </li>
+                            <li id="liUpdateWhouseInPindah3PL" runat="server" visible="false"><a id="LinkUpdateWhouseInPindah3PL" runat="server" href="UpdateWhouseInPindah3PL.aspx">AWB MHB Pindah ke 3PL</a>
+                            </li>
+                            <li id="liFlagGagal" runat="server" visible="false"><a id="LinkFlagGagal" runat="server" href="FlagGagal.aspx">Flag Gagal Paket Trial</a>
+                            </li>
+                            <li id="liFlagGGL" runat="server" visible="false"><a id="LinkFlagGGL" runat="server" href="FlagGGL.aspx">Flag Status Gagal</a>
+                            </li>
+                            <li id="liFlagHRB" runat="server" visible="false"><a id="LinkFlagHRB" runat="server" href="FlagHRB.aspx">Flag Hilang/Rusak/Bencana</a>
+                            </li>
+                            <li id="liFlagSRR" runat="server" visible="false"><a id="LinkFlagSRR" runat="server" href="FlagSRR.aspx">Pengembalian Atas Permintaan Pengirim</a>
+                            </li>
+                            <li id="liSettingAkunUserHub" runat="server" visible="false"><a id="LinkSettingAkunUserHub" runat="server" href="SettingAkunUserHub.aspx">Tambah / Mutasi User Hub IPP</a>
+                            </li>
+                            <li id="liResetUserLogin" runat="server" visible="false"><a id="LinkResetUserLogin" runat="server" href="ResetUserLogin.aspx">Reset User Login</a>
+                            </li>                            
+                            <li id="liGantiEmailKodeToko" runat="server" visible="false"><a id="LinkGantiEmailKodeToko" runat="server" href="GantiEmailKodeToko.aspx">Ganti Email / Kode Toko</a>
+                            </li>
+                            <li id="liTanyaDataKeITToko" runat="server" visible="false"><a id="LinkTanyaDataKeITToko" runat="server" href="TanyaDataKeITToko.aspx">Tanya Data Ke IT Toko</a>
+                            </li>
+                            <li id="liMaxWeightNValidation" runat="server" visible="false"><a id="LinkMaxWeightNValidation" runat="server" href="MaxWeightNValidation.aspx">Setting Validasi dan Maksimum Berat</a>
+                            </li>
+                            <li id="liMaxDimensionNValidation" runat="server" visible="false"><a id="LinkMaxDimensionNValidation" runat="server" href="MaxDimensionNValidation.aspx">Setting Validasi dan Maksimal Dimensi</a>
+                            </li>
+                            <li id="liUploadStatusHDS" runat="server" visible="false"><a id="LinkUploadStatusHDS" runat="server" href="UploadStatusHDS.aspx">Upload Status HBK</a>
+                            </li>
+                            <li id="liDraftPembuatanAWB" runat="server" visible="false"><a id="LinkDraftPembuatanAWB" runat="server" href="DraftPembuatanAWB.aspx">Draft Pembuatan AWB</a>
+                            </li>
+                            <li id="liSettingMstRegion" runat="server" visible="false"><a id="LinkSettingMstRegion" runat="server" href="SettingMstRegion.aspx">Setting Master Region</a>
+                            </li>
+                            <li id="liUpdatePJBHubPostalCode" runat="server" visible="false"><a id="LinkUpdatePJBHubPostalCode" runat="server" href="UpdatePJBHubPostalCode.aspx">Update PJB Hub PostalCode</a>
+                            </li>
+                            <li id="liUpdateHubPostalCode" runat="server" visible="false"><a id="LinkUpdateHubPostalCode" runat="server" href="UpdateHubPostalCode.aspx">Update Hub PostalCode</a>
+                            </li>
+                            <li id="liUpdateAccountHubPostalCode" runat="server" visible="false"><a id="LinkUpdateAccountHubPostalCode" runat="server" href="UpdateAccountHubPostalCode.aspx">Update Seller Hub PostalCode</a>
+                            </li>
+                            <li id="liUpdateInstantHubPostalCode" runat="server" visible="false"><a id="LinkUpdateInstantHubPostalCode" runat="server" href="UpdateInstantHubPostalCode.aspx">Update Instant Hub PostalCode</a>
+                            </li>
+                            <li id="liUpdatePoinkuHubPostalCode" runat="server" visible="false"><a id="LinkUpdatePoinkuHubPostalCode" runat="server" href="UpdatePoinkuHubPostalCode.aspx">Update Poinku Hub PostalCode</a>
+                            </li>
+                            <li id="liUpdateRTSDate" runat="server" visible="false"><a id="LinkUpdateRTSDate" runat="server" href="UpdateRTSDate.aspx">Update Tanggal bisa Retur dari Toko</a>
+                            </li>
+                            <li id="liBukaSementaraTokoTutup" runat="server" visible="false"><a id="LinkBukaSementaraTokoTutup" runat="server" href="BukaSementaraTokoTutup.aspx">Buka Sementara Toko Tutup</a>
+                            </li>
+                            <li id="liExpeditionAPISyncStatus" runat="server" visible="false"><a id="LinkExpeditionAPISyncStatus" runat="server" href="ExpeditionAPISyncStatus.aspx">Sync Status Ekspedisi Auto Order</a>
+                            </li>
+                            <li id="liBuktiDokumentasiUpload" runat="server" visible="false"><a id="LinkBuktiDokumentasiUpload" runat="server" href="BuktiDokumentasiUpload.aspx">Upload Bukti Dokumentasi</a>
+                            </li>
+                            <li id="liCreateReturnAWB" runat="server" visible="false"><a id="LinkCreateReturnAWB" runat="server" href="CreateReturnAWB.aspx">Buat AWB Balikan oleh Hub</a>
+                            </li>
+                            <li id="liCopyAndReturnEdit" runat="server" visible="false"><a id="LinkCopyAndReturnEdit" runat="server" href="CopyAndReturnEdit.aspx">Edit Perlu Buat AWB Balikan</a>
+                            </li>
+							<li id="liAutoCopyAndReturnDoc" runat="server" visible="false"><a id="LinkAutoCopyAndReturnDoc" runat="server" href="AutoCopyAndReturnDoc.aspx">Upload Dokumen AWB Balikan Otomatis</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul id="MenuLaporanOpr" visible="false" runat="server">
+                    <li class="SectionMenu">
+                        <asp:LinkButton ID="LBLaporanOpr" runat="server">Laporan Operational</asp:LinkButton>
+                        <ul id="MenuLaporanOprItems" visible="false" runat="server">
+                            <li id="liCalculateHubMustReport" runat="server" visible="false"><a id="CalculateHubMustReport" runat="server" href="CalculateHubMustReport.aspx">Laporan Hub Must</a>
+                            </li>
+                            <li id="liLaporanBypassDeliman" runat="server" visible="false"><a id="LaporanBypassDeliman" runat="server" href="LaporanBypassDeliman.aspx">Laporan Bypass Deliman</a>
+                            </li>
+                            <li id="liLaporanResiKontrol" runat="server" visible="false"><a id="LaporanResiKontrol" runat="server" href="LaporanStatusResiKontrol.aspx">Laporan Resi Kontrol</a>
+                            </li>
+                            <li id="liLaporanStatusTPKAOK" runat="server" visible="false"><a id="LaporanStatusTPKAOK" runat="server" href="LaporanStatusResiTPKAOK.aspx">Laporan Status TPK AOK</a>
+                            </li>
+                            <li id="liLaporanStatusMTORET" runat="server" visible="false"><a id="LaporanStatusMTORET" runat="server" href="LaporanStatusMTORET.aspx">Laporan Status MTO RET</a>
+                            </li>
+                            <li id="liMonitoringAWBTidakWajar" runat="server" visible="false"><a id="LinkMonitoringAWBTidakWajar" runat="server" href="MonitoringAWBTidakWajar.aspx">Monitoring AWB Tidak Wajar</a>
+                            </li>
+                            <li id="liMonitoringAWBIKP" runat="server" visible="false"><a id="LinkMonitoringAWBIKP" runat="server" href="MonitoringAWBIKP.aspx">Monitoring AWB IKP</a>
+                            </li>
+                            <li id="liPINRequestReport" runat="server" visible="false"><a id="LinkPINRequestReport" runat="server" href="PINRequestReport.aspx">Laporan Permintaan PIN</a>
+                            </li>
+                            <li id="liFlagHRBReport" runat="server" visible="false"><a id="LinkFlagHRBReport" runat="server" href="FlagHRBReport.aspx">Laporan Flag Hilang/Rusak/Bencana</a>
+                            </li>
+                            <li id="liFlagSRRReport" runat="server" visible="false"><a id="LinkFlagSRRReport" runat="server" href="FlagSRRReport.aspx">Laporan Pengembalian Atas Permintaan Pengirim</a>
+                            </li>
+                            <li id="liExpeditionAPIAWBReport" runat="server" visible="false"><a id="LinkExpeditionAPIAWBReport" runat="server" href="ExpeditionAPIAWBReport.aspx">Laporan API Ekspedisi AWB</a>
+                            </li>
+                            <li id="liExpeditionAPIConsReport" runat="server" visible="false"><a id="LinkExpeditionAPIConsReport" runat="server" href="ExpeditionAPIConsReport.aspx">Laporan API Ekspedisi Kons</a>
+                            </li>
+                            <li id="liOtherExpeditionUserInput" runat="server" visible="false"><a id="LinkOtherExpeditionUserInput" runat="server" href="OtherExpeditionUserInput.aspx">Laporan Input Nomor Resi 3PL</a>
+                            </li>
+                            <li id="liBuktiDokumentasiLihat" runat="server" visible="false"><a id="LinkBuktiDokumentasiLihat" runat="server" href="BuktiDokumentasiLihat.aspx">Lihat Bukti Dokumentasi</a>
+                            </li>
+                            <li id="liCopyAndReturnReport" runat="server" visible="false"><a id="LinkCopyAndReturnReport" runat="server" href="CopyAndReturnReport.aspx">Report AWB Balikan</a>
+                            </li>
+                            <li id="liMonitorAWBBalikan" runat="server" visible="false"><a id="LinkMonitorAWBBalikan" runat="server" href="MonitorAWBBalikan.aspx">Monitor AWB Balikan</a>
+                            </li>
+                            <li id="liPartnerItemReport" runat="server" visible="false"><a id="LinkPartnerItemReport" runat="server" href="PartnerItemReport.aspx">Laporan Stock Barang Partner</a>
+                            </li>
+                            <li id="liMonitorPJB" runat="server" visible="false"><a id="LinkMonitorPJB" runat="server" href="MonitorPJB.aspx">Monitor Permintaan Jemput Barang</a>
+                            </li>							
+                            <li id="liStoreOutNotProcessed" runat="server" visible="false"><a id="LinkStoreOutNotProcessed" runat="server" href="StoreOutNotProcessed.aspx">Paket Tidak Serah ke Driver</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul id="MenuSarana" visible="false" runat="server">
+                    <li class="SectionMenu">
+                        <asp:LinkButton ID="LBSarana" runat="server">Sarana</asp:LinkButton>
+                        <ul id="MenuSaranaItems" visible="false" runat="server">
+                            <li id="liToolsUpdateNew" runat="server" visible="false"><a id="LinkToolsUpdateNew" runat="server" href="ToolsUpdateNew.aspx">Monitor Sarana oleh HO</a>
+                            </li>
+                            <li id="liToolsUpdate" runat="server" visible="false"><a id="LinkToolsUpdate" runat="server" href="ToolsUpdate.aspx">Update Sarana GW atau Hub</a>
+                            </li>
+                            <li id="liToolsReport" runat="server" visible="false"><a id="LinkToolsReport" runat="server" href="ToolsReport.aspx">Laporan Sarana GW atau Hub</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul id="MenuSalesMkt" visible="false" runat="server">
+                    <li class="SectionMenu">
+                        <asp:LinkButton ID="LBSalesMkt" runat="server">Sales & Marketing</asp:LinkButton>
+                        <ul id="MenuSalesMktItems" visible="false" runat="server">
+                            <li id="liPerformBulanan" runat="server" visible="false"><a id="LinkPerformBulanan" runat="server" href="PerformBulanan.aspx">Perform Sales Bulanan Per Cabang</a>
+                            </li>
+                            <li id="liPerformBulananPerEComm" runat="server" visible="false"><a id="LinkPerformBulananPerEComm" runat="server" href="PerformBulananPerEComm.aspx">Perform Sales Bulanan Per E-Comm</a>
+                            </li>
+                            <li id="liPerformBulananPerSellerCategory" runat="server" visible="false"><a id="LinkPerformBulananPerSellerCategory" runat="server" href="PerformBulananPerSellerCategory.aspx">Perform Sales Bulanan Per Seller Category</a>
+                            </li>
+                            <li id="liPerformPaketPerTokoAsal" runat="server" visible="false"><a id="LinkPerformPaketPerTokoAsal" runat="server" href="PerformPaketPerTokoAsal.aspx">Perform Paket Per Toko Asal</a>
+                            </li>
+                            <li id="liReportSellerOnline" runat="server" visible="false"><a id="LinkReportSellerOnline" runat="server" href="ReportSellerOnline.aspx">Report Seller Online</a>
+                            </li>
+                            <li id="liEcomDailyReport" runat="server" visible="false"><a id="LinkEcomDailyReport" runat="server" href="EcomDailyReport.aspx">Ecommerce Daily Report</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul id="MenuLaporanHP" visible="false" runat="server">
+                    <li class="SectionMenu"><asp:LinkButton ID="LBLaporanHP" runat="server">Laporan Versi HP</asp:LinkButton>
+                        <ul id="MenuLaporanHPItems" visible="false" runat="server">
+                            <li id="liLastStatusAWBvHP" runat="server" visible="false"><a id="LinkLastStatusAWBvHP" runat="server" href="LastStatusAWBvHP.aspx">Last Status AWB (HP)</a>
+                            </li>
+                            <li id="liDaftarAWBBaruVHP" runat="server" visible="false"><a id="LinkDaftarAWBBaruVHP" runat="server" href="DaftarAWBBaruVHP.aspx">Daftar AWB Baru (HP)</a>
+                            </li>
+                            <li id="liRekapSuratJalanVHP" runat="server" visible="false"><a id="LinkRekapSuratJalanVHP" runat="server" href="RekapSuratJalanVHP.aspx">Rekap Surat Jalan (HP)</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul id="MenuPerform" visible="false" runat="server">
+                    <li class="SectionMenu"><asp:LinkButton ID="LBPerform" runat="server">Perform Bulanan</asp:LinkButton>
+                        <ul id="MenuPerformItems" visible="false" runat="server">
+                            <li id="liDaftarAWBDropPerToko" runat="server" visible="false"><a id="LinkDaftarAWBDropPerToko" runat="server" href="DaftarAWBDropPerToko.aspx">Daftar AWB Drop Per Toko</a>
+                            </li>
+                            <li id="liCDVCDSTimeDiff" runat="server" visible="false"><a id="LinkCDVCDSTimeDiff" runat="server" href="CDVCDSTimeDiff.aspx">Rekap Lama KKP-KBK</a>
+                            </li>
+                            <li id="liPerformStatus" runat="server" visible="false"><a id="LinkPerformStatus" runat="server" href="PerformStatus.aspx">Performance Status</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul id="MenuPJB" visible="false" runat="server">
+                    <li class="SectionMenu"><asp:LinkButton ID="LBPJB" runat="server">Permintaan Jemput Barang</asp:LinkButton>
+                        <ul id="MenuPJBItems" visible="false" runat="server">
+							<li id="li1" runat="server" visible="false"><a id="A1" runat="server" href="MonitorPJB.aspx">Monitor Permintaan Jemput Barang</a>
+                            </li>
+                            <li id="liDashboardPartnerMasterDetailItem" runat="server" visible="false"><a id="LinkDashboardPartnerMasterDetailItem" runat="server" href="DashboardPartnerMasterDetailItem.aspx">Master Barang PJB</a>
+                            </li>
+                            <li id="liDashboardPartnerTemplateAutoPickupRequest" runat="server" visible="false"><a id="LinkDashboardPartnerTemplateAutoPickupRequest" runat="server" href="DashboardPartnerTemplateAutoPickupRequest.aspx">Buat Template PJB Otomatis</a>
+                            </li>
+                            <li id="liDashboardPartnerSettingAutoPickupRequest" runat="server" visible="false"><a id="LinkDashboardPartnerSettingAutoPickupRequest" runat="server" href="DashboardPartnerSettingAutoPickupRequest.aspx">Setting PJB Harian Otomatis</a>
+                            </li>
+                            <li id="liPickupTaskCreate" runat="server" visible="false"><a id="LinkPickupTaskCreate" runat="server" href="PickupTaskCreate.aspx">Penugasan Jemput Barang</a>
+                            </li>
+                            <li id="liPickupTaskConfirmation" runat="server" visible="false"><a id="LinkPickupTaskConfirmation" runat="server" href="PickupTaskConfirmation.aspx">Konfirmasi Jemput Barang</a>
+                            </li>
+                            <li id="liDashboardPartnerUpdatePickupRequestAddress" runat="server" visible="false"><a id="LinkDashboardPartnerUpdatePickupRequestAddress" runat="server" href="DashboardPartnerUpdatePickupRequestAddress.aspx">Ubah Data Permintaan Jemput Barang</a>
+                            </li>                            
+                            <li id="liPickupTaskAlreadyPickup" runat="server" visible="false"><a id="LinkPickupTaskAlreadyPickup" runat="server" href="PickupTaskAlreadyPickup.aspx">Sudah Jemput Barang</a>
+                            </li>
+                            <li id="liPickupTaskCompleted" runat="server" visible="false"><a id="LinkPickupTaskCompleted" runat="server" href="PickupTaskCompleted.aspx">Selesai Jemput Barang</a>
+                            </li>
+                            <li id="liDashboardPartnerPickupRequestAWBPairing" runat="server" visible="false"><a id="LinkDashboardPartnerPickupRequestAWBPairing" runat="server" href="DashboardPartnerPickupRequestAWBPairing.aspx">Pemasangan AWB pada PJB</a>
+                            </li>
+							<li id="liDashboardPartnerDownloadDetilPaket" runat="server" visible="false"><a id="LinkDashboardPartnerDownloadDetilPaket" runat="server" href="DashboardPartnerDownloadDetilPaket.aspx">Download Detil Permintaan Jemput Barang</a>
+                            </li>
+                            <li id="liDashboardPartnerPickupRequestDocument" runat="server" visible="false"><a id="LinkDashboardPartnerPickupRequestDocument" runat="server" href="DashboardPartnerPickupRequestDocument.aspx">Reprint Surat Permintaan Jemput Barang</a>
+                            </li>
+                            <li id="liDashboardPartnerPickupRequestReport" runat="server" visible="false"><a id="LinkDashboardPartnerPickupRequestReport" runat="server" href="DashboardPartnerPickupRequestReport.aspx">Laporan Permintaan Jemput Barang</a>
+                            </li>                            
+                        </ul>
+                    </li>
+                </ul>
+                <ul id="MenuTransport" visible="false" runat="server">
+                    <li class="SectionMenu"><asp:LinkButton ID="LBTransport" runat="server">Transport</asp:LinkButton>
+                        <ul id="MenuTransportItems" visible="false" runat="server">
+                            <li id="liLaporanRekapBASeliisih" runat="server" visible="false"><a id="LaporanRekapBASeliisih" runat="server" href="LaporanRekapBASelisih.aspx">Laporan Rekap BA Selisih</a>
+                            </li>
+                            <li id="liUploadLaporanRekapBASelisih" runat="server" visible="false"><a id="UploadLaporanRekapBASelisih" runat="server" href="UploadLaporanRekapBASelisih.aspx">Upload Laporan Rekap BA Selisih</a>
+                            </li>
+                            <li id="liMstHubExpeditionReport" runat="server" visible="false"><a id="MstHubExpedition" runat="server" href="MstHubExpedition.aspx">MstHub Expedition Report</a>
+                            </li>   
+                            <li id="liTambahAccountEkspedisi" runat="server" visible="false"><a id="LinkTambahAccountEkspedisi" runat="server" href="TambahAccountEkspedisi.aspx">Tambah Account Ekspedisi</a>
+                            </li>                            
+                            <li id="liCekEkspedisi" runat="server" visible="false"><a id="LinkCekEkspedisi" runat="server" href="CekEkspedisi.aspx">Cek Ekspedisi</a>
+                            </li>
+                            <li id="liCekEkspedisiSPV" runat="server" visible="false"><a id="LinkCekEkspedisiSPV" runat="server" href="CekEkspedisiSPV.aspx">Cek Ekspedisi</a>
+                            </li>
+                            <li id="liRekapWaktuKirim" runat="server" visible="false"><a id="LinkRekapWaktuKirim" runat="server" href="RekapWaktuKirim.aspx">Rekap Waktu Kirim</a>
+                            </li>
+                            <li id="liRekapSuratJalan" runat="server" visible="false"><a id="LinkRekapSuratJalan" runat="server" href="RekapSuratJalan.aspx">Rekap Surat Jalan</a>
+                            </li>
+                            <li id="liRekonAccruedTradisional" runat="server" visible="false"><a id="LinkRekonAccruedTradisional" runat="server" href="RekonAccruedTradisional.aspx">Laporan Accrued Tradisional</a>
+                            </li>
+                            <li id="liOtherExpeditionExpense" runat="server" visible="false"><a id="LinkOtherExpeditionExpense" runat="server" href="OtherExpeditionExpense.aspx">Input Tagihan Ekspedisi</a>
+                            </li>
+                            <li id="liOtherExpeditionReport" runat="server" visible="false"><a id="LinkOtherExpeditionReport" runat="server" href="OtherExpeditionReport.aspx">Laporan Biaya Pengiriman</a>
+                            </li>
+							<li id="liNoResiKonsolSetting" runat="server" visible="false"><a id="LinkNoResiKonsolSetting" runat="server" href="NoResiKonsolSetting.aspx">Setting No. Resi Konsol</a>
+							</li>
+							<li id="liNoResiKonsolGenerate" runat="server" visible="false"><a id="LinkNoResiKonsolGenerate" runat="server" href="NoResiKonsolGenerate.aspx">Buat No. Resi Konsol</a>
+							</li>
+							<li id="liOtherExpeditionGrossMargin" runat="server" visible="false"><a id="LinkOtherExpeditionGrossMargin" runat="server" href="OtherExpeditionGrossMargin.aspx">Laporan Gross Margin</a>
+                            </li>							
+                            <li id="liReportFeeDcTokoIdm" runat="server" visible="false"><a id="LinkReportFeeDcTokoIdm" runat="server" href="ReportFeeDcTokoIdm.aspx">Laporan Beban Jasa Perantara</a>
+                            </li>
+                            <li id="liOtherExpeditionFirstMile" runat="server" visible="false"><a id="LinkOtherExpeditionFirstMile" runat="server" href="OtherExpeditionFirstMile.aspx">Laporan Margin First Mile</a>
+                            </li>
+                            <li id="liOtherExpeditionPuExpedition" runat="server" visible="false"><a id="LinkOtherExpeditionPuExpedition" runat="server" href="OtherExpeditionPuExpedition.aspx">Laporan Margin Port to Hub</a>
+                            </li>
+                            <li id="liOtherExpeditionMiddleMile" runat="server" visible="false"><a id="LinkOtherExpeditionMiddleMile" runat="server" href="OtherExpeditionMiddleMile.aspx">Laporan Margin Middle Mile</a>
+                            </li>
+							<li id="liOtherExpeditionLastMile" runat="server" visible="false"><a id="LinkOtherExpeditionLastMile" runat="server" href="OtherExpeditionLastMile.aspx">Laporan Margin Last Mile</a>
+                            </li>
+                            <li id="liOtherExpeditionInstantPickup" runat="server" visible="false"><a id="LinkOtherExpeditionInstantPickup" runat="server" href="OtherExpeditionInstantPickup.aspx">Laporan Margin Instant Pickup</a>
+                            </li>
+                            <li id="liOtherExpeditionFleetRental" runat="server" visible="false"><a id="LinkOtherExpeditionFleetRental" runat="server" href="OtherExpeditionFleetRental.aspx">Laporan Margin Sewa Armada</a>
+                            </li>
+                            <li id="liUpdateCourierDeliveryCost" runat="server" visible="false"><a id="LinkUpdateCourierDeliveryCost" runat="server" href="UpdateCourierDeliveryCost.aspx">Master Biaya Ekspedisi Antar Hub</a>
+                            </li>
+                            <li id="liUpdateCourierDeliveryCostReadOnly" runat="server" visible="false"><a id="LinkUpdateCourierDeliveryCostReadOnly" runat="server" href="UpdateCourierDeliveryCostReadOnly.aspx">Data Biaya Ekspedisi Antar Hub</a>
+                            </li>
+                            <li id="liUpdateCourierAddressDeliveryCost" runat="server" visible="false"><a id="LinkUpdateCourierAddressDeliveryCost" runat="server" href="UpdateCourierAddressDeliveryCost.aspx">Master Biaya Ekspedisi Antar Alamat</a>
+                            </li>
+                            <li id="liUpdateCourierAddressDeliveryCostReadOnly" runat="server" visible="false"><a id="LinkUpdateCourierAddressDeliveryCostReadOnly" runat="server" href="UpdateCourierAddressDeliveryCostReadOnly.aspx">Data Biaya Ekspedisi Antar Alamat</a>
+                            </li>
+                            <li id="liUpdateCourierDooringDeliveryCost" runat="server" visible="false"><a id="LinkUpdateCourierDooringDeliveryCost" runat="server" href="UpdateCourierDooringDeliveryCost.aspx">Master Biaya Jemput Ekspedisi</a>
+                            </li>
+                            <li id="liUpdateCourierDooringDeliveryCostReadOnly" runat="server" visible="false"><a id="LinkUpdateCourierDooringDeliveryCostReadOnly" runat="server" href="UpdateCourierDooringDeliveryCostReadOnly.aspx">Data Biaya Jemput Ekspedisi</a>
+                            </li>
+                            <li id="liUpdateCourierPickupDeliveryCost" runat="server" visible="false"><a id="LinkUpdateCourierPickupDeliveryCost" runat="server" href="UpdateCourierPickupDeliveryCost.aspx">Master Biaya Jemput Rekanan Oleh 3PL</a>
+                            </li>
+                            <li id="liUpdateCourierPickupDeliveryCostReadOnly" runat="server" visible="false"><a id="LinkUpdateCourierPickupDeliveryCostReadOnly" runat="server" href="UpdateCourierPickupDeliveryCostReadOnly.aspx">Data Biaya Jemput Rekanan Oleh 3PL</a>
+                            </li>
+                            <li id="liUpdateCourierFleetRentalDeliveryCost" runat="server" visible="false"><a id="LinkUpdateCourierFleetRentalDeliveryCost" runat="server" href="UpdateCourierFleetRentalDeliveryCost.aspx">Master Biaya Ekspedisi Sewa Armada</a>
+                            </li>
+                            <li id="liUpdateCourierFleetRentalDeliveryCostReadOnly" runat="server" visible="false"><a id="LinkUpdateCourierFleetRentalDeliveryCostReadOnly" runat="server" href="UpdateCourierFleetRentalDeliveryCostReadOnly.aspx">Data Biaya Ekspedisi Sewa Armada</a>
+                            </li>
+                            <li id="liUpdateCourierResiKonsolDeliveryCost" runat="server" visible="false"><a id="LinkUpdateCourierResiKonsolDeliveryCost" runat="server" href="UpdateCourierResiKonsolDeliveryCost.aspx">Master Biaya Ekspedisi Resi Konsol</a>
+                            </li>
+                            <li id="liUpdateCourierResiKonsolDeliveryCostReadOnly" runat="server" visible="false"><a id="LinkUpdateCourierResiKonsolDeliveryCostReadOnly" runat="server" href="UpdateCourierResiKonsolDeliveryCostReadOnly.aspx">Data Biaya Ekspedisi Resi Konsol</a>
+                            </li>
+                            <li id="liUpdateOtherExpeditionExpense" runat="server" visible="false"><a id="LinkUpdateOtherExpeditionExpense" runat="server" href="UpdateOtherExpeditionExpense.aspx">Update Nilai Transaksi Ekspedisi</a>
+                            </li>
+                            <li id="liTrackingEkspedisi" runat="server" visible="false"><a id="LinkTrackingEkspedisi" runat="server" href="TrackingEkspedisi.aspx">Tracking Ekspedisi</a>
+                            </li>
+                            <li id="liFleetRentalUpdateStatus" runat="server" visible="false"><a id="LinkFleetRentalUpdateStatus" runat="server" href="FleetRentalUpdateStatus.aspx">Update Status Layanan Sewa Armada</a>
+                            </li>                            
+                            <li id="liChangeAWB3PLInSJD" runat="server" visible="false"><a id="LinkChangeAWB3PLInSJD" runat="server" href="ChangeAWB3PLInSJD.aspx">Ubah AWB 3PL di Surat Jalan</a>
+                            </li>
+                            <li id="liUpdateWeightOtherExpeditionExpense" runat="server" visible="false"><a id="LinkUpdateWeightOtherExpeditionExpense" runat="server" href="UpdateWeightOtherExpeditionExpense.aspx">Ubah Berat Biaya Ekspedisi</a>
+                            </li>
+                            <li id="liThreePLExpenseRecon" runat="server" visible="false"><a id="LinkThreePLExpenseRecon" runat="server" href="ThreePLExpenseRecon.aspx">Rekon Biaya Ekspedisi Tradisional</a>
+                            </li>
+                            <li id="liThreePLExpenseUpload" runat="server" visible="false"><a id="LinkThreePLExpenseUpload" runat="server" href="ThreePLExpenseUpload.aspx">Upload Biaya Ekspedisi Antar Hub</a>
+                            </li>
+                            <li id="liThreePLExpenseDelete" runat="server" visible="false"><a id="LinkThreePLExpenseDelete" runat="server" href="ThreePLExpenseDelete.aspx">Hapus Biaya Ekspedisi Antar Hub</a>
+                            </li>
+                            <li id="liThreePLExpenseReport" runat="server" visible="false"><a id="LinkThreePLExpenseReport" runat="server" href="ThreePLExpenseReport.aspx">Laporan Biaya Ekspedisi Antar Hub</a>
+                            </li>
+                            <li id="liThreePLOtherExpensesUpload" runat="server" visible="false"><a id="LinkThreePLOtherExpensesUpload" runat="server" href="ThreePLOtherExpensesUpload.aspx">Upload Biaya Lain-lain Ekspedisi</a>
+                            </li>
+                            <li id="liThreePLOtherExpensesDelete" runat="server" visible="false"><a id="LinkThreePLOtherExpensesDelete" runat="server" href="ThreePLOtherExpensesDelete.aspx">Hapus Biaya Lain-lain Ekspedisi</a>
+                            </li>
+                            <li id="liThreePLOtherExpensesReport" runat="server" visible="false"><a id="LinkThreePLOtherExpensesReport" runat="server" href="ThreePLOtherExpensesReport.aspx">Laporan Biaya Lain-lain Ekspedisi</a>
+                            </li>
+                            <li id="liExpeditionSLAHKP" runat="server" visible="false"><a id="LinkExpeditionSLAHKP" runat="server" href="ExpeditionSLAHKP.aspx">Laporan SLA 3KP</a>
+                            </li>
+                            <li id="liSettingExpeditionService" runat="server" visible="false"><a id="LinkSettingExpeditionService" runat="server" href="SettingExpeditionService.aspx">Setting Layanan Ekspedisi</a>
+                            </li>
+                            <li id="liSettingMstHubExpedition" runat="server" visible="false"><a id="LinkSettingMstHubExpedition" runat="server" href="SettingMstHubExpedition.aspx">Setting Ekspedisi untuk Proses Hub</a>
+                            </li>
+                            <li id="liSettingMandatoryExpeditionCons" runat="server" visible="false"><a id="LinkSettingMandatoryExpeditionCons" runat="server" href="SettingMandatoryExpeditionCons.aspx">Setting Ekspedisi Wajib Antar Hub</a>
+                            </li>
+                            <li id="liSettingHubMustExpeditionPickup" runat="server" visible="false"><a id="LinkSettingHubMustExpeditionPickup" runat="server" href="SettingHubMustExpeditionPickup.aspx">Setting Hub Harus Jemput Ekspedisi</a>
+                            </li>
+                            <li id="liSettingJalurEkspedisiKons" runat="server" visible="false"><a id="LinkSettingJalurEkspedisiKons" runat="server" href="SettingJalurEkspedisiKons.aspx">Setting Jalur Ekspedisi Kons</a>
+                            </li>
+                            <li id="liSettingLastMileExpedition" runat="server" visible="false"><a id="LinkSettingLastMileExpedition" runat="server" href="SettingLastMileExpedition.aspx">Setting Arahan Ekspedisi LastMile</a>
+                            </li>
+                            <li id="liMaxWeightNValidation3PL" runat="server" visible="false"><a id="LinkMaxWeightNValidation3PL" runat="server" href="MaxWeightNValidation3PL.aspx">Setting Maksimum Berat 3PL</a>
+                            </li>
+                            <li id="liPricingMappingSubCityHub" runat="server" visible="false"><a id="LinkPricingMappingSubCityHub" runat="server" href="PricingMappingSubCityHub.aspx">Mapping SubCity Hub</a>
+                            </li>
+                            <%--<li id="liPricingMappingServiceExpedition" runat="server" visible="false"><a id="LinkPricingMappingServiceExpedition" runat="server" href="PricingMappingServiceExpedition.aspx">Mapping Layanan Ekspedisi</a>
+                            </li>--%>
+                        </ul>
+                    </li>
+                </ul>
+                <ul id="MenuOPRSupport" visible="false" runat="server">
+                    <li class="SectionMenu"><asp:LinkButton ID="LBOPRSupport" runat="server">Opr Support</asp:LinkButton>
+                        <ul id="MenuOPRSupportItems" visible="false" runat="server">
+                            <li id="liIndomaretStoreClosed" runat="server" visible="false"><a id="LinkIndomaretStoreClosed" runat="server" href="IndomaretStoreClosed.aspx">Opr IPP Buka atau Tutup Toko</a>
+                            </li>
+                            <li id="liValidasiMotherStore" runat="server" visible="false"><a id="LinkValidasiMotherStore" runat="server" href="ValidasiMotherStore.aspx">Validasi MotherStore</a>
+                            </li>
+                            <li id="liMotherStorePostalCode" runat="server" visible="false"><a id="LinkMotherStorePostalCode" runat="server" href="MotherStorePostalCode.aspx">Coverage MotherStore Lengkap</a>
+                            </li>
+                            <!-- <li id="liMotherStoreCoverageIPP" runat="server" visible="false"><a id="LinkMotherStoreCoverageIPP" runat="server" href="MotherStoreCoverageIPP.aspx">Coverage Tambahan MotherStore</a>
+                            </li> -->
+                            <!-- <li id="liMotherStoreExcludeIPP" runat="server" visible="false"><a id="LinkMotherStoreExcludeIPP" runat="server" href="MotherStoreExcludeIPP.aspx">Pengecualian Coverage MotherStore</a>
+                            </li> -->
+                            <li id="liMotherStoreActivateBKO" runat="server" visible="false"><a id="LinkMotherStoreActivateBKO" runat="server" href="MotherStoreActivateBKO.aspx">Aktivasi BKO MotherStore</a>
+                            </li>
+                            <li id="liCariIndogrosir" runat="server" visible="false"><a id="LinkCariIndogrosir" runat="server" href="CariIndogrosir.aspx">Cari Indogrosir</a>
+                            </li>
+                            <li id="liGantiKodeTokoReport" runat="server" visible="false"><a id="LinkGantiKodeTokoReport" runat="server" href="GantiKodeTokoReport.aspx">Laporan Ganti Kode Toko</a>
+                            </li>
+                            <li id="liGantiShCoAccountdiAWB" runat="server" visible="false"><a id="LinkGantiShCoAccountdiAWB" runat="server" href="GantiShCoAccountdiAWB.aspx">Update Akun Partner Di Data AWB</a>
+                            </li>
+                            <li id="liTransactionFailedReport" runat="server" visible="false"><a id="LinkTransactionFailedReport" runat="server" href="TransactionFailedReport.aspx">Laporan Gagal Buat AWB</a>
+                            </li>
+                            <li id="liCheckNotificationStatus" runat="server" visible="false"><a id="LinkCheckNotificationStatus" runat="server" href="CheckNotificationStatus.aspx">Cek Status Pengiriman Notifikasi</a>
+                            </li>
+                            <li id="liValidasiTokoUpload" runat="server" visible="false"><a id="LinkValidasiTokoUpload" runat="server" href="ValidasiTokoUpload.aspx">Validasi Toko Upload</a>
+                            </li>
+                            <li id="liValidasiKodePosUpload" runat="server" visible="false"><a id="LinkValidasiKodePosUpload" runat="server" href="ValidasiKodePosUpload.aspx">Validasi Kode Pos Upload</a>
+                            </li>
+                            <li id="liTurunRakRetur" runat="server" visible="false"><a id="LinkTurunRakRetur" runat="server" href="TurunRakRetur.aspx">Turun Rak Untuk Diretur</a>
+                            </li>
+                            <li id="liLaporanHarian" runat="server" visible="false"><a id="LinkLaporanHarian" runat="server" href="LaporanHarian.aspx">Laporan Harian</a>
+                            </li>
+                            <li id="liLaporanBKL" runat="server" visible="false"><a id="LinkLaporanBKL" runat="server" href="LaporanBKL.aspx">Laporan BKL</a>
+                            </li>
+                            <li id="liJemputPaketDiToko" runat="server" visible="false"><a id="LinkJemputPaketDiToko" runat="server" href="JemputPaketDiToko.aspx">Jemput Paket di Toko</a>
+                            </li>
+                            <li id="liAWBTidakWajar" runat="server" visible="false"><a id="LinkAWBTidakWajar" runat="server" href="AWBTidakWajar.aspx">AWB Tidak Wajar</a>
+                            </li>
+                            <li id="liAWBIKP" runat="server" visible="false"><a id="LinkAWBIKP" runat="server" href="AWBIKP.aspx">Investigasi Keberadaan Paket (IKP)</a>
+                            </li>
+                            <li id="liPDCManual" runat="server" visible="false"><a id="LinkPDCManual" runat="server" href="PDCManual.aspx">PDC Tambahan</a>
+                            </li>
+                            <li id="liPrintAWBList" runat="server" visible="false"><a id="LinkPrintAWBList" runat="server" href="PrintAWBList.aspx">Print AWB List</a>
+                            </li>
+                            <li id="liCoverageDCPartner" runat="server" visible="false"><a id="LinkCoverageDCPartner" runat="server" href="CoverageDCPartner.aspx">Coverage DC Partner</a>
+                            </li>
+                            <li id="liCoverageCityPartner" runat="server" visible="false"><a id="LinkCoverageCityPartner" runat="server" href="CoverageCityPartner.aspx">Coverage To Door Partner</a>
+                            </li>
+                            <li id="liCoverageCityDoorToPartner" runat="server" visible="false"><a id="LinkCoverageCityDoorToPartner" runat="server" href="CoverageCityDoorToPartner.aspx">Coverage Jemput Door To Partner</a>
+                            </li>
+                            <li id="liCoverageCityPickupPartner" runat="server" visible="false"><a id="LinkCoverageCityPickupPartner" runat="server" href="CoverageCityPickupPartner.aspx">Coverage Kota Jemput Partner</a>
+                            </li>
+                            <li id="liCoverageCityTruckingPartner" runat="server" visible="false"><a id="LinkCoverageCityTruckingPartner" runat="server" href="CoverageCityTruckingPartner.aspx">Coverage Trucking Partner</a>
+                            </li>
+                            <li id="liCoverageCityPriorityPartner" runat="server" visible="false"><a id="LinkCoverageCityPriorityPartner" runat="server" href="CoverageCityPriorityPartner.aspx">Coverage Kota Layanan Prioritas</a>
+                            </li>
+                            <li id="liCoverageInternational" runat="server" visible="false"><a id="LinkCoverageInternational" runat="server" href="CoverageInternational.aspx">Coverage Pengiriman Luar Negeri</a>
+                            </li>
+                            <li id="liFleetRentalAccountVehicleType" runat="server" visible="false"><a id="LinkFleetRentalAccountVehicleType" runat="server" href="FleetRentalAccountVehicleType.aspx">Setting Kendaraan Sewa Armada Partner</a>
+                            </li>
+                            <li id="liPartnerIssueAdd" runat="server" visible="false"><a id="LinkPartnerIssueAdd" runat="server" href="PartnerIssueAdd.aspx">Input Kendala Partner</a>
+                            </li>
+                            <li id="liPartnerIssueUpdate" runat="server" visible="false"><a id="LinkPartnerIssueUpdate" runat="server" href="PartnerIssueUpdate.aspx">Update Kendala Partner</a>
+                            </li>
+                            <li id="liPartnerIssueReport" runat="server" visible="false"><a id="LinkPartnerIssueReport" runat="server" href="PartnerIssueReport.aspx">Laporan Kendala Partner</a>
+                            </li>
+                            <li id="liComplainCollectionAdd" runat="server" visible="false"><a id="LinkComplainCollectionAdd" runat="server" href="ComplainCollectionAdd.aspx">Tambah Keluhan</a>
+                            </li>
+                            <li id="liComplainCollectionUpdate" runat="server" visible="false"><a id="LinkComplainCollectionUpdate" runat="server" href="ComplainCollectionUpdate.aspx">Update Keluhan</a>
+                            </li>
+                            <li id="liComplainCollectionReport" runat="server" visible="false"><a id="LinkComplainCollectionReport" runat="server" href="ComplainCollectionReport.aspx">Laporan Keluhan</a>
+                            </li>
+                            <li id="liNomorSurat" runat="server" visible="false"><a id="LinkNomorSurat" runat="server" href="NomorSurat.aspx">Nomor Surat</a>
+                            </li>
+                            <li id="liHDVEvaluationReport" runat="server" visible="false"><a id="LinkHDVEvaluationReport" runat="server" href="HDVEvaluationReport.aspx">Evaluasi HKP</a>
+                            </li>
+                            <li id="liMonitorHO" runat="server" visible="false"><a id="LinkMonitorHO" runat="server" href="MonitorHO.aspx">Monitor HO</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul id="MenuGenerate" visible="false" runat="server">
+                    <li class="SectionMenu"><asp:LinkButton ID="LBGenerate" runat="server">Generate AWB</asp:LinkButton>
+                        <ul id="MenuGenerateItems" visible="false" runat="server">
+                            <li id="liMKTGenerateJavaMifiAWB" runat="server" visible="false"><a id="LinkMKTGenerateJavaMifiAWB" runat="server" href="MKTGenerateJavaMifiAWB.aspx">Generate AWB Java Mifi</a>
+                            </li>
+                            <li id="liMKTGenerateWifiRepublicAWB" runat="server" visible="false"><a id="LinkMKTGenerateWifiRepublicAWB" runat="server" href="MKTGenerateWifiRepublicAWB.aspx">Generate AWB Wifi Republic</a>
+                            </li>
+                            <%--<li id="liMKTGenerateKalbeAWB" runat="server" visible="false"><a id="LinkMKTGenerateKalbeAWB" runat="server" href="MKTGenerateKalbeAWB.aspx">Generate AWB Kalbe Farma</a>
+                            </li>--%>
+                            <li id="liMKTGeneratePinjamWifiAWB" runat="server" visible="false"><a id="LinkMKTGeneratePinjamWifiAWB" runat="server" href="MKTGeneratePinjamWifiAWB.aspx">Generate AWB Pinjam Wifi</a>
+                            </li>
+                            <li id="liMKTGenerateRoamHub" runat="server" visible="false"><a id="LinkMKTGenerateRoamHub" runat="server" href="MKTGenerateRoamHub.aspx">Generate AWB Roam Hub</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul id="MenuPettyCash" visible="false" runat="server">
+                    <li class="SectionMenu"><asp:LinkButton ID="LBPettyCash" runat="server">Petty Cash</asp:LinkButton>
+                        <ul id="MenuPettyCashItems" visible="false" runat="server">
+                            <li id="liPettyCashUpdate" runat="server" visible="false"><a id="LinkPettyCashUpdate" runat="server" href="PettyCashUpdate.aspx">Input Petty Cash</a>
+                            </li>
+                            <li id="liPettyCashDelete" runat="server" visible="false"><a id="LinkPettyCashDelete" runat="server" href="PettyCashDelete.aspx">Hapus Petty Cash</a>
+                            </li>
+                            <li id="liPettyCashPosting" runat="server" visible="false"><a id="LinkPettyCashPosting" runat="server" href="PettyCashPosting.aspx">Posting Petty Cash</a>
+                            </li>
+                            <li id="liPettyCashApproval" runat="server" visible="false"><a id="LinkPettyCashApproval" runat="server" href="PettyCashApproval.aspx">Approval Petty Cash</a>
+                            </li>
+                            <li id="liPettyCashStatusApproval" runat="server" visible="false"><a id="LinkPettyCashStatusApproval" runat="server" href="PettyCashStatusApproval.aspx">Status Approval Petty Cash</a>
+                            </li>
+                            <li id="liPettyCashReport" runat="server" visible="false"><a id="LinkPettyCashReport" runat="server" href="PettyCashReport.aspx">Laporan Petty Cash</a>
+                            </li>
+                            <li id="liFAPettyCashCutOffDate" runat="server" visible="false"><a id="LinkFAPettyCashCutOffDate" runat="server" href="FAPettyCashCutOffDate.aspx">Setting Petty Cash</a>
+                            </li>
+                            <li id="liPettyCashGenBOData" runat="server" visible="false"><a id="LinkPettyCashGenBOData" runat="server" href="PettyCashGenBOData.aspx">Generate Data Back Office</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul id="MenuUMDReimb" visible="false" runat="server">
+                    <li class="SectionMenu"><asp:LinkButton ID="LBUMDReimb" runat="server" OnClick="LBUMDReimb_Click">UMD / Reimbursement</asp:LinkButton>
+                        <ul id="MenuUMDReimbItems" visible="false" runat="server">
+                            <%--<li id="liPHLMasterEmployee" runat="server" visible="false"><a id="LinkPHLMasterEmployee" runat="server" href="PHLMasterEmployee.aspx">Master Pekerja Upload (PHL)</a>
+                            </li>--%>
+                            <li id="liPHLMasterEmployee1" runat="server" visible="false"><a id="LinkPHLMasterEmployee1" runat="server" href="PHLMasterEmployee1.aspx">Master Pekerja (PHL)</a>
+                            </li>
+                            <li id="liPHLMasterEmployeeReport" runat="server" visible="false"><a id="LinkPHLMasterEmployeeReport" runat="server" href="PHLMasterEmployeeReport.aspx">Laporan Master Pekerja (PHL)</a>
+                            </li>
+                            <li id="liPHLTaxReport" runat="server" visible="false"><a id="LinkPHLTaxReport" runat="server" href="PHLTaxReport.aspx">Laporan Pajak PHL</a>
+                            </li>
+                            <li id="liUMDPengajuan" runat="server" visible="false"><a id="LinkUMDPengajuan" runat="server" href="UMDPengajuan.aspx">Pengajuan UMD</a>
+                            </li>
+                            <li id="liUMDCairBatal" runat="server" visible="false"><a id="LinkUMDCairBatal" runat="server" href="UMDCairBatal.aspx">Cair / Batal UMD</a>
+                            </li>
+                            <li id="liUMDPtj" runat="server" visible="false"><a id="LinkUMDPtj" runat="server" href="UMDPtj.aspx">Pertanggungjawaban UMD</a>
+                            </li>
+                            <li id="liUMDDokumen" runat="server" visible="false"><a id="LinkUMDDokumen" runat="server" href="UMDDokumen.aspx">Dokumen UMD</a>
+                            </li>
+                            <li id="liUMDReport" runat="server" visible="false"><a id="LinkUMDReport" runat="server" href="UMDReport.aspx">Laporan UMD</a>
+                            </li>
+                            <li id="liReimbPengajuan" runat="server" visible="false"><a id="LinkReimbPengajuan" runat="server" href="ReimbPengajuan.aspx">Pengajuan Reimbursement</a>
+                            </li>
+                            <li id="liReimbCairBatal" runat="server" visible="false"><a id="LinkReimbCairBatal" runat="server" href="ReimbCairBatal.aspx">Cair / Batal Reimbursement</a>
+                            </li>
+                            <li id="liReimbDokumen" runat="server" visible="false"><a id="LinkReimbDokumen" runat="server" href="ReimbDokumen.aspx">Dokumen Reimbursement</a>
+                            </li>
+                            <li id="liReimbReport" runat="server" visible="false"><a id="LinkReimbReport" runat="server" href="ReimbReport.aspx">Laporan Reimbursement</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul id="MenuRegSeller" visible="false" runat="server">
+                    <li class="SectionMenu"><asp:LinkButton ID="LBRegSeller" runat="server">Registrasi Seller</asp:LinkButton>
+                        <ul id="MenuRegSellerItems" visible="false" runat="server">
+                            <li id="liRegSellerUploadIkupon" runat="server" visible="false"><a id="LinkRegSellerUploadIkupon" runat="server" href="RegSellerUploadIkupon.aspx">Upload I-Kupon Registrasi Seller</a>
+                            </li>
+                            <li id="liRegSellerInputIGList" runat="server" visible="false"><a id="LinkRegSellerInputIGList" runat="server" href="RegSellerInputIGList.aspx">Input IG Registrasi Seller</a>
+                            </li>
+                            <li id="liRegSellerValidation" runat="server" visible="false"><a id="LinkRegSellerValidation" runat="server" href="RegSellerValidation.aspx">Validasi Registrasi Seller</a>
+                            </li>
+                            <li id="liRegSellerIncentive" runat="server" visible="false"><a id="LinkRegSellerIncentive" runat="server" href="RegSellerIncentive.aspx">Insentif Registrasi Seller</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul id="MenuSettingDashboard" visible="false" runat="server">
+                    <li class="SectionMenu"><asp:LinkButton ID="LBSettingDashboard" runat="server">Setting Dashboard</asp:LinkButton>
+                        <ul id="MenuSettingDashboardItems" visible="false" runat="server">
+                            <li id="liDigitalAccountBlock" runat="server" visible="false"><a id="LinkDigitalAccountBlock" runat="server" href="DigitalAccountBlock.aspx">Block Digital Account</a>
+                            </li>
+                            <li id="liDashboardAccountMenuSetting" runat="server" visible="false"><a id="LinkDashboardAccountMenuSetting" runat="server" href="DashboardAccountMenuSetting.aspx">Setting Menu Dashboard Partner</a>
+                            </li>
+                            <li id="liDashboardUploadSetting" runat="server" visible="false"><a id="LinkDashboardUploadSetting" runat="server" href="DashboardUploadSetting.aspx">Setting Daftar Layanan Dashboard Upload</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul id="Menu3PLInstant" visible="false" runat="server">
+                    <li class="SectionMenu"><asp:LinkButton ID="LB3PLInstant" runat="server">Third Party Instant Pickup</asp:LinkButton>
+                        <ul id="Menu3PLInstantItems" visible="false" runat="server">
+                            <li id="liMonitorInstantPickup" runat="server" visible="false"><a id="LinkMonitorInstantPickup" runat="server" href="MonitorInstantPickup.aspx">Monitor Instant Pickup</a>
+                            </li>
+                            <li id="liSettingSellerAutoOrder3PL" runat="server" visible="false"><a id="LinkSettingSellerAutoOrder3PL" runat="server" href="SettingSellerAutoOrder3PL.aspx">Setting Seller Auto Order 3PL Instant</a>
+                            </li>
+                            <li id="liInstantPickupAddressForbiddenWords" runat="server" visible="false"><a id="LinkInstantPickupAddressForbiddenWords" runat="server" href="InstantPickupAddressForbiddenWords.aspx">Kata Terlarang Dalam Alamat</a>
+                            </li>
+                            <li id="liSettingSupplierPartner" runat="server" visible="false"><a id="LinkSettingSupplierPartner" runat="server" href="SettingSupplierPartner.aspx">Setting Supplier Partner</a>
+                            </li>
+                            <li id="liThirdPartyAPIReport" runat="server" visible="false"><a id="LinkThirdPartyAPIReport" runat="server" href="ThirdPartyAPIReport.aspx">Laporan API Third Party</a>
+                            </li>
+                            <li id="liThirdPartyAPISLAReport" runat="server" visible="false"><a id="LinkThirdPartyAPISLAReport" runat="server" href="ThirdPartyAPISLAReport.aspx">Laporan SLA Third Party</a>
+                            </li>                            
+                            <li id="liThirdPartyDoorPickupReport" runat="server" visible="false"><a id="LinkThirdPartyDoorPickupReport" runat="server" href="ThirdPartyDoorPickupReport.aspx">Laporan Jemput Door-To</a>
+                            </li>
+                            <li id="liIndogrosirWalkInReport" runat="server" visible="false"><a id="LinkIndogrosirWalkInReport" runat="server" href="IndogrosirWalkInReport.aspx">Laporan Indogrosir WalkIn</a>
+                            </li>
+                            <li id="liThirdPartyExpenseRecon" runat="server" visible="false"><a id="LinkThirdPartyExpenseRecon" runat="server" href="ThirdPartyExpenseRecon.aspx">Rekon Biaya Third Party</a>
+                            </li>
+                            <li id="liThirdPartyExpenseUpload" runat="server" visible="false"><a id="LinkThirdPartyExpenseUpload" runat="server" href="ThirdPartyExpenseUpload.aspx">Upload Biaya Third Party</a>
+                            </li>
+                            <li id="liThirdPartyExpenseDelete" runat="server" visible="false"><a id="LinkThirdPartyExpenseDelete" runat="server" href="ThirdPartyExpenseDelete.aspx">Hapus Biaya Third Party</a>
+                            </li>
+                            <li id="liThirdPartyExpenseReport" runat="server" visible="false"><a id="LinkThirdPartyExpenseReport" runat="server" href="ThirdPartyExpenseReport.aspx">Laporan Biaya Third Party</a>
+                            </li>
+                            <li id="liKlikIdmGrabChange3PL" runat="server" visible="false"><a id="LinkKlikIdmGrabChange3PL" runat="server" href="KlikIdmGrabChange3PL.aspx">Ubah 3PL untuk Seller KlikIdmGrab</a>
+                            </li>
+                            <li id="liAutoOrderCancelOrder" runat="server" visible="false"><a id="LinkAutoOrderCancelOrder" runat="server" href="AutoOrderCancelOrder.aspx">Setting Limit, Cancel Order 3PL</a>
+                            </li>
+                            <li id="liReAutoOrder3PLInstantPickup" runat="server" visible="false"><a id="LinkReAutoOrder3PLInstantPickup" runat="server" href="ReAutoOrder3PLInstantPickup.aspx">Proses Ulang Auto Order</a>
+                            </li>
+							<li id="liManualAutoOrderDoorTo" runat="server" visible="false"><a id="LinkManualAutoOrderDoorTo" runat="server" href="ManualAutoOrderDoorTo.aspx">Manual Auto Order Jemput Door To</a>
+                            </li>
+                            <li id="liManualAutoOrderThirdParty" runat="server" visible="false"><a id="LinkManualAutoOrderThirdParty" runat="server" href="ManualAutoOrderThirdParty.aspx">Manual Auto Order Third Party</a>
+                            </li>
+                            <li id="liRepushStatusDms" runat="server" visible="false"><a id="LinkRepushStatusDms" runat="server" href="RepushStatusDms.aspx">Re-Push Status DMS</a>
+                            </li>
+                            <li id="liCheckPaidStatusDMS" runat="server" visible="false"><a id="LinkCheckPaidStatusDMS" runat="server" href="CheckPaidStatusDMS.aspx">Cek Status Pembayaran Untuk DMS</a>
+                            </li>
+                            <li id="liResetStatusFLR" runat="server" visible="false"><a id="LinkResetStatusFLR" runat="server" href="ResetStatusFLR.aspx">Reset Status GGL Auto Order</a>
+                            </li>
+                            <li id="liBypassPinDeliman" runat="server" visible="false"><a id="LinkBypassPinDeliman" runat="server" href="BypassPinDeliman.aspx">Bypass Pin Deliman</a>
+                            </li>
+                            <li id="liBypassCodDeliman" runat="server" visible="false"><a id="LinkBypassCodDeliman" runat="server" href="BypassCodDeliman.aspx">Bypass Kode Bayar COD Deliman</a>
+                            </li>
+                            <li id="liSettingDeliman" runat="server" visible="false"><a id="LinkSettingDeliman" runat="server" href="SettingDeliman.aspx">Setting Deliman</a>
+                            </li>
+                            <li id="liKurirWilayahAntarStoreCoverage" runat="server" visible="false"><a id="LinkKurirWilayahAntarStoreCoverage" runat="server" href="KurirWilayahAntarStoreCoverage.aspx">Coverage KurWil Antar ke Toko</a>
+                            </li>
+                            <li id="liKurirWilayahJemputStoreCoverage" runat="server" visible="false"><a id="LinkKurirWilayahJemputStoreCoverage" runat="server" href="KurirWilayahJemputStoreCoverage.aspx">Coverage KurWil Jemput dari Toko</a>
+                            </li>
+                            <li id="liKurirWilayahMappingClusterUserId" runat="server" visible="false"><a id="LinkKurirWilayahMappingClusterUserId" runat="server" href="KurirWilayahMappingClusterUserId.aspx">Cluster KurWil Antar/Jemput Toko</a>
+                            </li>
+                            <li id="liKurirWilayahDistrictCoverage" runat="server" visible="false"><a id="LinkKurirWilayahDistrictCoverage" runat="server" href="KurirWilayahDistrictCoverage.aspx">Coverage Kecamatan Jemput KurWil</a>
+                            </li>
+                            <li id="liKurirWilayahDistrictMappingCluster" runat="server" visible="false"><a id="LinkKurirWilayahDistrictMappingCluster" runat="server" href="KurirWilayahDistrictMappingCluster.aspx">Cluster Kecamatan Jemput KurWil</a>
+                            </li>
+                            <li id="liSamedayDistrictCoverage" runat="server" visible="false"><a id="LinkSamedayDistrictCoverage" runat="server" href="SamedayDistrictCoverage.aspx">Setting Coverage Indopaket Sameday</a>
+                            </li>
+                            <li id="liThirdPartySamedayToInstant" runat="server" visible="false"><a id="LinkThirdPartySamedayToInstant" runat="server" href="ThirdPartySamedayToInstant.aspx">Ganti Indopaket Sameday Menjadi Instant</a>
+                            </li>
+                            <li id="liIndopaketSamedaySLAReport" runat="server" visible="false"><a id="LinkIndopaketSamedaySLAReport" runat="server" href="IndopaketSamedaySLAReport.aspx">Laporan SLA Indopaket Sameday</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul id="MenuIncentiveDriver" visible="false" runat="server">
+                    <li class="SectionMenu"><asp:LinkButton ID="LBIncentiveDriver" runat="server">Insentif Driver</asp:LinkButton>
+                        <ul id="MenuIncentiveDriverItems" visible="false" runat="server">
+                            <li id="liIncentiveDriverInput" runat="server" visible="false"><a id="LinkIncentiveDriverInput" runat="server" href="IncentiveDriverInput.aspx">Input Insentif Driver</a>
+                            </li>
+                            <li id="liIncentiveDriverEdit" runat="server" visible="false"><a id="LinkIncentiveDriverEdit" runat="server" href="IncentiveDriverEdit.aspx">Edit Insentif Driver</a>
+                            </li>
+				            <li id="liIncentiveDriverReport" runat="server" visible="false"><a id="LinkIncentiveDriverReport" runat="server" href="IncentiveDriverReport.aspx">Laporan Insentif Driver</a>
+                            </li>
+                            <li id="liIncentiveDriverAddNik" runat="server" visible="false"><a id="LinkIncentiveDriverAddNik" runat="server" href="IncentiveDriverAddNik.aspx">Tambah Driver / Deliman</a>
+                            </li>
+                            <li id="liIncentiveDriverAddNoPol" runat="server" visible="false"><a id="LinkIncentiveDriverAddNoPol" runat="server" href="IncentiveDriverAddNoPol.aspx">Tambah No. Polisi</a>
+                            </li>
+							<li id="liIncentiveDriverAddMember" runat="server" visible="false"><a id="LinkIncentiveDriverAddMember" runat="server" href="IncentiveDriverAddMember.aspx">Tambah Member</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul id="MenuPricing" visible="false" runat="server">
+                    <li class="SectionMenu"><asp:LinkButton ID="LBPricing" runat="server" OnClick="LBPricing_Click">Pricing</asp:LinkButton>
+                        <ul id="MenuPricingItems" visible="false" runat="server">
+                            <li id="liCheckPriceList" runat="server" visible="false"><a id="LinkCheckPriceList" runat="server" href="CheckPriceList.aspx">Cek Pricelist</a>
+                            </li>
+                            <li id="liPricingTugas" runat="server" visible="false"><a id="LinkPricingTugas" runat="server" href="PricingTugas.aspx">Daftar Proses Pricing - Legal - GA</a>
+                            </li>
+                            <li id="liPricingCekDataTransaksi" runat="server" visible="false"><a id="LinkPricingCekDataTransaksi" runat="server" href="PricingCekDataTransaksi.aspx">Cek Data Transaksi Rekap Mingguan</a>
+                            </li>                     
+                            <li id="liCekServiceRate" runat="server" visible="false"><a id="LinkCekServiceRate" runat="server" href="CekServiceRate.aspx">Cek SRH</a>
+                            </li>
+                            <li id="liPricingSavingRevenue" runat="server" visible="false"><a id="LinkPricingSavingRevenue" runat="server" href="PricingSavingRevenue.aspx">Update SRH</a>
+                            </li>
+                            <li id="liCekRateCustom" runat="server" visible="false"><a id="LinkCekRateCustom" runat="server" href="CekRateCustom.aspx">Cek RC</a>
+                            </li>
+                            <li id="liPricingRateCustom" runat="server" visible="false"><a id="LinkPricingRateCustom" runat="server" href="PricingRateCustom.aspx">Update RC</a>
+                            </li>
+                            <li id="liCekRateDCCustom" runat="server" visible="false"><a id="LinkCekRateDCCustom" runat="server" href="CekRateDCCustom.aspx">Cek RDC</a>
+                            </li>
+                            <li id="liPricingRateDCCustom" runat="server" visible="false"><a id="LinkPricingRateDCCustom" runat="server" href="PricingRateDCCustom.aspx">Update RDC</a>
+                            </li>
+                            <li id="liCekRateAreaCustom" runat="server" visible="false"><a id="LinkCekRateAreaCustom" runat="server" href="CekRateAreaCustom.aspx">Cek RCA</a>
+                            </li>
+                            <li id="liPricingRateAreaCustom" runat="server" visible="false"><a id="LinkPricingRateAreaCustom" runat="server" href="PricingRateAreaCustom.aspx">Update RCA</a>
+                            </li>
+                            <li id="liCekRateSellerCategoryAreaCustom" runat="server" visible="false"><a id="LinkCekRateSellerCategoryAreaCustom" runat="server" href="CekRateSellerCategoryAreaCustom.aspx">Cek RSCCA</a>
+                            </li>                            
+                            <li id="liPricingRateSellerCategoryAreaCustom" runat="server" visible="false"><a id="LinkPricingRateSellerCategoryAreaCustom" runat="server" href="PricingRateSellerCategoryAreaCustom.aspx">Update RSCCA</a>
+                            </li>
+                            <li id="liCekRateSellerSubCategoryAreaCustom" runat="server" visible="false"><a id="LinkCekRateSellerSubCategoryAreaCustom" runat="server" href="CekRateSellerSubCategoryAreaCustom.aspx">Cek RSSCCA</a>
+                            </li>                            
+                            <li id="liPricingRateSellerSubCategoryAreaCustom" runat="server" visible="false"><a id="LinkPricingRateSellerSubCategoryAreaCustom" runat="server" href="PricingRateSellerSubCategoryAreaCustom.aspx">Update RSSCCA</a>
+                            </li>
+                            <li id="liCekRateFleetRental" runat="server" visible="false"><a id="LinkCekRateFleetRental" runat="server" href="CekRateFleetRental.aspx">Cek RSA</a>
+                            </li>
+                            <li id="liPricingRateFleetRental" runat="server" visible="false"><a id="LinkPricingRateFleetRental" runat="server" href="PricingRateFleetRental.aspx">Update RSA</a>
+                            </li>
+                            <li id="liPricingSettingETA" runat="server" visible="false"><a id="LinkPricingSettingETA" runat="server" href="PricingSettingETA.aspx">Update SLA</a>
+                            </li>
+                            <li id="liPricingSettingETAPartner" runat="server" visible="false"><a id="LinkPricingSettingETAPartner" runat="server" href="PricingSettingETAPartner.aspx">Update SLA Partner dan Layanan</a>
+                            </li>
+                            <li id="liPricing3PLRateCustom" runat="server" visible="false"><a id="LinkPricing3PLRateCustom" runat="server" href="Pricing3PLRateCustom.aspx">Update 3PL RC</a>
+                            </li>
+                            <li id="liPricingRateWeightCubic" runat="server" visible="false"><a id="LinkPricingRateWeightCubic" runat="server" href="PricingRateWeightCubic.aspx">Update Rate Tiering Berat / Kubikasi</a>
+                            </li>
+                            <li id="liPricingUpdateDeliveryCost" runat="server" visible="false"><a id="LinkPricingUpdateDeliveryCost" runat="server" href="PricingUpdateDeliveryCost.aspx">Update Ongkos Kirim</a>
+                            </li>
+                            <li id="liPricingGenerateRevisiAWB" runat="server" visible="false"><a id="LinkPricingGenerateRevisiAWB" runat="server" href="PricingGenerateRevisiAWB.aspx">Generate File Revisi Data AWB</a>
+                            </li>
+                            <li id="liPricingCombineOriDst" runat="server" visible="false"><a id="LinkPricingCombineOriDst" runat="server" href="PricingCombineOriDst.aspx">Combine Ori Dst</a>
+                            </li>
+                            <li id="liCustomRateRequestCreate" runat="server" visible="false"><a id="LinkCustomRateRequestCreate" runat="server" href="CustomRateRequestCreate.aspx">Permintaan Harga Khusus</a>
+                            </li>
+                            <li id="liCustomRateRequestReport" runat="server" visible="false"><a id="LinkCustomRateRequestReport" runat="server" href="CustomRateRequestReport.aspx">Laporan Permintaan Harga Khusus</a>
+                            </li>
+                            <li id="liReportKoreksiOngkir" runat="server" visible="false"><a id="LinkReportKoreksiOngkir" runat="server" href="ReportKoreksiOngkir.aspx">Laporan Koreksi Ongkos Kirim</a>
+                            </li>
+                            <li id="liReportPerubahanData" runat="server" visible="false"><a id="LinkReportPerubahanData" runat="server" href="ReportPerubahanData.aspx">Laporan Perubahan Data</a>
+                            </li>
+                            <li id="liRateAfterDiscReport" runat="server" visible="false"><a id="LinkRateAfterDiscReport" runat="server" href="RateAfterDiscReport.aspx">Laporan Rate After Disc Front Office</a>
+                            </li>
+                            <li id="liRajaOngkirOverrideProcess" runat="server" visible="false"><a id="LinkRajaOngkirOverrideProcess" runat="server" href="RajaOngkirOverrideProcess.aspx">Override Process Raja Ongkir</a>
+                            </li>
+                            <li id="liRajaOngkirReport" runat="server" visible="false"><a id="LinkRajaOngkirReport" runat="server" href="RajaOngkirReport.aspx">Report Tarik Data Raja Ongkir</a>
+                            </li>
+                            <li id="liFlagOOF" runat="server" visible="false"><a id="LinkFlagOOF" runat="server" href="FlagOOF.aspx">Tindak Lanjut HRB</a>
+                            </li>
+                            <li id="liFlagOOFReport" runat="server" visible="false"><a id="LinkFlagOOFReport" runat="server" href="FlagOOFReport.aspx">Laporan Tindak Lanjut HRB</a>
+                            </li>
+                            <li id="liTindakLanjutSGATerima" runat="server" visible="false"><a id="LinkTindakLanjutSGATerima" runat="server" href="TindakLanjutSGATerima.aspx">Terima Barang SGA</a>
+                            </li>
+                            <li id="liTindakLanjutSGA" runat="server" visible="false"><a id="LinkTindakLanjutSGA" runat="server" href="TindakLanjutSGA.aspx">Tindak Lanjut SGA</a>
+                            </li>
+                            <li id="liTindakLanjutSGADokumen" runat="server" visible="false"><a id="LinkTindakLanjutSGADokumen" runat="server" href="TindakLanjutSGADokumen.aspx">Dokumen Tindak Lanjut SGA</a>
+                            </li>
+                            <li id="liTindakLanjutSGAReport" runat="server" visible="false"><a id="LinkTindakLanjutSGAReport" runat="server" href="TindakLanjutSGAReport.aspx">Laporan Tindak Lanjut SGA</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul id="MenuGA" visible="false" runat="server">
+                    <li class="SectionMenu"><asp:LinkButton ID="LBGA" runat="server" OnClick="LBGA_Click">GA</asp:LinkButton>
+                        <ul id="MenuGAItems" visible="false" runat="server">
+                            <li id="liAccountInsuranceSetting" runat="server" visible="false"><a id="LinkAccountInsuranceSetting" runat="server" href="AccountInsuranceSetting.aspx">Setting Laporan Asuransi Seller</a>
+                            </li>
+                            <li id="liAccountInsuranceReport" runat="server" visible="false"><a id="LinkAccountInsuranceReport" runat="server" href="AccountInsuranceReport.aspx">Laporan Asuransi Seller</a>
+                            </li>
+                            <li id="liMonitorBAPaketDataBaru" runat="server" visible="false"><a id="LinkMonitorBAPaketDataBaru" runat="server" href="MonitorBAPaketDataBaru.aspx">Data Baru BA CCTV</a>
+                            </li>
+                            <li id="liMonitorBAPaketMonitoring" runat="server" visible="false"><a id="LinkMonitorBAPaketMonitoring" runat="server" href="MonitorBAPaketMonitoring.aspx">Monitor BA CCTV</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                </div>
+                <ul id="MyList" runat="server">
+					<li id="liBiayaPerjalananDinasCreate" runat="server" visible="false"><a id="LinkBiayaPerjalananDinasCreate" runat="server" href="BiayaPerjalananDinasCreate.aspx">Pengajuan Biaya Perjalanan Dinas</a>
+                    </li>
+                    <li id="liBiayaPerjalananDinasApprove" runat="server" visible="false"><a id="LinkBiayaPerjalananDinasApprove" runat="server" href="BiayaPerjalananDinasApprove.aspx">Approve/Reject Biaya Perjalanan Dinas</a>
+                    </li>
+                    <li id="liBiayaPerjalananDinasReport" runat="server" visible="false"><a id="LinkBiayaPerjalananDinasReport" runat="server" href="BiayaPerjalananDinasReport.aspx">Laporan Biaya Perjalanan Dinas</a>
+                    </li>
+                    <li id="liAVGAWBPerDC" runat="server" visible="false"><a id="LinkAVGAWBPerDC" runat="server" href="AVGAWBPerDC.aspx">Rata2 AWB Per DC</a>
+                    </li>
+                    <li id="liAVGSLAPerService" runat="server" visible="false"><a id="LinkAVGSLAPerService" runat="server" href="AVGSLAPerService.aspx">Rata2 SLA Per Service</a>
+                    </li>
+                    <li id="liEmailLabel" runat="server" visible="false"><a id="LinkEmailLabel" runat="server" href="EmailLabel.aspx">Kirim Label AWB</a>
+                    </li>
+                    <li id="liEmailSuratJalan" runat="server" visible="false"><a id="LinkEmailSuratJalan" runat="server" href="EmailSuratJalan.aspx">Kirim Surat Jalan</a>
+                    </li>
+                    <li id="liChangelogWeightDimension" runat="server" visible="false"><a id="LinkChangelogWeightDimension" runat="server" href="ChangelogWeightDimension.aspx">Log Ubah Berat n Dimensi</a>
+                    </li>
+                    <li id="liUpdateRak" runat="server" visible="false"><a id="LinkUpdateRak" runat="server" href="UpdateRak.aspx">Update RAK</a>
+                    </li>
+                    <li id="liPricingListingPostalCode" runat="server" visible="false"><a id="LinkPricingListingPostalCode" runat="server" href="PricingListingPostalCode.aspx">List Postal Code</a>
+                    </li>
+                    <li id="liPricingListingIndomaretStore" runat="server" visible="false"><a id="LinkPricingListingIndomaretStore" runat="server" href="PricingListingIndomaretStore.aspx">List Indomaret Store</a>
+                    </li>
+                    <li id="liFACekDataTransaksi" runat="server" visible="false"><a id="LinkFACekDataTransaksi" runat="server" href="FACekDataTransaksi.aspx">Cek Data Transaksi</a>
+                    </li>
+                    <li id="liFAGenerateDataHarian" runat="server" visible="false"><a id="LinkFAGenerateDataHarian" runat="server" href="FAGenerateDataHarian.aspx">Generate Data Harian</a>
+                    </li>
+                    <li id="liFAGenerateDataHarianV2" runat="server" visible="false"><a id="LinkFAGenerateDataHarianV2" runat="server" href="FAGenerateDataHarianV2.aspx">Generate Data Harian V2</a>
+                    </li>
+                    <li id="liFAGenerateBiayaHarian" runat="server" visible="false"><a id="LinkFAGenerateBiayaHarian" runat="server" href="FAGenerateBiayaHarian.aspx">Generate Biaya Harian</a>
+                    </li>
+                    <li id="liFAGenerateAccruedTradisional" runat="server" visible="false"><a id="LinkFAGenerateAccruedTradisional" runat="server" href="FAGenerateAccruedTradisional.aspx">Generate Data Accrued Ekspedisi Tradisional</a>
+                    </li>
+                    <li id="liFAGenerateBiayaHarianTradisional" runat="server" visible="false"><a id="LinkFAGenerateBiayaHarianTradisional" runat="server" href="FAGenerateBiayaHarianTradisional.aspx">Generate Data Biaya Ekspedisi Tradisional</a>
+                    </li>
+                    <li id="liFAGenerateBiayaLainLainEkspedisi" runat="server" visible="false"><a id="LinkFAGenerateBiayaLainLainEkspedisi" runat="server" href="FAGenerateBiayaLainLainEkspedisi.aspx">Generate Data Biaya Lain-lain Ekspedisi</a>
+                    </li>
+                    <li id="liFAGenerateBiayaHarianModern" runat="server" visible="false"><a id="LinkFAGenerateBiayaHarianModern" runat="server" href="FAGenerateBiayaHarianModern.aspx">Generate Data Biaya Third Party Modern</a>
+                    </li>
+                    <li id="liFACutOffDate" runat="server" visible="false"><a id="LinkFACutOffDate" runat="server" href="FACutOffDate.aspx">Tanggal Cut-Off</a>
+                    </li>
+                    <li id="liFALogDataHarian" runat="server" visible="false"><a id="LinkFALogDataHarian" runat="server" href="FALogDataHarian.aspx">Log Data Harian</a>
+                    </li>
+                    <li id="liFASellerList" runat="server" visible="false"><a id="LinkFASellerList" runat="server" href="FASellerList.aspx">Seller List</a>
+                    </li>
+                    <li id="liFASellerGeneratedStatus" runat="server" visible="false"><a id="LinkFASellerGeneratedStatus" runat="server" href="FASellerGeneratedStatus.aspx">Status Generate File Seller</a>
+                    </li>
+                    <li id="liFASupplierList" runat="server" visible="false"><a id="LinkFASupplierList" runat="server" href="FASupplierList.aspx">List Supplier Jasa</a>
+                    </li>
+                    <li id="liFASupplierGeneratedStatus" runat="server" visible="false"><a id="LinkFASupplierGeneratedStatus" runat="server" href="FASupplierGeneratedStatus.aspx">Status Generate File Supplier Jasa</a>
+                    </li>
+                    <li id="liMaxPckValueNValidation" runat="server" visible="false"><a id="LinkMaxPckValueNValidation" runat="server" href="MaxPckValueNValidation.aspx">Setting Validasi dan Maksimal Nilai Paket</a>
+                    </li>
+                    <li id="liMaxCodValueNValidation" runat="server" visible="false"><a id="LinkMaxCodValueNValidation" runat="server" href="MaxCodValueNValidation.aspx">Setting Validasi dan Maksimal Nilai COP/D</a>
+                    </li>
+                    <li id="liCoAddrNoNumValidation" runat="server" visible="false"><a id="LinkCoAddrNoNumValidation" runat="server" href="CoAddrNoNumValidation.aspx">Setting Validasi Nomor Bangunan Pada Alamat Tujuan</a>
+                    </li>
+                    <li id="liSettingSellerCategory" runat="server" visible="false"><a id="LinkSettingSellerCategory" runat="server" href="SettingSellerCategory.aspx">Setting Kategori Partner</a>
+                    </li>
+                    <li id="liSettingSellerSubCategory" runat="server" visible="false"><a id="LinkSettingSellerSubCategory" runat="server" href="SettingSellerSubCategory.aspx">Setting Sub Kategori Partner</a>
+                    </li>
+                    <li id="liListHubAntarAlamat" runat="server" visible="false"><a id="LinkListHubAntarAlamat" runat="server" href="ListHubAntarAlamat.aspx">List Hub Antar Alamat</a>
+                    </li>
+                    <li id="liTambahAccountPartner" runat="server" visible="false"><a id="LinkTambahAccountPartner" runat="server" href="TambahAccountPartner.aspx">Tambah Account Partner</a>
+                    </li>
+                    <li id="liCariPartner" runat="server" visible="false"><a id="LinkCariPartner" runat="server" href="CariPartner.aspx">Cari Partner</a>
+                    </li>
+					<li id="liSettingPartner" runat="server" visible="false"><a id="LinkSettingPartner" runat="server" href="SettingPartner.aspx">Setting Partner</a>
+                    </li>
+                    <li id="liAkuisisiKonsumen" runat="server" visible="false"><a id="LinkAkuisisiKonsumen" runat="server" href="AkuisisiKonsumen.aspx">Akuisisi Konsumen</a>
+                    </li>
+                    <li id="liUpdateStatusHFF" runat="server" visible="false"><a id="LinkUpdateStatusHFF" runat="server" href="UpdateStatusHFF.aspx">Penyelesaian Pengiriman Sarana Promosi di Hub Tujuan</a>
+                    </li>
+                    <li id="liJemputRekananDaftar" runat="server" visible="false"><a id="LinkJemputRekananDaftar" runat="server" href="JemputRekananDaftar.aspx">Daftar Alamat Jemput Rekanan</a>
+                    </li>
+                    <li id="liJemputRekananZona" runat="server" visible="false"><a id="LinkJemputRekananZona" runat="server" href="JemputRekananZona.aspx">Zona Jemput Rekanan</a>
+                    </li>
+                    <li id="liSettingPackingKayu" runat="server" visible="false"><a id="LinkSettingPackingKayu" runat="server" href="SettingPackingKayu.aspx">Setting Packing Kayu</a>
+                    </li>
+                    <li id="liNomorBeritaAcara" runat="server" visible="false"><a id="LinkNomorBeritaAcara" runat="server" href="NomorBeritaAcara.aspx">Nomor Berita Acara</a>
+                    </li>
+                    <li id="liRekonPartner" runat="server" visible="false"><a id="LinkRekonPartner" runat="server" href="RekonPartner.aspx">Report Khusus Rekon Partner</a>
+                    </li>
+                    <li id="liRekonFeedbackOngkirPartner" runat="server" visible="false"><a id="LinkRekonFeedbackOngkirPartner" runat="server" href="RekonFeedbackOngkirPartner.aspx">Rekon Feedback Ongkir Partner</a>
+                    </li>
+                    <li id="liDashboardHubAccountList" runat="server" visible="false"><a id="LinkDashboardHubAccountList" runat="server" href="DashboardHubAccountList.aspx">Setting Pembuatan Nomor Resi oleh Hub</a>
+                    </li>
+                    <li id="liDaftarAWBInstanPickup" runat="server" visible="false"><a id="LinkDaftarAWBInstanPickup" runat="server" href="DaftarAWBInstanPickup.aspx">Daftar AWB Instan Pickup</a>
+                    </li>
+                    <li id="liDaftarAWBTrialTrdInToped" runat="server" visible="false"><a id="LinkDaftarAWBTrialTrdInToped" runat="server" href="DaftarAWBTrialTrdInToped.aspx">Daftar AWB Trial TradeIn TOPED</a>
+                    </li>
+                    <li id="liAWBTTFSupplier" runat="server" visible="false"><a id="LinkAWBTTFSupplier" runat="server" href="AWBTTFSupplier.aspx">Buat AWB Supplier Titip Tagihan di Toko</a>
+                    </li>
+                    <li id="liKonfirmasiKonsumenReport" runat="server" visible="false"><a id="LinkKonfirmasiKonsumenReport" runat="server" href="KonfirmasiKonsumenReport.aspx">Laporan Konfirmasi Konsumen</a>
+                    </li>
+                    <li id="liAddStockByU" runat="server" visible="false"><a id="LinkAddStockByU" runat="server" href="AddStockByU.aspx">Tambah Stock By U</a>
+                    </li>
+                    <li id="liByUSameDayCheckStoreStock" runat="server" visible="false"><a id="LinkByUSameDayCheckStoreStock" runat="server" href="ByUSameDayCheckStoreStock.aspx">By U Sameday Cek Stok Fisik</a>
+                    </li>
+					<li id="liUploadScanAWBPickup" runat="server" visible="false"><a id="LinkUploadScanAWBPickup" runat="server" href="UploadScanAWBPickup.aspx">Upload Hasil Scan Jemput AWB</a>
+                    </li>
+                    <li id="liArriveProcessResult" runat="server" visible="false"><a id="LinkArriveProcessResult" runat="server" href="ArriveProcessResult.aspx">Hasil Proses Tiba</a>
+                    </li>
+                    <li id="liPemakaianSMSWhatsapp" runat="server" visible="false"><a id="LinkPemakaianSMSWhatsapp" runat="server" href="PemakaianSMSWhatsapp.aspx">Pemakaian SMS Dan Whatsapp</a>
+                    </li>
+                    <li id="liBlastEmailPoinkuReport" runat="server" visible="false"><a id="LinkBlastEmailPoinkuReport" runat="server" href="BlastEmailPoinkuReport.aspx">Laporan Blast Email Poinku</a>
+                    </li>
+                    <li id="liGetcustomerdata" runat="server" visible="false"><a id="LinkGetcustomerdata" runat="server" href="Getcustomerdata.aspx">Get Customer Data</a>
+                    </li>
+					<li id="liCariMaskingData" runat="server" visible="false"><a id="LinkCariMaskingData" runat="server" href="CariMaskingData.aspx">Cari Masking Data Customer</a>
+					</li>
+					<li id="liPartnerItemSetting" runat="server" visible="false"><a id="LinkPartnerItemSetting" runat="server" href="PartnerItemSetting.aspx">Setting Stock Barang Partner</a>
+                    </li>
+					<li id="liToolsAddAwbGroup" runat="server" visible="false"><a id="LinkToolsAddAwbGroup" runat="server" href="ToolsAddAwbGroup.aspx">Tambah AWB Group</a>
+                    </li>
+					<li id="liBlastEmail" runat="server" visible="false"><a id="LinkBlastEmail" runat="server" href="BlastEmail.aspx">Blast Email</a>
+                    </li>
+					<li id="liEmployeeRequest" runat="server" visible="false"><a id="LinkEmployeeRequest" runat="server" href="EmployeeRequest.aspx">Input Permintaan ADM Karyawan PT. IPP</a>
+					</li>
+					<li id="liKlaimPaket" runat="server" visible="false"><a id="LinkKlaimPaket" runat="server" href="KlaimPaket.aspx">Klaim Paket</a>
+					</li>
+					<li id="liSettingAkunCopyUser" runat="server" visible="false"><a id="LinkSettingAkunCopyUser" runat="server" href="SettingAkunCopyUser.aspx">Copy Settingan User</a>
+                    </li>
+					<li id="liHadiahPromosi" runat="server" visible="false"><a id="LinkHadiahPromosi" runat="server" href="HadiahPromosi.aspx">Setting Hadiah Promosi</a>
+	                </li>
+	                <li id="liUbahPass" runat="server" visible="false"><a id="LinkUbahPass" runat="server" href="UbahPass.aspx">Ubah Password</a>
+                    </li>
+                    <li><asp:LinkButton ID="btnLogout" runat="server" CssClass="btnLogout">LogOut</asp:LinkButton>
+                    </li>
+                </ul>
+                <div class="FooterMenu">
+                </div>
+            </div>
+            </ContentTemplate>
+                <Triggers>
+                    <asp:PostBackTrigger ControlID="btnLogout" />
+                </Triggers>
+            </asp:UpdatePanel>
+	    </div>
+	    <div class="RightMenu">
+            <div class="UserNameBox">
+                <asp:Label ID="lblUserName" runat="server" Text="Selamat Datang"></asp:Label>
+            </div>
+            <div class="Content">
+                <input id="DelayDisableButton" type="hidden" value="150" />
+                <asp:contentplaceholder id="ContentPlaceHolder1" runat="server"></asp:contentplaceholder>
+            </div>
+	    </div>
+	</div>
+	</form>
+</body>
+</html>

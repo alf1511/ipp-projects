@@ -1,0 +1,276 @@
+Tanggal Tracelog:11/11/2024 9:02:50 AM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Error : Session Kosong, redirect ke AWB3PL.aspx
+
+Tanggal Tracelog:11/11/2024 9:02:50 AM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Masuk LoadData
+
+Tanggal Tracelog:11/11/2024 9:12:51 AM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL - WEB HUB, Proses GetCheckedConsNum, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:11/11/2024 10:52:45 AM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Error : Session Kosong, redirect ke AWB3PL.aspx
+
+Tanggal Tracelog:11/11/2024 10:52:45 AM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Masuk LoadData
+
+Tanggal Tracelog:11/11/2024 10:53:01 AM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL - WEB HUB, Proses GetCheckedConsNum, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:11/11/2024 10:53:09 AM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL - WEB HUB, Proses GetCheckedConsNum, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:11/11/2024 10:54:48 AM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Error : Session Kosong, redirect ke AWB3PL.aspx
+
+Tanggal Tracelog:11/11/2024 10:54:48 AM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Masuk LoadData
+
+Tanggal Tracelog:11/11/2024 10:55:27 AM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL - WEB HUB, Proses GetCheckedConsNum, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:11/11/2024 10:55:40 AM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL - WEB HUB, Proses GetCheckedConsNum, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:11/11/2024 10:55:45 AM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Error : Session Kosong, redirect ke AWB3PL.aspx
+
+Tanggal Tracelog:11/11/2024 10:55:45 AM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Masuk LoadData
+
+Tanggal Tracelog:11/11/2024 10:55:50 AM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL - WEB HUB, Proses GetCheckedConsNum, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:11/11/2024 10:57:20 AM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Error : Session Kosong, redirect ke AWB3PL.aspx
+
+Tanggal Tracelog:11/11/2024 10:57:20 AM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Masuk LoadData
+
+Tanggal Tracelog:11/11/2024 10:57:27 AM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL - WEB HUB, Proses GetCheckedConsNum, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:11/11/2024 11:00:25 AM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Error : Session Kosong, redirect ke AWB3PL.aspx
+
+Tanggal Tracelog:11/11/2024 11:00:25 AM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Masuk LoadData
+
+Tanggal Tracelog:11/11/2024 11:00:52 AM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL - WEB HUB, Proses GetCheckedConsNum, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:11/11/2024 11:06:06 AM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Error : Session Kosong, redirect ke AWB3PL.aspx
+
+Tanggal Tracelog:11/11/2024 11:06:06 AM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Masuk LoadData
+
+Tanggal Tracelog:11/11/2024 11:09:05 AM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Error : Session Kosong, redirect ke AWB3PL.aspx
+
+Tanggal Tracelog:11/11/2024 11:09:05 AM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Masuk LoadData
+
+Tanggal Tracelog:11/11/2024 11:09:23 AM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL - WEB HUB, Proses GetCheckedConsNum, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:11/11/2024 11:09:29 AM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL - WEB HUB, Proses GetCheckedConsNum, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:11/11/2024 11:09:33 AM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL - WEB HUB, Proses GetCheckedConsNum, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:11/11/2024 11:09:38 AM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL - WEB HUB, Proses GetCheckedConsNum, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:11/11/2024 11:09:44 AM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL - WEB HUB, Proses GetCheckedConsNum, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:11/11/2024 11:28:10 AM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Error : Session Kosong, redirect ke AWB3PL.aspx
+
+Tanggal Tracelog:11/11/2024 11:28:10 AM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Masuk LoadData
+
+Tanggal Tracelog:11/11/2024 11:32:31 AM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL - WEB HUB, Proses GetCheckedConsNum, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:11/11/2024 11:33:01 AM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL - WEB HUB, Proses GetCheckedConsNum, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:11/11/2024 11:34:43 AM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Error : Session Kosong, redirect ke AWB3PL.aspx
+
+Tanggal Tracelog:11/11/2024 11:34:43 AM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Masuk LoadData
+
+Tanggal Tracelog:11/11/2024 11:35:26 AM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL - WEB HUB, Proses GetCheckedConsNum, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:11/11/2024 11:35:48 AM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL - WEB HUB, Proses GetCheckedConsNum, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:11/11/2024 11:35:52 AM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL - WEB HUB, Proses GetCheckedConsNum, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:11/11/2024 11:36:26 AM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL - WEB HUB, Proses GetCheckedConsNum, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:11/11/2024 11:36:29 AM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL - WEB HUB, Proses GetCheckedConsNum, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:11/11/2024 11:38:23 AM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Error : Session Kosong, redirect ke AWB3PL.aspx
+
+Tanggal Tracelog:11/11/2024 11:38:23 AM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Masuk LoadData
+
+Tanggal Tracelog:11/11/2024 11:38:37 AM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL - WEB HUB, Proses GetCheckedConsNum, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:11/11/2024 11:51:19 AM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Error : Session Kosong, redirect ke AWB3PL.aspx
+
+Tanggal Tracelog:11/11/2024 11:51:19 AM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Masuk LoadData
+
+Tanggal Tracelog:11/11/2024 11:55:25 AM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL - WEB HUB, Proses GetCheckedConsNum, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:11/11/2024 11:57:07 AM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Error : Session Kosong, redirect ke AWB3PL.aspx
+
+Tanggal Tracelog:11/11/2024 11:57:07 AM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Masuk LoadData
+
+Tanggal Tracelog:11/11/2024 11:57:14 AM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL - WEB HUB, Proses GetCheckedConsNum, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:11/11/2024 11:59:40 AM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL - WEB HUB, Proses GetCheckedConsNum, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:11/11/2024 11:59:44 AM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL - WEB HUB, Proses GetCheckedConsNum, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:11/11/2024 11:59:49 AM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL - WEB HUB, Proses GetCheckedConsNum, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:11/11/2024 11:59:53 AM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL - WEB HUB, Proses GetCheckedConsNum, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:11/11/2024 12:01:50 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Error : Session Kosong, redirect ke AWB3PL.aspx
+
+Tanggal Tracelog:11/11/2024 12:01:50 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Masuk LoadData
+
+Tanggal Tracelog:11/11/2024 12:02:22 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL - WEB HUB, Proses GetCheckedConsNum, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:11/11/2024 12:02:27 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL - WEB HUB, Proses GetCheckedConsNum, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:11/11/2024 12:02:31 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL - WEB HUB, Proses GetCheckedConsNum, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:11/11/2024 12:02:35 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL - WEB HUB, Proses GetCheckedConsNum, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:11/11/2024 1:55:15 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Error : Session Kosong, redirect ke AWB3PL.aspx
+
+Tanggal Tracelog:11/11/2024 1:55:15 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Masuk LoadData
+
+Tanggal Tracelog:11/11/2024 2:05:15 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL - WEB HUB, Proses GetCheckedConsNum, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:11/11/2024 2:05:22 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL - WEB HUB, Proses GetCheckedConsNum, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:11/11/2024 2:18:01 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL - WEB HUB, Proses GetCheckedConsNum, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:11/11/2024 4:02:38 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Error : Session Kosong, redirect ke AWB3PL.aspx
+
+Tanggal Tracelog:11/11/2024 4:02:38 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Masuk LoadData
+
+Tanggal Tracelog:11/11/2024 4:06:42 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL - WEB HUB, Proses GetCheckedConsNum, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:11/11/2024 4:07:54 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Error : Session Kosong, redirect ke AWB3PL.aspx
+
+Tanggal Tracelog:11/11/2024 4:07:54 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Masuk LoadData
+
+Tanggal Tracelog:11/11/2024 4:08:07 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL - WEB HUB, Proses GetCheckedConsNum, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:11/11/2024 4:09:22 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Error : Session Kosong, redirect ke AWB3PL.aspx
+
+Tanggal Tracelog:11/11/2024 4:09:22 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Masuk LoadData
+
+Tanggal Tracelog:11/11/2024 4:10:54 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL - WEB HUB, Proses GetCheckedConsNum, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:11/11/2024 4:15:28 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Error : Session Kosong, redirect ke AWB3PL.aspx
+
+Tanggal Tracelog:11/11/2024 4:15:28 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Masuk LoadData
+
+Tanggal Tracelog:11/11/2024 4:15:43 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL - WEB HUB, Proses GetCheckedConsNum, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:11/11/2024 4:16:33 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Error : Session Kosong, redirect ke AWB3PL.aspx
+
+Tanggal Tracelog:11/11/2024 4:16:33 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Masuk LoadData
+
+Tanggal Tracelog:11/11/2024 4:16:40 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL - WEB HUB, Proses GetCheckedConsNum, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:11/11/2024 4:16:48 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL - WEB HUB, Proses GetCheckedConsNum, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:11/11/2024 4:26:05 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL - WEB HUB, Proses GetCheckedConsNum, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:11/11/2024 4:26:06 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL - WEB HUB, Proses SetOtherExpeditionAWB, Error : The method or operation is not implemented.
+
+Tanggal Tracelog:11/11/2024 4:31:50 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Error : Session Kosong, redirect ke AWB3PL.aspx
+
+Tanggal Tracelog:11/11/2024 4:31:50 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Masuk LoadData
+
+Tanggal Tracelog:11/11/2024 4:32:49 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL - WEB HUB, Proses GetCheckedConsNum, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:11/11/2024 4:32:59 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL - WEB HUB, Proses GetCheckedConsNum, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:11/11/2024 4:32:59 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL - WEB HUB, Proses SetOtherExpeditionAWB, Error : The method or operation is not implemented.
+
+Tanggal Tracelog:11/11/2024 4:33:03 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL - WEB HUB, Proses GetCheckedConsNum, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:11/11/2024 4:34:53 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL - WEB HUB, Proses GetCheckedConsNum, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:11/11/2024 4:36:49 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL - WEB HUB, Proses GetCheckedConsNum, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:11/11/2024 4:39:48 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL - WEB HUB, Proses GetCheckedConsNum, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:11/11/2024 4:41:43 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL - WEB HUB, Proses GetCheckedConsNum, Error : Object reference not set to an instance of an object.
+

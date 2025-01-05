@@ -1,0 +1,114 @@
+Tanggal Tracelog:13/09/2024 08:15:28
+Dari Halaman Setting Arahan Ekspedisi LastMile - WEB REPORT, Proses UpdateData, Error : The method or operation is not implemented.
+
+Tanggal Tracelog:13/09/2024 08:47:19
+Dari Halaman Setting Arahan Ekspedisi LastMile - WEB REPORT, Proses UpdateData, Error : The method or operation is not implemented.
+
+Tanggal Tracelog:13/09/2024 09:07:26
+Dari Halaman Setting Arahan Ekspedisi LastMile - WEB REPORT, Proses UpdateData, Error : The method or operation is not implemented.
+
+Tanggal Tracelog:13/09/2024 10:04:29
+Dari Halaman Setting Arahan Ekspedisi LastMile - WEB REPORT, Proses BtnDownload_Click, Error : Unable to connect to any of the specified MySQL hosts.
+
+Tanggal Tracelog:13/09/2024 10:05:02
+WriteFileExcel LastMileExpedition_20240913100502.xlsx, Masuk
+
+Tanggal Tracelog:13/09/2024 10:05:02
+WriteFileExcel LastMileExpedition_20240913100502.xlsx, Path = 
+
+Tanggal Tracelog:13/09/2024 10:05:02
+WriteFileExcel LastMileExpedition_20240913100502.xlsx, Path = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\LastMileExpedition\
+
+Tanggal Tracelog:13/09/2024 10:05:02
+WriteFileExcel LastMileExpedition_20240913100502.xlsx, Path After Replace = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\LastMileExpedition\
+
+Tanggal Tracelog:13/09/2024 10:05:02
+WriteFileExcel LastMileExpedition_20240913100502.xlsx, UserDirectory True
+
+Tanggal Tracelog:13/09/2024 10:05:02
+WriteFileExcel LastMileExpedition_20240913100502.xlsx, UserDirectory FullPath = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\LastMileExpedition\LastMileExpedition_20240913100502.xlsx
+
+Tanggal Tracelog:13/09/2024 10:05:02
+WriteFileExcel LastMileExpedition_20240913100502.xlsx, Declare MConExcel Done
+
+Tanggal Tracelog:13/09/2024 10:05:02
+WriteFileExcel LastMileExpedition_20240913100502.xlsx, Create Column Start
+
+Tanggal Tracelog:13/09/2024 10:05:02
+WriteFileExcel LastMileExpedition_20240913100502.xlsx, Create Column End
+
+Tanggal Tracelog:13/09/2024 10:05:02
+WriteFileExcel LastMileExpedition_20240913100502.xlsx, Kolom = SB.ToString
+
+Tanggal Tracelog:13/09/2024 10:05:02
+WriteFileExcel LastMileExpedition_20240913100502.xlsx, MConExcel Set to FullPath D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\LastMileExpedition\LastMileExpedition_20240913100502.xlsx
+
+Tanggal Tracelog:13/09/2024 10:05:02
+WriteFileExcel LastMileExpedition_20240913100502.xlsx, MConExcel Open Done
+
+Tanggal Tracelog:13/09/2024 10:05:02
+WriteFileExcel LastMileExpedition_20240913100502.xlsx, MConExcel CREATE TABLE `Sheet1` Done
+
+Tanggal Tracelog:13/09/2024 10:05:02
+WriteFileExcel LastMileExpedition_20240913100502.xlsx, MConExcel INSERT INTO `Sheet1` Done
+
+Tanggal Tracelog:13/09/2024 10:10:20
+WriteFileExcel LastMileExpedition_20240913101020.xlsx, Masuk
+
+Tanggal Tracelog:13/09/2024 10:10:20
+WriteFileExcel LastMileExpedition_20240913101020.xlsx, Path = 
+
+Tanggal Tracelog:13/09/2024 10:10:20
+WriteFileExcel LastMileExpedition_20240913101020.xlsx, Path = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\LastMileExpedition\
+
+Tanggal Tracelog:13/09/2024 10:10:20
+WriteFileExcel LastMileExpedition_20240913101020.xlsx, Path After Replace = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\LastMileExpedition\
+
+Tanggal Tracelog:13/09/2024 10:10:20
+WriteFileExcel LastMileExpedition_20240913101020.xlsx, UserDirectory True
+
+Tanggal Tracelog:13/09/2024 10:10:20
+WriteFileExcel LastMileExpedition_20240913101020.xlsx, UserDirectory FullPath = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\LastMileExpedition\LastMileExpedition_20240913101020.xlsx
+
+Tanggal Tracelog:13/09/2024 10:10:20
+WriteFileExcel LastMileExpedition_20240913101020.xlsx, Declare MConExcel Done
+
+Tanggal Tracelog:13/09/2024 10:10:20
+WriteFileExcel LastMileExpedition_20240913101020.xlsx, Create Column Start
+
+Tanggal Tracelog:13/09/2024 10:10:20
+WriteFileExcel LastMileExpedition_20240913101020.xlsx, Create Column End
+
+Tanggal Tracelog:13/09/2024 10:10:20
+WriteFileExcel LastMileExpedition_20240913101020.xlsx, Kolom = SB.ToString
+
+Tanggal Tracelog:13/09/2024 10:10:20
+WriteFileExcel LastMileExpedition_20240913101020.xlsx, MConExcel Set to FullPath D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\LastMileExpedition\LastMileExpedition_20240913101020.xlsx
+
+Tanggal Tracelog:13/09/2024 10:10:20
+WriteFileExcel LastMileExpedition_20240913101020.xlsx, MConExcel Open Done
+
+Tanggal Tracelog:13/09/2024 10:10:20
+WriteFileExcel LastMileExpedition_20240913101020.xlsx, MConExcel CREATE TABLE `Sheet1` Done
+
+Tanggal Tracelog:13/09/2024 10:10:20
+WriteFileExcel LastMileExpedition_20240913101020.xlsx, MConExcel INSERT INTO `Sheet1` Done
+
+Tanggal Tracelog:13/09/2024 10:45:20
+Dari Halaman Setting Arahan Ekspedisi LastMile - WEB REPORT, Proses UpdateData, Error : The method or operation is not implemented.
+
+Tanggal Tracelog:13/09/2024 10:51:14
+Dari Halaman Setting Arahan Ekspedisi LastMile - WEB REPORT, Proses UpdateData, Error : The method or operation is not implemented.
+
+Tanggal Tracelog:13/09/2024 10:52:32
+Dari Halaman Setting Arahan Ekspedisi LastMile - WEB REPORT, Proses UpdateData, Error : The method or operation is not implemented.
+
+Tanggal Tracelog:13/09/2024 12:06:41
+Dari Halaman Setting Arahan Ekspedisi LastMile - WEB REPORT, Proses UpdateData, Error : The method or operation is not implemented.
+
+Tanggal Tracelog:13/09/2024 12:53:14
+Dari Halaman Setting Arahan Ekspedisi LastMile - WEB REPORT, Proses UpdateData, Error : The method or operation is not implemented.
+
+Tanggal Tracelog:13/09/2024 13:01:34
+Dari Halaman Setting Arahan Ekspedisi LastMile - WEB REPORT, Proses UpdateData, Error : The method or operation is not implemented.
+

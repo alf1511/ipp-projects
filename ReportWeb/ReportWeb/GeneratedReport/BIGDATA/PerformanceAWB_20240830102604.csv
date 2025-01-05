@@ -1,0 +1,16 @@
+PERFORMANCE AWB|||||||||||||||||||||||||||||||
+|||||||||||||||||||||||||||||||
+REGION (HUB ASAL)|: ALL||||||||||||||||||||||||||||||
+HUB ASAL|: ALL||||||||||||||||||||||||||||||
+REGION (HUB TUJUAN)|: ALL||||||||||||||||||||||||||||||
+HUB TUJUAN|: ALL||||||||||||||||||||||||||||||
+NAMA E-COMM|: ALL||||||||||||||||||||||||||||||
+KATEGORI SELLER|: ALL||||||||||||||||||||||||||||||
+SUB KATEGORI SELLER|: ALL||||||||||||||||||||||||||||||
+TANGGAL AWAL|: 2020-10-01||||||||||||||||||||||||||||||
+TANGGAL AKHIR|: 2020-10-31||||||||||||||||||||||||||||||
+TANGGAL FINAL|: T||||||||||||||||||||||||||||||
+JENIS LAYANAN|: ALL||||||||||||||||||||||||||||||
+KATEGORI|: ALL||||||||||||||||||||||||||||||
+|||||||||||||||||||||||||||||||
+TrackNum|ServiceName|SellerCategory|SellerSubCategory|EComm|ShName|ShCity|REGION|IsiPaket|OriDC|OriStore|OriStoreName|DstDC|DstStore|DstStoreName|Kota|CurrHub|firstdate|finaldate|laststatus|Track|MHB_TUJUAN_DATE|MHB_TUJUAN_TIME|SLA|SLA TAMBAHAN|SLA TAMBAHAN WAKTU CREATE AWB|SLA TAMBAHAN FIRST DROP DATE|SLA TAMBAHAN HARI LIBUR|waktukirim|selisihETA|Group OD|kategori

@@ -1,0 +1,9 @@
+Tanggal Tracelog:15/10/2024 15:35:24
+Dari Halaman Laporan Status MTO/RET - WEB REPORT, Proses Proses, Error : Unable to connect to any of the specified MySQL hosts.
+
+Tanggal Tracelog:15/10/2024 15:35:29
+Dari ClsSQL, Proses SQLInsertIntoDataset, Error : Row size too large (> 8126). Changing some columns to TEXT or BLOB may help. In current row format, BLOB prefix of 0 bytes is stored inline.
+
+Tanggal Tracelog:15/10/2024 15:35:35
+Dari ClsSQL, Proses SQLInsertIntoDataset, Error : Row size too large (> 8126). Changing some columns to TEXT or BLOB may help. In current row format, BLOB prefix of 0 bytes is stored inline.
+

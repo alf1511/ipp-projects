@@ -1,0 +1,267 @@
+
+
+
+body {
+	margin:0;
+    font-family: "Lato", sans-serif;
+}
+
+input[disabled="disabled"], input[disabled] {
+     background-color: Silver;
+}
+
+input[readonly="readonly"], input[readonly] {
+     background-color: Silver;
+}
+
+.LeftMenu{
+	float:left;
+	margin:0;
+	clear:both;
+	background: #1b4f72; /* #111; */
+	box-shadow: 2px 2px 2px;
+    position: absolute;
+    padding-top: 30px;
+    width: 30%;
+    min-height: 100%;
+}
+
+.LeftMenu ul{
+	list-style:none;
+	margin: 0px;
+	padding: 0px;
+	padding-top: 30px;
+}
+
+.LeftMenu ul li a{
+	float:left;
+	width:88%;
+	text-decoration: none;
+    color: #f0f3f4;
+    padding: 8px 8px 8px 32px;
+	font-size:16px;
+	border-left-width: 10px;
+    border-left-style: solid;
+	border-left-color:#1b4f72;
+	/*font-weight:bold;*/
+}
+
+.MenuActive{
+    color: #f1f1f1;
+	border-left-color:green;
+}
+
+.LeftMenu ul li a:hover {
+    /*background-color: red;*/
+    color: #f1f1f1;
+	border-left-color:red;
+}
+
+.LogoBox{
+    text-align: center;
+    color: #f1f1f1;
+}
+
+.LogoBox .logo{
+	padding: 15px 0 15px 0;
+}
+
+.LogoBox  #lblAppName{
+	font-weight:bold;
+}
+
+.LogoBox  #lblAppVer{
+	font-size:10px;
+	font-weight:bold;
+}
+
+.Content{
+	padding-left:30px;
+	padding-top:20px;
+	width:97%;
+	margin:0 auto;
+}
+
+.Content td{
+	padding: 5px 3px 5px 3px; /* 5px 3px 5px 3px; */
+}
+
+.UserNameBox{
+	/*margin-left:250px;*/
+	width:350px;
+	padding: 20px 5px 15px 20px;
+	border-bottom: 3px solid #B7AC6E; /* rosegold:#B76E79 light:DDA6AE gold:#FFD700 madeup gold:B7AC6E 6EB7AC A6DDD5 */
+	border-radius: 0 0 10px;
+}
+
+.RightMenu{
+	margin-left:30%;
+	width:68%;
+}
+
+#lblJudul {
+	font-size:16px;
+	font-weight:bold;
+	width:100%;
+}
+
+.Center{
+	text-align:center;
+}
+
+/* Class Button */
+.button {
+    background-color: #4CAF50; /* Green
+    border: none;*/
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+	border-radius: 10px;
+	box-sizing: content-box;
+	border-style:hidden;
+	font-weight:bolder;
+}
+
+.buttonWidth {
+	width: 90px;
+}
+
+.button2 {background-color: #008CBA;font-size: 12px;} /* Blue */
+.button3 {background-color: #f44336;font-size: 12px;} /* Red */
+.button4 {background-color: #e7e7e7; color: black;font-size: 12px;box-shadow: 0 4px #999;}
+.button4:hover {background-color: #1b4f72; color: white;font-size: 12px;}
+.button4:active {
+	background-color: #1b4f72;color: white;font-size: 12px;
+	box-shadow: 0 2px #666;transform: translateY(4px);
+}
+.button5 {background-color: #555555;font-size: 12px;}
+.button6 {background-color: #DAA520;font-size: 12px;}
+.button7 {background-color: #5F9EA0;font-size: 12px;}
+.button8 {background-color: GreenYellow; color: black;font-size: 12px;box-shadow: 0 4px #999;}
+.button8:hover {background-color: black; color: white;font-size: 12px;}
+.button8:active {
+	background-color: black;color: white;font-size: 12px;
+	box-shadow: 0 2px #666;transform: translateY(4px);
+}
+
+/* Class Button */
+
+
+select {
+    padding: 2px 30px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+}
+
+.FloatLeft {
+	float:left;
+}
+
+.FloatRight {
+	float:right;
+}
+
+.TblGridView {
+	table-layout: table-cell;
+	text-align: center;
+	width: 100%;
+	font-size: 0.75em;
+}
+
+.TblGridView td {
+	word-break: break-all;
+}
+
+.TblGridView tr:nth-child(odd) {
+	background-color: #f2f2f2;
+}
+
+.TblGridView tr th {
+	background-color: #000000;
+	color:#FFFFFF;
+}
+
+.TblGridViewLink {
+	font-size: 32px;
+}
+
+.TblGridViewLink a {
+	font-size: 32px;
+	text-decoration: none;
+	color: Blue;
+}
+
+.TblGridViewLink a:visited {
+	font-size: 32px;
+	text-decoration: none;
+	color: Blue;
+}
+
+.TblGridViewInput {
+	padding-right: 3px;
+}
+
+.TblGridViewCP {
+	table-layout: table-cell;
+	text-align: center;
+	width: 200%;
+	font-size: 0.75em;
+}
+
+.TblGridViewCP td {
+	word-break: break-all;
+}
+
+.TblGridViewCP tr:nth-child(odd) {
+	background-color: #f2f2f2;
+}
+
+.TblGridViewCP tr th {
+	background-color:#6495ED ;
+	color:#FFFFFF;
+}
+
+.TblGridViewCPLink {
+	font-size: 32px;
+}
+
+.TblGridViewCPLink a {
+	font-size: 32px;
+	text-decoration: none;
+	color: Blue;
+}
+
+.TblGridViewCPLink a:visited {
+	font-size: 32px;
+	text-decoration: none;
+	color: Blue;
+}
+
+.TblGridViewCPInput {
+	padding-right: 3px;
+}
+
+.SampleTable {
+	border: 1px solid black;
+	border-collapse:collapse;
+
+}
+
+.SampleTable th {
+	border: 1px solid black;
+	border-collapse:collapse;
+	background-color:Yellow;
+	padding:5px;
+}
+
+.SampleTable td {
+	border: 1px solid black;
+	border-collapse:collapse;
+	padding:5px;
+	text-align:center;
+}

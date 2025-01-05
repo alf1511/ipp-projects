@@ -1,0 +1,37 @@
+Tanggal Tracelog:28/08/2024 09:31:15
+Dari ClsSQL, Proses SQLInsertIntoDatatable, Error : Unknown column 'tr.ServiceType' in 'where clause'
+
+Tanggal Tracelog:28/08/2024 12:32:55
+Dari ClsSQL, Proses SQLInsertIntoDatatable, Error : Table 'dev_jenius.pengirim_report' doesn't exist
+
+Tanggal Tracelog:28/08/2024 12:32:55
+Dari Halaman LAPORAN FLAG GAGAL / HRB - WEB REPORT, Proses Proses, Error : 'table' argument cannot be null.
+Parameter name: table
+
+Tanggal Tracelog:28/08/2024 12:33:21
+Dari ClsSQL, Proses SQLInsertIntoDatatable, Error : Table 'dev_jenius.pengirim_report' doesn't exist
+
+Tanggal Tracelog:28/08/2024 12:33:21
+Dari Halaman LAPORAN FLAG GAGAL / HRB - WEB REPORT, Proses Proses, Error : 'table' argument cannot be null.
+Parameter name: table
+
+Tanggal Tracelog:28/08/2024 12:44:12
+Dari ClsSQL, Proses SQLInsertIntoDatatable, Error : Table 'dev_jenius.pengirim_report' doesn't exist
+
+Tanggal Tracelog:28/08/2024 12:45:05
+Dari Halaman LAPORAN FLAG GAGAL / HRB - WEB REPORT, Proses Proses, Error : 'table' argument cannot be null.
+Parameter name: table
+
+Tanggal Tracelog:28/08/2024 12:48:44
+Dari ClsSQL, Proses SQLInsertIntoDatatable, Error : Table 'dev_jenius.pengirim_report' doesn't exist
+
+Tanggal Tracelog:28/08/2024 12:51:24
+Dari ClsSQL, Proses SQLInsertIntoDatatable, Error : Table 'dev_jenius.pengirim_report' doesn't exist
+
+Tanggal Tracelog:28/08/2024 12:51:24
+Dari Halaman LAPORAN FLAG GAGAL / HRB - WEB REPORT, Proses Proses, Error : 'table' argument cannot be null.
+Parameter name: table
+
+Tanggal Tracelog:28/08/2024 13:29:58
+Dari ClsFungsi, Proses GetECommerceList, Error : The method or operation is not implemented.
+

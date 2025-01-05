@@ -1,0 +1,16 @@
+Tanggal Tracelog:05/11/2024 15:46:59
+Dari ClsFungsi, Proses GetExpeditionList, Error : Value cannot be null.
+Parameter name: uriString
+
+Tanggal Tracelog:05/11/2024 15:47:01
+Dari ClsFungsi, Proses GetHubList, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:05/11/2024 16:28:01
+Dari Halaman REKAP SURAT JALAN, Proses LoadData, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:05/11/2024 16:28:59
+Dari Halaman REKAP SURAT JALAN, Proses LoadData, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:05/11/2024 16:33:57
+Dari ClsFungsi, Proses GetHubList, Error : Object reference not set to an instance of an object.
+

@@ -1,0 +1,129 @@
+Tanggal Tracelog:06/09/2024 00:27:06
+Dari ClsFungsi, Proses GetHubList, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:06/09/2024 00:28:05
+Dari Halaman QUERY TOOLS - WEB REPORT, Proses QueryTools, Error : The method or operation is not implemented.
+
+Tanggal Tracelog:06/09/2024 13:41:28
+WriteFileExcel QueryTools_20240906134128.xlsx, Masuk
+
+Tanggal Tracelog:06/09/2024 13:41:28
+WriteFileExcel QueryTools_20240906134128.xlsx, Path = 
+
+Tanggal Tracelog:06/09/2024 13:41:28
+WriteFileExcel QueryTools_20240906134128.xlsx, Path = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\
+
+Tanggal Tracelog:06/09/2024 13:41:28
+WriteFileExcel QueryTools_20240906134128.xlsx, Path After Replace = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\
+
+Tanggal Tracelog:06/09/2024 13:41:28
+WriteFileExcel QueryTools_20240906134128.xlsx, UserDirectory True
+
+Tanggal Tracelog:06/09/2024 13:41:28
+WriteFileExcel QueryTools_20240906134128.xlsx, UserDirectory FullPath = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\QueryTools_20240906134128.xlsx
+
+Tanggal Tracelog:06/09/2024 13:41:28
+WriteFileExcel QueryTools_20240906134128.xlsx, Declare MConExcel Done
+
+Tanggal Tracelog:06/09/2024 13:41:28
+WriteFileExcel QueryTools_20240906134128.xlsx, Create Column Start
+
+Tanggal Tracelog:06/09/2024 13:41:28
+WriteFileExcel QueryTools_20240906134128.xlsx, Create Column End
+
+Tanggal Tracelog:06/09/2024 13:41:28
+WriteFileExcel QueryTools_20240906134128.xlsx, Kolom = SB.ToString
+
+Tanggal Tracelog:06/09/2024 13:41:28
+WriteFileExcel QueryTools_20240906134128.xlsx, MConExcel Set to FullPath D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\QueryTools_20240906134128.xlsx
+
+Tanggal Tracelog:06/09/2024 13:41:29
+WriteFileExcel QueryTools_20240906134128.xlsx, MConExcel Open Done
+
+Tanggal Tracelog:06/09/2024 13:41:29
+WriteFileExcel QueryTools_20240906134128.xlsx, MConExcel CREATE TABLE `Sheet1` Done
+
+Tanggal Tracelog:06/09/2024 13:41:29
+WriteFileExcel QueryTools_20240906134128.xlsx, MConExcel INSERT INTO `Sheet1` Done
+
+Tanggal Tracelog:06/09/2024 14:08:21
+WriteFileExcel QueryTools_20240906140821.xlsx, Masuk
+
+Tanggal Tracelog:06/09/2024 14:08:21
+WriteFileExcel QueryTools_20240906140821.xlsx, Path = 
+
+Tanggal Tracelog:06/09/2024 14:08:21
+WriteFileExcel QueryTools_20240906140821.xlsx, Path = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\
+
+Tanggal Tracelog:06/09/2024 14:08:21
+WriteFileExcel QueryTools_20240906140821.xlsx, Path After Replace = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\
+
+Tanggal Tracelog:06/09/2024 14:08:21
+WriteFileExcel QueryTools_20240906140821.xlsx, UserDirectory True
+
+Tanggal Tracelog:06/09/2024 14:08:21
+WriteFileExcel QueryTools_20240906140821.xlsx, UserDirectory FullPath = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\QueryTools_20240906140821.xlsx
+
+Tanggal Tracelog:06/09/2024 14:08:21
+WriteFileExcel QueryTools_20240906140821.xlsx, Declare MConExcel Done
+
+Tanggal Tracelog:06/09/2024 14:08:21
+WriteFileExcel QueryTools_20240906140821.xlsx, Create Column Start
+
+Tanggal Tracelog:06/09/2024 14:08:21
+WriteFileExcel QueryTools_20240906140821.xlsx, Create Column End
+
+Tanggal Tracelog:06/09/2024 14:08:21
+WriteFileExcel QueryTools_20240906140821.xlsx, Kolom = SB.ToString
+
+Tanggal Tracelog:06/09/2024 14:08:21
+WriteFileExcel QueryTools_20240906140821.xlsx, MConExcel Set to FullPath D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\QueryTools_20240906140821.xlsx
+
+Tanggal Tracelog:06/09/2024 14:08:21
+WriteFileExcel QueryTools_20240906140821.xlsx, MConExcel Open Done
+
+Tanggal Tracelog:06/09/2024 14:08:21
+WriteFileExcel QueryTools_20240906140821.xlsx, MConExcel CREATE TABLE `Sheet1` Done
+
+Tanggal Tracelog:06/09/2024 14:08:22
+WriteFileExcel QueryTools_20240906140821.xlsx, MConExcel INSERT INTO `Sheet1` Done
+
+Tanggal Tracelog:06/09/2024 15:59:15
+WriteFileExcel QueryTools_20240906155915.xlsx, Masuk
+
+Tanggal Tracelog:06/09/2024 15:59:15
+WriteFileExcel QueryTools_20240906155915.xlsx, Path = 
+
+Tanggal Tracelog:06/09/2024 15:59:15
+WriteFileExcel QueryTools_20240906155915.xlsx, Path = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\
+
+Tanggal Tracelog:06/09/2024 15:59:15
+WriteFileExcel QueryTools_20240906155915.xlsx, Path After Replace = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\
+
+Tanggal Tracelog:06/09/2024 15:59:15
+WriteFileExcel QueryTools_20240906155915.xlsx, UserDirectory True
+
+Tanggal Tracelog:06/09/2024 15:59:15
+WriteFileExcel QueryTools_20240906155915.xlsx, UserDirectory FullPath = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\QueryTools_20240906155915.xlsx
+
+Tanggal Tracelog:06/09/2024 15:59:15
+WriteFileExcel QueryTools_20240906155915.xlsx, Declare MConExcel Done
+
+Tanggal Tracelog:06/09/2024 15:59:15
+WriteFileExcel QueryTools_20240906155915.xlsx, Create Column Start
+
+Tanggal Tracelog:06/09/2024 15:59:15
+WriteFileExcel QueryTools_20240906155915.xlsx, Create Column End
+
+Tanggal Tracelog:06/09/2024 15:59:15
+WriteFileExcel QueryTools_20240906155915.xlsx, Kolom = SB.ToString
+
+Tanggal Tracelog:06/09/2024 15:59:15
+WriteFileExcel QueryTools_20240906155915.xlsx, MConExcel Set to FullPath D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\QueryTools\QueryTools_20240906155915.xlsx
+
+Tanggal Tracelog:06/09/2024 15:59:15
+WriteFileExcel QueryTools_20240906155915.xlsx, MConExcel Open Done
+
+Tanggal Tracelog:06/09/2024 15:59:15
+WriteFileExcel QueryTools_20240906155915.xlsx, Syntax error in field definition.
+

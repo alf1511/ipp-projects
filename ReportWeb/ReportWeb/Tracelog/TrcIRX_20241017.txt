@@ -1,0 +1,17 @@
+Tanggal Tracelog:17/10/2024 14:11:09
+Dari ClsFungsi, Proses GetIndomaretDCDepoList, Error : Value cannot be null.
+Parameter name: uriString
+
+Tanggal Tracelog:17/10/2024 14:11:09
+Dari ClsFungsi, Proses ddlBound, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:17/10/2024 14:29:25
+Dari ClsFungsi, Proses GetIndomaretDCDepoList, Error : Value cannot be null.
+Parameter name: uriString
+
+Tanggal Tracelog:17/10/2024 14:29:25
+Dari ClsFungsi, Proses ddlBound, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:17/10/2024 15:37:27
+Dari ClsFungsi, Proses ddlBound, Error : Object reference not set to an instance of an object.
+

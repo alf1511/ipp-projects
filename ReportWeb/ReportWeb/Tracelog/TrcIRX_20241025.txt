@@ -1,0 +1,18 @@
+Tanggal Tracelog:25/10/2024 10:18:01
+Dari ClsFungsi, Proses GetHubList, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:25/10/2024 10:43:23
+Dari ClsFungsi, Proses GetRackInStoreList, Error : Index was outside the bounds of the array.
+
+Tanggal Tracelog:25/10/2024 10:43:25
+Dari ClsFungsi, Proses GetRackInStoreList, Error : Index was outside the bounds of the array.
+
+Tanggal Tracelog:25/10/2024 10:43:27
+Dari ClsFungsi, Proses GetRackInStoreList, Error : Index was outside the bounds of the array.
+
+Tanggal Tracelog:25/10/2024 10:43:27
+Dari ClsFungsi, Proses GetRackInStoreList, Error : Index was outside the bounds of the array.
+
+Tanggal Tracelog:25/10/2024 10:49:36
+Dari ClsFungsi, Proses GetRackInStoreList, Error : Index was outside the bounds of the array.
+

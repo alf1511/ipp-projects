@@ -1,0 +1,63 @@
+Tanggal Tracelog:22/11/2024 00:31:36
+Dari Halaman UploadLaporanRekapBASelisih - WEB REPORT, Proses ProsesDownloadTemplate, Error : The method or operation is not implemented.
+
+Tanggal Tracelog:22/11/2024 11:06:10
+WriteFileExcel TemplateLaporanBASelisih_20241122110610.xlsx, Masuk
+
+Tanggal Tracelog:22/11/2024 11:06:10
+WriteFileExcel TemplateLaporanBASelisih_20241122110610.xlsx, Path = 
+
+Tanggal Tracelog:22/11/2024 11:06:10
+WriteFileExcel TemplateLaporanBASelisih_20241122110610.xlsx, Path = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\
+
+Tanggal Tracelog:22/11/2024 11:06:10
+WriteFileExcel TemplateLaporanBASelisih_20241122110610.xlsx, Path After Replace = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\
+
+Tanggal Tracelog:22/11/2024 11:06:10
+WriteFileExcel TemplateLaporanBASelisih_20241122110610.xlsx, UserDirectory True
+
+Tanggal Tracelog:22/11/2024 11:06:10
+WriteFileExcel TemplateLaporanBASelisih_20241122110610.xlsx, UserDirectory FullPath = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\TemplateLaporanBASelisih_20241122110610.xlsx
+
+Tanggal Tracelog:22/11/2024 11:06:10
+WriteFileExcel TemplateLaporanBASelisih_20241122110610.xlsx, Declare MConExcel Done
+
+Tanggal Tracelog:22/11/2024 11:06:10
+WriteFileExcel TemplateLaporanBASelisih_20241122110610.xlsx, Create Column Start
+
+Tanggal Tracelog:22/11/2024 11:06:10
+WriteFileExcel TemplateLaporanBASelisih_20241122110610.xlsx, Create Column End
+
+Tanggal Tracelog:22/11/2024 11:06:10
+WriteFileExcel TemplateLaporanBASelisih_20241122110610.xlsx, Kolom = SB.ToString
+
+Tanggal Tracelog:22/11/2024 11:06:10
+WriteFileExcel TemplateLaporanBASelisih_20241122110610.xlsx, MConExcel Set to FullPath D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\TemplateLaporanBASelisih_20241122110610.xlsx
+
+Tanggal Tracelog:22/11/2024 11:06:11
+WriteFileExcel TemplateLaporanBASelisih_20241122110610.xlsx, MConExcel Open Done
+
+Tanggal Tracelog:22/11/2024 11:06:11
+WriteFileExcel TemplateLaporanBASelisih_20241122110610.xlsx, MConExcel CREATE TABLE `Sheet1` Done
+
+Tanggal Tracelog:22/11/2024 11:06:11
+WriteFileExcel TemplateLaporanBASelisih_20241122110610.xlsx, MConExcel INSERT INTO `Sheet1` Done
+
+Tanggal Tracelog:22/11/2024 17:27:06
+Dari ClsSQL, Proses SQLExecuteNonQuery, Error : Fatal error encountered during command execution., Query : Insert Into `TempLaporanRekapBASelisih` (`Tipe`, `Ekspedisi`, `Nama`, `Ori`, `Dest`, `Resi`, `Tanggal`, `PeriodeInvoice`, `KeteranganBA`) Values (@Tipe0,@Ekspedisi0,@Ori0,@Dest0,@Resi0,@Tanggal0,@PeriodeInvoice0,@KeteranganBA0)
+
+Tanggal Tracelog:22/11/2024 17:27:24
+Dari ClsSQL, Proses SQLInsertIntoDatatable, Error : Unknown column 'x.Status' in 'field list'
+
+Tanggal Tracelog:22/11/2024 17:31:16
+Dari ClsSQL, Proses SQLExecuteNonQuery, Error : Fatal error encountered during command execution., Query : Insert Into `TempLaporanRekapBASelisih` (`Tipe`, `Ekspedisi`, `Nama`, `Ori`, `Dest`, `Resi`, `Tanggal`, `PeriodeInvoice`, `KeteranganBA`) Values (@Tipe0,@Ekspedisi0,@Ori0,@Dest0,@Resi0,@Tanggal0,@PeriodeInvoice0,@KeteranganBA0)
+
+Tanggal Tracelog:22/11/2024 17:31:27
+Dari ClsSQL, Proses SQLInsertIntoDatatable, Error : Unknown column 'Tipe' in 'field list'
+
+Tanggal Tracelog:22/11/2024 17:35:56
+Dari ClsSQL, Proses SQLExecuteNonQuery, Error : Column count doesn't match value count at row 1, Query : Insert Into `TempLaporanRekapBASelisih` (`Tipe`, `Ekspedisi`, `Nama`, `Ori`, `Dest`, `Resi`, `Tanggal`, `PeriodeInvoice`, `KeteranganBA`) Values (@Tipe0,@Ekspedisi0,@Ori0,@Dest0,@Resi0,@Tanggal0,@PeriodeInvoice0,@KeteranganBA0)
+
+Tanggal Tracelog:22/11/2024 17:36:05
+Dari ClsSQL, Proses SQLInsertIntoDatatable, Error : Unknown column 'Tipe' in 'field list'
+

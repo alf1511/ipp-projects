@@ -1,0 +1,102 @@
+Tanggal Tracelog:28/11/2024 10:08:46
+Dari ClsFungsi, Proses chkBound, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:28/11/2024 14:24:54
+WriteFileExcel TemplateLaporanBASelisih_20241128142454.xlsx, Masuk
+
+Tanggal Tracelog:28/11/2024 14:24:54
+WriteFileExcel TemplateLaporanBASelisih_20241128142454.xlsx, Path = 
+
+Tanggal Tracelog:28/11/2024 14:24:54
+WriteFileExcel TemplateLaporanBASelisih_20241128142454.xlsx, Path = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\
+
+Tanggal Tracelog:28/11/2024 14:24:54
+WriteFileExcel TemplateLaporanBASelisih_20241128142454.xlsx, Path After Replace = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\
+
+Tanggal Tracelog:28/11/2024 14:24:54
+WriteFileExcel TemplateLaporanBASelisih_20241128142454.xlsx, UserDirectory True
+
+Tanggal Tracelog:28/11/2024 14:24:54
+WriteFileExcel TemplateLaporanBASelisih_20241128142454.xlsx, UserDirectory FullPath = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\TemplateLaporanBASelisih_20241128142454.xlsx
+
+Tanggal Tracelog:28/11/2024 14:24:54
+WriteFileExcel TemplateLaporanBASelisih_20241128142454.xlsx, Declare MConExcel Done
+
+Tanggal Tracelog:28/11/2024 14:24:54
+WriteFileExcel TemplateLaporanBASelisih_20241128142454.xlsx, Create Column Start
+
+Tanggal Tracelog:28/11/2024 14:24:54
+WriteFileExcel TemplateLaporanBASelisih_20241128142454.xlsx, Create Column End
+
+Tanggal Tracelog:28/11/2024 14:24:54
+WriteFileExcel TemplateLaporanBASelisih_20241128142454.xlsx, Kolom = SB.ToString
+
+Tanggal Tracelog:28/11/2024 14:24:54
+WriteFileExcel TemplateLaporanBASelisih_20241128142454.xlsx, MConExcel Set to FullPath D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\TemplateLaporanBASelisih_20241128142454.xlsx
+
+Tanggal Tracelog:28/11/2024 14:24:55
+WriteFileExcel TemplateLaporanBASelisih_20241128142454.xlsx, MConExcel Open Done
+
+Tanggal Tracelog:28/11/2024 14:24:55
+WriteFileExcel TemplateLaporanBASelisih_20241128142454.xlsx, MConExcel CREATE TABLE `Sheet1` Done
+
+Tanggal Tracelog:28/11/2024 14:24:55
+WriteFileExcel TemplateLaporanBASelisih_20241128142454.xlsx, MConExcel INSERT INTO `Sheet1` Done
+
+Tanggal Tracelog:28/11/2024 14:52:12
+Dari Halaman Laporan Rekap BA Selisih - WEB REPORT, Proses Proses, Error : Index was outside the bounds of the array.
+
+Tanggal Tracelog:28/11/2024 14:52:29
+Dari Halaman Laporan Rekap BA Selisih - WEB REPORT, Proses Proses, Error : Index was outside the bounds of the array.
+
+Tanggal Tracelog:28/11/2024 15:16:20
+Dari Halaman Laporan Rekap BA Selisih - WEB REPORT, Proses Proses, Error : Unable to connect to any of the specified MySQL hosts.
+
+Tanggal Tracelog:28/11/2024 15:22:40
+Dari Halaman Laporan Rekap BA Selisih - WEB REPORT, Proses Proses, Error : Unable to connect to any of the specified MySQL hosts.
+
+Tanggal Tracelog:28/11/2024 16:58:55
+WriteFileExcel TemplateLaporanBASelisih_20241128165855.xlsx, Masuk
+
+Tanggal Tracelog:28/11/2024 16:58:55
+WriteFileExcel TemplateLaporanBASelisih_20241128165855.xlsx, Path = 
+
+Tanggal Tracelog:28/11/2024 16:58:55
+WriteFileExcel TemplateLaporanBASelisih_20241128165855.xlsx, Path = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\
+
+Tanggal Tracelog:28/11/2024 16:58:55
+WriteFileExcel TemplateLaporanBASelisih_20241128165855.xlsx, Path After Replace = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\
+
+Tanggal Tracelog:28/11/2024 16:58:55
+WriteFileExcel TemplateLaporanBASelisih_20241128165855.xlsx, UserDirectory True
+
+Tanggal Tracelog:28/11/2024 16:58:55
+WriteFileExcel TemplateLaporanBASelisih_20241128165855.xlsx, UserDirectory FullPath = D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\TemplateLaporanBASelisih_20241128165855.xlsx
+
+Tanggal Tracelog:28/11/2024 16:58:55
+WriteFileExcel TemplateLaporanBASelisih_20241128165855.xlsx, Declare MConExcel Done
+
+Tanggal Tracelog:28/11/2024 16:58:55
+WriteFileExcel TemplateLaporanBASelisih_20241128165855.xlsx, Create Column Start
+
+Tanggal Tracelog:28/11/2024 16:58:55
+WriteFileExcel TemplateLaporanBASelisih_20241128165855.xlsx, Create Column End
+
+Tanggal Tracelog:28/11/2024 16:58:55
+WriteFileExcel TemplateLaporanBASelisih_20241128165855.xlsx, Kolom = SB.ToString
+
+Tanggal Tracelog:28/11/2024 16:58:55
+WriteFileExcel TemplateLaporanBASelisih_20241128165855.xlsx, MConExcel Set to FullPath D:\WebReportLocal\ReportWeb\ReportWeb\GeneratedReport\TemplateLaporanBASelisih_20241128165855.xlsx
+
+Tanggal Tracelog:28/11/2024 16:58:55
+WriteFileExcel TemplateLaporanBASelisih_20241128165855.xlsx, MConExcel Open Done
+
+Tanggal Tracelog:28/11/2024 16:58:55
+WriteFileExcel TemplateLaporanBASelisih_20241128165855.xlsx, MConExcel CREATE TABLE `Sheet1` Done
+
+Tanggal Tracelog:28/11/2024 16:58:55
+WriteFileExcel TemplateLaporanBASelisih_20241128165855.xlsx, MConExcel INSERT INTO `Sheet1` Done
+
+Tanggal Tracelog:28/11/2024 17:16:34
+Dari Halaman Laporan Rekap BA Selisih - WEB REPORT, Proses Proses, Error : Unable to connect to any of the specified MySQL hosts.
+

@@ -1,0 +1,72 @@
+Tanggal Tracelog:13/11/2024 08:31:24
+Dari ClsFungsi, Proses GetHubList, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:13/11/2024 08:52:33
+Dari ClsFungsi, Proses GetHubList, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:13/11/2024 08:53:52
+Dari ClsFungsi, Proses GetHubList, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:13/11/2024 08:57:13
+Dari ClsFungsi, Proses GetHubList, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:13/11/2024 08:59:32
+Dari ClsFungsi, Proses GetHubList, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:13/11/2024 09:01:26
+Dari ClsSQL, Proses SQLInsertIntoDataset, Error : PROCEDURE dev_jenius.report_msthubexpedition_compile does not exist
+
+Tanggal Tracelog:13/11/2024 09:02:17
+Dari ClsSQL, Proses SQLInsertIntoDataset, Error : Table 'dev_jenius.msthubexpedition' doesn't exist
+
+Tanggal Tracelog:13/11/2024 09:02:20
+Dari ClsSQL, Proses SQLInsertIntoDataset, Error : Table 'dev_jenius.msthubexpedition' doesn't exist
+
+Tanggal Tracelog:13/11/2024 09:03:37
+Dari ClsFungsi, Proses GetHubList, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:13/11/2024 09:04:07
+Dari ClsSQL, Proses SQLInsertIntoDataset, Error : Table 'dev_jenius.msthubexpedition' doesn't exist
+
+Tanggal Tracelog:13/11/2024 09:04:55
+Dari ClsSQL, Proses SQLInsertIntoDataset, Error : Table 'dev_jenius.msthubexpedition' doesn't exist
+
+Tanggal Tracelog:13/11/2024 09:09:11
+Dari ClsFungsi, Proses GetHubList, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:13/11/2024 09:38:01
+Dari ClsFungsi, Proses GetHubList, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:13/11/2024 09:44:40
+Dari ClsFungsi, Proses GetHubList, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:13/11/2024 09:45:15
+Dari ClsFungsi, Proses GetHubList, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:13/11/2024 09:59:57
+Dari ClsFungsi, Proses GetHubList, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:13/11/2024 10:06:01
+Dari ClsFungsi, Proses GetHubList, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:13/11/2024 10:08:35
+Dari ClsFungsi, Proses GetHubList, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:13/11/2024 10:12:44
+Dari ClsFungsi, Proses GetHubList, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:13/11/2024 10:19:00
+Dari ClsFungsi, Proses GetHubList, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:13/11/2024 10:28:05
+Dari ClsFungsi, Proses GetHubList, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:13/11/2024 11:11:42
+Dari ClsFungsi, Proses GetHubList, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:13/11/2024 11:12:42
+Dari ClsFungsi, Proses GetHubList, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:13/11/2024 11:23:33
+Dari ClsFungsi, Proses GetHubList, Error : Object reference not set to an instance of an object.
+

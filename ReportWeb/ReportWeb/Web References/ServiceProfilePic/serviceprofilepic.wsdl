@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:tns="http://tempuri.org/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="ChekConnection">
+        <s:complexType />
+      </s:element>
+      <s:element name="ChekConnectionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ChekConnectionResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="WebAppUserSetProfilePicture">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AppName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AppVersion" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Param" type="tns:ArrayOfAnyType" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfAnyType">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="anyType" nillable="true" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="WebAppUserSetProfilePictureResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="WebAppUserSetProfilePictureResult" type="tns:ArrayOfAnyType" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="WebAppUserGetProfilePicture">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AppName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AppVersion" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Param" type="tns:ArrayOfAnyType" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="WebAppUserGetProfilePictureResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="WebAppUserGetProfilePictureResult" type="tns:ArrayOfAnyType" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TestWriteFile">
+        <s:complexType />
+      </s:element>
+      <s:element name="TestWriteFileResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="TestReadFile">
+        <s:complexType />
+      </s:element>
+      <s:element name="TestReadFileResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="WebAppUserGetLabel">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AppName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AppVersion" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Param" type="tns:ArrayOfAnyType" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="WebAppUserGetLabelResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="WebAppUserGetLabelResult" type="tns:ArrayOfAnyType" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="WebAppUserCreateLabel">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AppName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AppVersion" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Param" type="tns:ArrayOfAnyType" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="WebAppUserCreateLabelResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="WebAppUserCreateLabelResult" type="tns:ArrayOfAnyType" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="FunctionGetFile">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AppName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AppVersion" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Param" type="tns:ArrayOfAnyType" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="FunctionGetFileResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="FunctionGetFileResult" type="tns:ArrayOfAnyType" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="FunctionCreateFile">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AppName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AppVersion" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Param" type="tns:ArrayOfAnyType" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="FunctionCreateFileResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="FunctionCreateFileResult" type="tns:ArrayOfAnyType" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="FunctionDeleteFile">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AppName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AppVersion" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Param" type="tns:ArrayOfAnyType" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="FunctionDeleteFileResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="FunctionDeleteFileResult" type="tns:ArrayOfAnyType" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="FunctionGetFileInfoList">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AppName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AppVersion" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Param" type="tns:ArrayOfAnyType" />
+            <s:element minOccurs="0" maxOccurs="1" name="dsData">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="FunctionGetFileInfoListResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="FunctionGetFileInfoListResult" type="tns:ArrayOfAnyType" />
+            <s:element minOccurs="0" maxOccurs="1" name="dsData">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="ChekConnectionSoapIn">
+    <wsdl:part name="parameters" element="tns:ChekConnection" />
+  </wsdl:message>
+  <wsdl:message name="ChekConnectionSoapOut">
+    <wsdl:part name="parameters" element="tns:ChekConnectionResponse" />
+  </wsdl:message>
+  <wsdl:message name="WebAppUserSetProfilePictureSoapIn">
+    <wsdl:part name="parameters" element="tns:WebAppUserSetProfilePicture" />
+  </wsdl:message>
+  <wsdl:message name="WebAppUserSetProfilePictureSoapOut">
+    <wsdl:part name="parameters" element="tns:WebAppUserSetProfilePictureResponse" />
+  </wsdl:message>
+  <wsdl:message name="WebAppUserGetProfilePictureSoapIn">
+    <wsdl:part name="parameters" element="tns:WebAppUserGetProfilePicture" />
+  </wsdl:message>
+  <wsdl:message name="WebAppUserGetProfilePictureSoapOut">
+    <wsdl:part name="parameters" element="tns:WebAppUserGetProfilePictureResponse" />
+  </wsdl:message>
+  <wsdl:message name="TestWriteFileSoapIn">
+    <wsdl:part name="parameters" element="tns:TestWriteFile" />
+  </wsdl:message>
+  <wsdl:message name="TestWriteFileSoapOut">
+    <wsdl:part name="parameters" element="tns:TestWriteFileResponse" />
+  </wsdl:message>
+  <wsdl:message name="TestReadFileSoapIn">
+    <wsdl:part name="parameters" element="tns:TestReadFile" />
+  </wsdl:message>
+  <wsdl:message name="TestReadFileSoapOut">
+    <wsdl:part name="parameters" element="tns:TestReadFileResponse" />
+  </wsdl:message>
+  <wsdl:message name="WebAppUserGetLabelSoapIn">
+    <wsdl:part name="parameters" element="tns:WebAppUserGetLabel" />
+  </wsdl:message>
+  <wsdl:message name="WebAppUserGetLabelSoapOut">
+    <wsdl:part name="parameters" element="tns:WebAppUserGetLabelResponse" />
+  </wsdl:message>
+  <wsdl:message name="WebAppUserCreateLabelSoapIn">
+    <wsdl:part name="parameters" element="tns:WebAppUserCreateLabel" />
+  </wsdl:message>
+  <wsdl:message name="WebAppUserCreateLabelSoapOut">
+    <wsdl:part name="parameters" element="tns:WebAppUserCreateLabelResponse" />
+  </wsdl:message>
+  <wsdl:message name="FunctionGetFileSoapIn">
+    <wsdl:part name="parameters" element="tns:FunctionGetFile" />
+  </wsdl:message>
+  <wsdl:message name="FunctionGetFileSoapOut">
+    <wsdl:part name="parameters" element="tns:FunctionGetFileResponse" />
+  </wsdl:message>
+  <wsdl:message name="FunctionCreateFileSoapIn">
+    <wsdl:part name="parameters" element="tns:FunctionCreateFile" />
+  </wsdl:message>
+  <wsdl:message name="FunctionCreateFileSoapOut">
+    <wsdl:part name="parameters" element="tns:FunctionCreateFileResponse" />
+  </wsdl:message>
+  <wsdl:message name="FunctionDeleteFileSoapIn">
+    <wsdl:part name="parameters" element="tns:FunctionDeleteFile" />
+  </wsdl:message>
+  <wsdl:message name="FunctionDeleteFileSoapOut">
+    <wsdl:part name="parameters" element="tns:FunctionDeleteFileResponse" />
+  </wsdl:message>
+  <wsdl:message name="FunctionGetFileInfoListSoapIn">
+    <wsdl:part name="parameters" element="tns:FunctionGetFileInfoList" />
+  </wsdl:message>
+  <wsdl:message name="FunctionGetFileInfoListSoapOut">
+    <wsdl:part name="parameters" element="tns:FunctionGetFileInfoListResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ServiceProfilePicSoap">
+    <wsdl:operation name="ChekConnection">
+      <wsdl:input message="tns:ChekConnectionSoapIn" />
+      <wsdl:output message="tns:ChekConnectionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="WebAppUserSetProfilePicture">
+      <wsdl:input message="tns:WebAppUserSetProfilePictureSoapIn" />
+      <wsdl:output message="tns:WebAppUserSetProfilePictureSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="WebAppUserGetProfilePicture">
+      <wsdl:input message="tns:WebAppUserGetProfilePictureSoapIn" />
+      <wsdl:output message="tns:WebAppUserGetProfilePictureSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TestWriteFile">
+      <wsdl:input message="tns:TestWriteFileSoapIn" />
+      <wsdl:output message="tns:TestWriteFileSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TestReadFile">
+      <wsdl:input message="tns:TestReadFileSoapIn" />
+      <wsdl:output message="tns:TestReadFileSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="WebAppUserGetLabel">
+      <wsdl:input message="tns:WebAppUserGetLabelSoapIn" />
+      <wsdl:output message="tns:WebAppUserGetLabelSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="WebAppUserCreateLabel">
+      <wsdl:input message="tns:WebAppUserCreateLabelSoapIn" />
+      <wsdl:output message="tns:WebAppUserCreateLabelSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="FunctionGetFile">
+      <wsdl:input message="tns:FunctionGetFileSoapIn" />
+      <wsdl:output message="tns:FunctionGetFileSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="FunctionCreateFile">
+      <wsdl:input message="tns:FunctionCreateFileSoapIn" />
+      <wsdl:output message="tns:FunctionCreateFileSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="FunctionDeleteFile">
+      <wsdl:input message="tns:FunctionDeleteFileSoapIn" />
+      <wsdl:output message="tns:FunctionDeleteFileSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="FunctionGetFileInfoList">
+      <wsdl:input message="tns:FunctionGetFileInfoListSoapIn" />
+      <wsdl:output message="tns:FunctionGetFileInfoListSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ServiceProfilePicSoap" type="tns:ServiceProfilePicSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ChekConnection">
+      <soap:operation soapAction="http://tempuri.org/ChekConnection" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WebAppUserSetProfilePicture">
+      <soap:operation soapAction="http://tempuri.org/WebAppUserSetProfilePicture" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WebAppUserGetProfilePicture">
+      <soap:operation soapAction="http://tempuri.org/WebAppUserGetProfilePicture" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TestWriteFile">
+      <soap:operation soapAction="http://tempuri.org/TestWriteFile" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TestReadFile">
+      <soap:operation soapAction="http://tempuri.org/TestReadFile" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WebAppUserGetLabel">
+      <soap:operation soapAction="http://tempuri.org/WebAppUserGetLabel" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WebAppUserCreateLabel">
+      <soap:operation soapAction="http://tempuri.org/WebAppUserCreateLabel" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FunctionGetFile">
+      <soap:operation soapAction="http://tempuri.org/FunctionGetFile" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FunctionCreateFile">
+      <soap:operation soapAction="http://tempuri.org/FunctionCreateFile" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FunctionDeleteFile">
+      <soap:operation soapAction="http://tempuri.org/FunctionDeleteFile" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FunctionGetFileInfoList">
+      <soap:operation soapAction="http://tempuri.org/FunctionGetFileInfoList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ServiceProfilePicSoap12" type="tns:ServiceProfilePicSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ChekConnection">
+      <soap12:operation soapAction="http://tempuri.org/ChekConnection" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WebAppUserSetProfilePicture">
+      <soap12:operation soapAction="http://tempuri.org/WebAppUserSetProfilePicture" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WebAppUserGetProfilePicture">
+      <soap12:operation soapAction="http://tempuri.org/WebAppUserGetProfilePicture" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TestWriteFile">
+      <soap12:operation soapAction="http://tempuri.org/TestWriteFile" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TestReadFile">
+      <soap12:operation soapAction="http://tempuri.org/TestReadFile" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WebAppUserGetLabel">
+      <soap12:operation soapAction="http://tempuri.org/WebAppUserGetLabel" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WebAppUserCreateLabel">
+      <soap12:operation soapAction="http://tempuri.org/WebAppUserCreateLabel" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FunctionGetFile">
+      <soap12:operation soapAction="http://tempuri.org/FunctionGetFile" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FunctionCreateFile">
+      <soap12:operation soapAction="http://tempuri.org/FunctionCreateFile" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FunctionDeleteFile">
+      <soap12:operation soapAction="http://tempuri.org/FunctionDeleteFile" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FunctionGetFileInfoList">
+      <soap12:operation soapAction="http://tempuri.org/FunctionGetFileInfoList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ServiceProfilePic">
+    <wsdl:port name="ServiceProfilePicSoap" binding="tns:ServiceProfilePicSoap">
+      <soap:address location="http://172.31.2.66:1002/serviceprofilepic.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ServiceProfilePicSoap12" binding="tns:ServiceProfilePicSoap12">
+      <soap12:address location="http://172.31.2.66:1002/serviceprofilepic.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

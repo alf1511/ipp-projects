@@ -1,0 +1,26 @@
+Tanggal Tracelog:11/7/2024 3:48:10 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Error : Session Kosong, redirect ke AWB3PL.aspx
+
+Tanggal Tracelog:11/7/2024 3:52:02 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Error : Session Kosong, redirect ke AWB3PL.aspx
+
+Tanggal Tracelog:11/7/2024 3:56:32 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Error : Session Kosong, redirect ke AWB3PL.aspx
+
+Tanggal Tracelog:11/7/2024 3:56:33 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Masuk LoadData
+
+Tanggal Tracelog:11/7/2024 3:56:50 PM
+Dari ClsFungsi, Proses GetHubList2, Error : Value cannot be null.
+Parameter name: uriString
+
+Tanggal Tracelog:11/7/2024 3:57:13 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Error : Session Kosong, redirect ke AWB3PL.aspx
+
+Tanggal Tracelog:11/7/2024 3:57:13 PM
+Dari Halaman 3PL LIST AWB DAN KONS DETIL, Proses LoadData, Masuk LoadData
+
+Tanggal Tracelog:11/7/2024 3:57:13 PM
+Dari ClsFungsi, Proses GetHubList2, Error : Value cannot be null.
+Parameter name: uriString
+

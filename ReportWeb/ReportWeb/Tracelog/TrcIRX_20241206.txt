@@ -1,0 +1,24 @@
+Tanggal Tracelog:06/12/2024 17:12:26
+Dari ClsSQL, Proses SQLInsertIntoDataset, Error : Incorrect number of arguments for PROCEDURE dev_jenius.report_generate_status_wt; expected 6, got 5
+
+Tanggal Tracelog:06/12/2024 17:15:45
+Dari ClsSQL, Proses SQLInsertIntoDataset, Error : Unknown column 'r.TipeBaris' in 'where clause'
+
+Tanggal Tracelog:06/12/2024 17:15:59
+Dari ClsSQL, Proses SQLInsertIntoDataset, Error : Unknown column 'r.TipeBaris' in 'where clause'
+
+Tanggal Tracelog:06/12/2024 17:16:09
+Dari ClsSQL, Proses SQLInsertIntoDataset, Error : Unknown column 'r.TipeBaris' in 'where clause'
+
+Tanggal Tracelog:06/12/2024 17:18:57
+Dari ClsSQL, Proses SQLInsertIntoDataset, Error : Unknown column 'r.TipeBaris' in 'where clause'
+
+Tanggal Tracelog:06/12/2024 17:19:01
+Dari ClsSQL, Proses SQLInsertIntoDataset, Error : Unknown column 'r.TipeBaris' in 'where clause'
+
+Tanggal Tracelog:06/12/2024 17:19:05
+Dari ClsSQL, Proses SQLInsertIntoDataset, Error : Unknown column 'r.TipeBaris' in 'where clause'
+
+Tanggal Tracelog:06/12/2024 17:20:03
+Dari ClsSQL, Proses SQLInsertIntoDataset, Error : Unknown column 'r.TipeBaris' in 'where clause'
+

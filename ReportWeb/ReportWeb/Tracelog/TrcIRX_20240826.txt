@@ -1,0 +1,267 @@
+Tanggal Tracelog:26/08/2024 11:43:05
+Dari ClsFungsi, Proses GetECommerceList, Error : Value cannot be null.
+Parameter name: uriString
+
+Tanggal Tracelog:26/08/2024 11:43:10
+Dari ClsFungsi, Proses GetECommerceListWithCategoryAndSubCategory, Error : Value cannot be null.
+Parameter name: uriString
+
+Tanggal Tracelog:26/08/2024 11:43:10
+Dari ClsFungsi, Proses GetServiceTypeList, Error : Value cannot be null.
+Parameter name: uriString
+
+Tanggal Tracelog:26/08/2024 11:45:24
+Dari ClsFungsi, Proses GetECommerceList, Error : Value cannot be null.
+Parameter name: uriString
+
+Tanggal Tracelog:26/08/2024 11:45:36
+Dari ClsFungsi, Proses GetECommerceListWithCategoryAndSubCategory, Error : Value cannot be null.
+Parameter name: uriString
+
+Tanggal Tracelog:26/08/2024 11:45:36
+Dari ClsFungsi, Proses GetServiceTypeList, Error : Value cannot be null.
+Parameter name: uriString
+
+Tanggal Tracelog:26/08/2024 11:52:21
+Dari ClsFungsi, Proses GetECommerceList, Error : Value cannot be null.
+Parameter name: uriString
+
+Tanggal Tracelog:26/08/2024 11:52:26
+Dari ClsFungsi, Proses GetECommerceListWithCategoryAndSubCategory, Error : Value cannot be null.
+Parameter name: uriString
+
+Tanggal Tracelog:26/08/2024 11:52:26
+Dari ClsFungsi, Proses GetServiceTypeList, Error : Value cannot be null.
+Parameter name: uriString
+
+Tanggal Tracelog:26/08/2024 11:54:54
+Dari ClsFungsi, Proses GetECommerceList, Error : Value cannot be null.
+Parameter name: uriString
+
+Tanggal Tracelog:26/08/2024 11:55:48
+Dari ClsFungsi, Proses GetECommerceListWithCategoryAndSubCategory, Error : Value cannot be null.
+Parameter name: uriString
+
+Tanggal Tracelog:26/08/2024 11:55:48
+Dari ClsFungsi, Proses GetServiceTypeList, Error : Value cannot be null.
+Parameter name: uriString
+
+Tanggal Tracelog:26/08/2024 13:19:35
+Dari ClsFungsi, Proses GetECommerceList, Error : Value cannot be null.
+Parameter name: uriString
+
+Tanggal Tracelog:26/08/2024 13:19:51
+Dari ClsFungsi, Proses GetECommerceListWithCategoryAndSubCategory, Error : Value cannot be null.
+Parameter name: uriString
+
+Tanggal Tracelog:26/08/2024 13:19:51
+Dari ClsFungsi, Proses GetServiceTypeList, Error : Value cannot be null.
+Parameter name: uriString
+
+Tanggal Tracelog:26/08/2024 13:23:33
+Dari ClsFungsi, Proses GetECommerceList, Error : Value cannot be null.
+Parameter name: uriString
+
+Tanggal Tracelog:26/08/2024 13:23:36
+Dari ClsFungsi, Proses GetECommerceListWithCategoryAndSubCategory, Error : Value cannot be null.
+Parameter name: uriString
+
+Tanggal Tracelog:26/08/2024 13:23:36
+Dari ClsFungsi, Proses GetServiceTypeList, Error : Value cannot be null.
+Parameter name: uriString
+
+Tanggal Tracelog:26/08/2024 14:16:08
+Dari ClsFungsi, Proses GetECommerceList, Error : The method or operation is not implemented.
+
+Tanggal Tracelog:26/08/2024 14:16:08
+Dari Halaman LAPORAN FLAG GAGAL / HRB, Proses LoadData, Error : The process cannot access the file 'D:\WebReportLocal\ReportWeb\ReportWeb\Tracelog\TrcIRX_20240826.txt' because it is being used by another process.
+
+Tanggal Tracelog:26/08/2024 14:16:29
+Dari ClsFungsi, Proses GetECommerceListWithCategoryAndSubCategory, Error : The method or operation is not implemented.
+
+Tanggal Tracelog:26/08/2024 14:16:29
+Dari ClsFungsi, Proses GetServiceTypeList, Error : The method or operation is not implemented.
+
+Tanggal Tracelog:26/08/2024 14:16:38
+Dari ClsFungsi, Proses GetECommerceList, Error : The method or operation is not implemented.
+
+Tanggal Tracelog:26/08/2024 14:17:01
+Dari ClsFungsi, Proses GetECommerceListWithCategoryAndSubCategory, Error : The method or operation is not implemented.
+
+Tanggal Tracelog:26/08/2024 14:17:01
+Dari ClsFungsi, Proses GetServiceTypeList, Error : The method or operation is not implemented.
+
+Tanggal Tracelog:26/08/2024 14:18:09
+Dari ClsFungsi, Proses GetECommerceList, Error : The method or operation is not implemented.
+
+Tanggal Tracelog:26/08/2024 14:18:31
+Dari ClsFungsi, Proses GetECommerceListWithCategoryAndSubCategory, Error : The method or operation is not implemented.
+
+Tanggal Tracelog:26/08/2024 14:18:31
+Dari ClsFungsi, Proses GetServiceTypeList, Error : The method or operation is not implemented.
+
+Tanggal Tracelog:26/08/2024 14:21:42
+Dari ClsFungsi, Proses GetECommerceList, Error : The method or operation is not implemented.
+
+Tanggal Tracelog:26/08/2024 14:23:37
+Dari Halaman LAPORAN FLAG GAGAL / HRB, Proses LoadData, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:26/08/2024 14:23:53
+Dari Halaman LAPORAN FLAG GAGAL / HRB, Proses LoadData, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:26/08/2024 14:26:52
+Dari ClsFungsi, Proses GetECommerceList, Error : The method or operation is not implemented.
+
+Tanggal Tracelog:26/08/2024 14:27:25
+Dari Halaman LAPORAN FLAG GAGAL / HRB, Proses LoadData, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:26/08/2024 14:37:12
+Dari ClsSQL, Proses SQLInsertIntoDatatable, Error : PROCEDURE dev_jenius.report_historyoocflr does not exist
+
+Tanggal Tracelog:26/08/2024 14:37:12
+Dari Halaman LAPORAN FLAG GAGAL / HRB - WEB REPORT, Proses Proses, Error : Index was outside the bounds of the array.
+
+Tanggal Tracelog:26/08/2024 14:40:36
+Dari ClsSQL, Proses SQLInsertIntoDatatable, Error : PROCEDURE dev_jenius.report_historyoocflr does not exist
+
+Tanggal Tracelog:26/08/2024 14:40:36
+Dari Halaman LAPORAN FLAG GAGAL / HRB - WEB REPORT, Proses Proses, Error : Index was outside the bounds of the array.
+
+Tanggal Tracelog:26/08/2024 14:40:43
+Dari ClsSQL, Proses SQLInsertIntoDatatable, Error : PROCEDURE dev_jenius.report_historyoocflr does not exist
+
+Tanggal Tracelog:26/08/2024 14:40:43
+Dari Halaman LAPORAN FLAG GAGAL / HRB - WEB REPORT, Proses Proses, Error : Index was outside the bounds of the array.
+
+Tanggal Tracelog:26/08/2024 14:42:42
+Dari ClsSQL, Proses SQLInsertIntoDatatable, Error : PROCEDURE dev_jenius.report_historyoocflr does not exist
+
+Tanggal Tracelog:26/08/2024 14:43:54
+Dari Halaman LAPORAN FLAG GAGAL / HRB - WEB REPORT, Proses Proses, Error : Unable to connect to any of the specified MySQL hosts.
+
+Tanggal Tracelog:26/08/2024 14:47:49
+Dari ClsSQL, Proses SQLInsertIntoDatatable, Error : PROCEDURE dev_jenius.report_historyoocflr does not exist
+
+Tanggal Tracelog:26/08/2024 14:48:54
+Dari ClsFungsi, Proses GetECommerceList, Error : The method or operation is not implemented.
+
+Tanggal Tracelog:26/08/2024 14:49:05
+Dari Halaman LAPORAN FLAG GAGAL / HRB, Proses LoadData, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:26/08/2024 14:49:49
+Dari ClsFungsi, Proses GetECommerceList, Error : The method or operation is not implemented.
+
+Tanggal Tracelog:26/08/2024 14:49:49
+Dari Halaman LAPORAN FLAG GAGAL / HRB, Proses LoadData, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:26/08/2024 14:49:51
+Dari ClsFungsi, Proses GetECommerceList, Error : The method or operation is not implemented.
+
+Tanggal Tracelog:26/08/2024 14:49:51
+Dari Halaman LAPORAN FLAG GAGAL / HRB, Proses LoadData, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:26/08/2024 14:49:51
+Dari ClsFungsi, Proses GetECommerceList, Error : The method or operation is not implemented.
+
+Tanggal Tracelog:26/08/2024 14:49:51
+Dari Halaman LAPORAN FLAG GAGAL / HRB, Proses LoadData, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:26/08/2024 14:49:51
+Dari ClsFungsi, Proses GetECommerceList, Error : The method or operation is not implemented.
+
+Tanggal Tracelog:26/08/2024 14:49:52
+Dari Halaman LAPORAN FLAG GAGAL / HRB, Proses LoadData, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:26/08/2024 14:49:52
+Dari ClsFungsi, Proses GetECommerceList, Error : The method or operation is not implemented.
+
+Tanggal Tracelog:26/08/2024 14:49:52
+Dari Halaman LAPORAN FLAG GAGAL / HRB, Proses LoadData, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:26/08/2024 14:49:53
+Dari ClsFungsi, Proses GetECommerceList, Error : The method or operation is not implemented.
+
+Tanggal Tracelog:26/08/2024 14:49:53
+Dari Halaman LAPORAN FLAG GAGAL / HRB, Proses LoadData, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:26/08/2024 14:49:53
+Dari ClsFungsi, Proses GetECommerceList, Error : The method or operation is not implemented.
+
+Tanggal Tracelog:26/08/2024 14:49:53
+Dari Halaman LAPORAN FLAG GAGAL / HRB, Proses LoadData, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:26/08/2024 14:49:56
+Dari ClsFungsi, Proses GetECommerceList, Error : The method or operation is not implemented.
+
+Tanggal Tracelog:26/08/2024 14:50:03
+Dari Halaman LAPORAN FLAG GAGAL / HRB, Proses LoadData, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:26/08/2024 14:50:06
+Dari ClsFungsi, Proses GetECommerceList, Error : The method or operation is not implemented.
+
+Tanggal Tracelog:26/08/2024 14:50:06
+Dari Halaman LAPORAN FLAG GAGAL / HRB, Proses LoadData, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:26/08/2024 14:50:07
+Dari ClsFungsi, Proses GetECommerceList, Error : The method or operation is not implemented.
+
+Tanggal Tracelog:26/08/2024 14:50:07
+Dari Halaman LAPORAN FLAG GAGAL / HRB, Proses LoadData, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:26/08/2024 14:50:21
+Dari ClsFungsi, Proses GetECommerceList, Error : The method or operation is not implemented.
+
+Tanggal Tracelog:26/08/2024 14:50:21
+Dari Halaman LAPORAN FLAG GAGAL / HRB, Proses LoadData, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:26/08/2024 14:50:51
+Dari ClsFungsi, Proses GetECommerceList, Error : The method or operation is not implemented.
+
+Tanggal Tracelog:26/08/2024 14:51:03
+Dari Halaman LAPORAN FLAG GAGAL / HRB, Proses LoadData, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:26/08/2024 14:51:28
+Dari ClsFungsi, Proses GetECommerceList, Error : The method or operation is not implemented.
+
+Tanggal Tracelog:26/08/2024 14:51:32
+Dari Halaman LAPORAN FLAG GAGAL / HRB, Proses LoadData, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:26/08/2024 14:51:32
+Dari ClsFungsi, Proses GetECommerceList, Error : The method or operation is not implemented.
+
+Tanggal Tracelog:26/08/2024 14:51:32
+Dari Halaman LAPORAN FLAG GAGAL / HRB, Proses LoadData, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:26/08/2024 14:51:32
+Dari ClsFungsi, Proses GetECommerceList, Error : The method or operation is not implemented.
+
+Tanggal Tracelog:26/08/2024 14:51:32
+Dari Halaman LAPORAN FLAG GAGAL / HRB, Proses LoadData, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:26/08/2024 14:52:48
+Dari ClsSQL, Proses SQLInsertIntoDatatable, Error : PROCEDURE dev_jenius.report_historyoocflr does not exist
+
+Tanggal Tracelog:26/08/2024 14:54:05
+Dari ClsSQL, Proses SQLInsertIntoDatatable, Error : PROCEDURE dev_jenius.report_historyoocflr does not exist
+
+Tanggal Tracelog:26/08/2024 14:57:30
+Dari ClsSQL, Proses SQLInsertIntoDatatable, Error : PROCEDURE dev_jenius.report_historyoocflr does not exist
+
+Tanggal Tracelog:26/08/2024 15:33:00
+Dari ClsSQL, Proses SQLInsertIntoDatatable, Error : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't ON (a.Account = t.ShAccount) LEFT JOIN indomaretstore_for_report istOri ON ist' at line 1
+
+Tanggal Tracelog:26/08/2024 16:11:41
+Dari ClsSQL, Proses SQLInsertIntoDatatable, Error : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't ON (a.Account = t.ShAccount) LEFT JOIN indomaretstore_for_report istOri ON ist' at line 1
+
+Tanggal Tracelog:26/08/2024 16:12:17
+Dari ClsSQL, Proses SQLInsertIntoDatatable, Error : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't ON (a.Account = t.ShAccount) LEFT JOIN indomaretstore_for_report istOri ON ist' at line 1
+
+Tanggal Tracelog:26/08/2024 16:12:43
+Dari ClsSQL, Proses SQLInsertIntoDatatable, Error : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't ON (a.Account = t.ShAccount) LEFT JOIN indomaretstore_for_report istOri ON ist' at line 1
+
+Tanggal Tracelog:26/08/2024 16:13:14
+Dari ClsSQL, Proses SQLInsertIntoDatatable, Error : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't ON (a.Account = t.ShAccount) LEFT JOIN indomaretstore_for_report istOri ON ist' at line 1
+
+Tanggal Tracelog:26/08/2024 16:14:04
+Dari ClsSQL, Proses SQLInsertIntoDatatable, Error : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't ON (a.Account = t.ShAccount) LEFT JOIN indomaretstore_for_report istOri ON ist' at line 1
+

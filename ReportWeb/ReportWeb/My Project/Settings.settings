@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="ReportWeb_CoreService_Service" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://172.31.2.66:1121/SERVICE.ASMX</Value>
+    </Setting>
+    <Setting Name="ReportWeb_ServiceProfilePic_ServiceProfilePic" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://172.31.2.66:1002/serviceprofilepic.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

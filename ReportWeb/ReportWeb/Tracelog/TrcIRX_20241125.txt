@@ -1,0 +1,45 @@
+Tanggal Tracelog:25/11/2024 08:56:45
+Dari ClsSQL, Proses SQLExecuteNonQuery, Error : Column count doesn't match value count at row 1, Query : Insert Into `TempLaporanRekapBASelisih` (`Tipe`, `Ekspedisi`, `Nama`, `Ori`, `Dest`, `Resi`, `Tanggal`, `PeriodeInvoice`, `KeteranganBA`) Values (@Tipe0,@Ekspedisi0,@Ori0,@Dest0,@Resi0,@Tanggal0,@PeriodeInvoice0,@KeteranganBA0)
+
+Tanggal Tracelog:25/11/2024 09:02:11
+Dari ClsSQL, Proses SQLExecuteNonQuery, Error : Fatal error encountered during command execution., Query : Insert Into `TempLaporanRekapBASelisih` (`Tipe`, `Ekspedisi`, `Nama`, `Ori`, `Dest`, `Resi`, `Tanggal`, `PeriodeInvoice`, `KeteranganBA`) Values (@Tipe0@Ekspedisi0,@Nama0,@Ori0,@Dest0,@Resi0,@Tanggal0,@PeriodeInvoice0,@KeteranganBA0)
+
+Tanggal Tracelog:25/11/2024 09:04:41
+Dari ClsSQL, Proses SQLExecuteNonQuery, Error : Fatal error encountered during command execution., Query : Insert Into `TempLaporanRekapBASelisih` (`Tipe`, `Ekspedisi`, `Nama`, `Ori`, `Dest`, `Resi`, `Tanggal`, `PeriodeInvoice`, `KeteranganBA`) Values (@Tipe0@Ekspedisi0,@Nama0,@Ori0,@Dest0,@Resi0,@Tanggal0,@PeriodeInvoice0,@KeteranganBA0)
+
+Tanggal Tracelog:25/11/2024 09:05:27
+Dari ClsSQL, Proses SQLExecuteNonQuery, Error : Fatal error encountered during command execution., Query : Insert Into `TempLaporanRekapBASelisih` (`Tipe`, `Ekspedisi`, `Nama`, `Ori`, `Dest`, `Resi`, `Tanggal`, `PeriodeInvoice`, `KeteranganBA`) Values (@Tipe0@Ekspedisi0,@Nama0,@Ori0,@Dest0,@Resi0,@Tanggal0,@PeriodeInvoice0,@KeteranganBA0)
+
+Tanggal Tracelog:25/11/2024 09:05:34
+Dari ClsSQL, Proses SQLExecuteNonQuery, Error : Fatal error encountered during command execution., Query : Insert Into `TempLaporanRekapBASelisih` (`Tipe`, `Ekspedisi`, `Nama`, `Ori`, `Dest`, `Resi`, `Tanggal`, `PeriodeInvoice`, `KeteranganBA`) Values (@Tipe0@Ekspedisi0,@Nama0,@Ori0,@Dest0,@Resi0,@Tanggal0,@PeriodeInvoice0,@KeteranganBA0)
+
+Tanggal Tracelog:25/11/2024 09:06:40
+Dari ClsSQL, Proses SQLExecuteNonQuery, Error : Fatal error encountered during command execution., Query : Insert Into `TempLaporanRekapBASelisih` (`Tipe`, `Ekspedisi`, `Nama`, `Ori`, `Dest`, `Resi`, `Tanggal`, `PeriodeInvoice`, `KeteranganBA`) Values (@Tipe0@Ekspedisi0,@Nama0,@Ori0,@Dest0,@Resi0,@Tanggal0,@PeriodeInvoice0,@KeteranganBA0)
+
+Tanggal Tracelog:25/11/2024 09:20:26
+Dari ClsSQL, Proses SQLExecuteNonQuery, Error : The connection is already open., Query : Insert Into `TempLaporanRekapBASelisih` (`Tipe`, `Ekspedisi`, `Nama`, `Ori`, `Dest`, `Resi`, `Tanggal`, `PeriodeInvoice`, `KeteranganBA`) Values (@Tipe0@Ekspedisi0,@Nama0,@Ori0,@Dest0,@Resi0,@Tanggal0,@PeriodeInvoice0,@KeteranganBA0)
+
+Tanggal Tracelog:25/11/2024 09:26:48
+Dari ClsSQL, Proses SQLInsertIntoDatatable, Error : Unknown column 'Tipe' in 'field list'
+
+Tanggal Tracelog:25/11/2024 09:39:55
+Dari ClsSQL, Proses SQLInsertIntoDatatable, Error : Unknown column 'Tipe' in 'field list'
+
+Tanggal Tracelog:25/11/2024 10:05:32
+Dari ClsSQL, Proses SQLInsertIntoDatatable, Error : Unknown column 'Tipe' in 'field list'
+
+Tanggal Tracelog:25/11/2024 10:08:56
+Dari ClsSQL, Proses SQLExecuteNonQuery, Error : Fatal error encountered during command execution., Query : Insert Into `TempLaporanRekapBASelisih` (`Tipe`, `Ekspedisi`, `Nama`, `Ori`, `Dest`, `Resi`, `Tanggal`, `PeriodeInvoice`, `KeteranganBA`) Values (@Tipe0,@Ekspedisi0,@Nama0,@Ori0,@Dest0,@Resi0,@Tanggal0,@PeriodeInvoice0,@KeteranganBA0)
+
+Tanggal Tracelog:25/11/2024 13:56:44
+Dari ClsSQL, Proses SQLInsertIntoDatatable, Error : Unknown column 'x.Status' in 'field list'
+
+Tanggal Tracelog:25/11/2024 14:03:21
+Dari ClsSQL, Proses SQLInsertIntoDatatable, Error : Unknown column 'x.Status' in 'field list'
+
+Tanggal Tracelog:25/11/2024 17:17:36
+Dari ClsSQL, Proses SQLInsertIntoDatatable, Error : Duplicate entry '939-4508-2966' for key 'PRIMARY'
+
+Tanggal Tracelog:25/11/2024 17:34:23
+Dari ClsSQL, Proses SQLInsertIntoDatatable, Error : Duplicate entry '939-4508-2966' for key 'PRIMARY'
+

@@ -1,0 +1,185 @@
+﻿<%@ Master Language="VB" CodeBehind="MasterPage_Hub.master.vb" Inherits="ReportWeb.MasterPage_Hub" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head id="Head1" runat="server">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=3.0, user-scalable=yes" />
+    <title>Web Hub</title>
+    <link rel="stylesheet" type="text/css" href="css/Default-lite.css" />
+
+<style type="text/css">
+
+.ScaleUp input[type=checkbox]
+{
+  /* Double-sized Checkboxes */
+  -ms-transform: scale(3); /* IE */
+  -moz-transform: scale(3); /* FF */
+  -webkit-transform: scale(3); /* Safari and Chrome */
+  -o-transform: scale(3); /* Opera */
+  transform: scale(3);
+}
+
+.cssPager td
+{
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+</style>
+</head>
+
+<body>
+    <form id="form1" runat="server">
+        <asp:ScriptManager ID="ScriptManager1" runat="server" />
+
+        <script type="text/javascript">
+            function RemoveElement(MyId) {
+                try {
+                    var clearme = document.getElementById(MyId);
+                    var parent = clearme.parentNode;
+                    parent.removeChild(clearme);
+                } catch(err) {}
+            }
+
+            function RemoveIfZero(MyThis) {
+                var MyControl = MyThis;
+                var MyControlValue = parseFloat(MyControl.value);
+                if(isNaN(MyControlValue) || MyControlValue == "0") {
+                    MyControl.value = "";
+                } else {
+                    MyControl.value = MyControlValue;
+                }
+            }
+
+            function SetIsDirty() {
+                try {
+                    document.getElementById("MyPageIsDirty").value = "IsDirty";
+                } catch(err) {}
+            }
+
+            function SetIsClean() {
+                try {
+                    document.getElementById("MyPageIsDirty").value = "";
+                } catch(err) {}
+            }
+
+            function BackConfirm(MyPage,MyPageName) {
+                try {
+                    var IsDirty = document.getElementById("MyPageIsDirty").value;
+                    if(IsDirty != "") {
+                        if(confirm("Data yang di-scan akan hilang jika kembali ke " + MyPageName + ", Lanjutkan ?")) {
+                            if(MyPage != "") {
+                                window.location.href= MyPage + '.aspx';
+                            } else {
+                                return true;
+                            }
+                        }
+                    } else {
+                        window.location.href= MyPage + '.aspx';
+                    }
+                } catch(err) {}
+            }
+
+            function ConfirmChangePassword() {
+                try {
+                    var IsDirty = document.getElementById("MyPageIsDirty").value;
+                    if(IsDirty != "") {
+                        if(confirm("Data yang di-scan akan hilang jika pindah ke Ubah Password, Lanjutkan ?")) {
+                            window.location.href= 'UbahPass.aspx';
+                        }
+                    } else {
+                        window.location.href= 'UbahPass.aspx';
+                    }
+                } catch(err) {}
+            }
+
+            function ConfirmLogout() {
+                try {
+                    var IsDirty = document.getElementById("MyPageIsDirty").value;
+                    if(IsDirty != "") {
+                        if(confirm("Data yang di-scan akan hilang jika Log Out, Lanjutkan ?")) {
+                            return true;
+                        } else {
+                            return false;
+                        }
+                    } else {
+                        return true;
+                    }
+                } catch(err) {}
+            }
+
+            function DisableMe(MyButton) {
+	            var DelayDisableButton = document.getElementById('DelayDisableButton').value;
+	            setTimeout(function() {
+		            MyButton.disabled = true;
+	            }, DelayDisableButton);
+            }
+        </script>
+
+        <table border="0" width="100%">
+            <tr>
+                <td align="center">
+
+                    <table border="0" width="100%">
+                        <tr valign="top">
+                            <td align="center">
+                                <table border="0" width="100%">
+                                    <tr>
+                                        <td align="center">
+                                            <div class="WebName">
+                                                <asp:Label ID="lblAppName" runat="server" Text="WEB HUB" Font-Bold="True" />
+                                                <br />
+                                                <div class="VersiWeb">
+                                                    <asp:Label ID="lblAppVer" runat="server" Text="v. XXX" />
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="center">
+                                            <table border="0" width="100%" style="Background-color:Black">
+                                                <tr>
+                                                    <td width="34%" align="left" style="padding: 5px 0px 5px 25px;">
+                                                        <a onclick="BackConfirm('Home','Home');" href="javascript:void(0);" class="topmenu">Home</a>
+                                                    </td>
+                                                    <td width="34%" align="center" style="padding: 5px 0px 5px 0px;">
+                                                        <a onclick="ConfirmChangePassword();" href="javascript:void(0);" class="topmenu">Ubah Pass</a>
+                                                    </td>
+                                                    <td align="right" style="padding: 5px 25px 5px 0px;">
+                                                        <asp:LinkButton ID="btnLogout" runat="server" CssClass="topmenu" OnClientClick="return ConfirmLogout();">Log Out</asp:LinkButton>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="center">
+                                            <div id="Div1" class="LabelUser">
+                                                <asp:Label ID="LblUsername" runat="server" Text="Username - Hub Code"></asp:Label>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr valign="top">
+                            <td align="center">
+                                <div id="Div2" class="classContent">
+                                    <input id="MyPageIsDirty" type="hidden" value="" />
+                                    <input id="DisableScreenTimeout" type="hidden" value="10000" />
+                                    <input id="DelayDisableButton" type="hidden" value="150" />
+                                    <asp:contentplaceholder id="ContentPlaceHolder1" runat="server"></asp:contentplaceholder>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </form>
+    <div style="padding-bottom: 40px;"></div>
+</body>
+
+</html>

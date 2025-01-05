@@ -1,0 +1,24 @@
+Tanggal Tracelog:08/10/2024 14:40:25
+Dari ClsSQL, Proses SQLInsertIntoDatatable, Error : Table 'dev_jenius.TransactionStmTracknum' doesn't exist
+
+Tanggal Tracelog:08/10/2024 15:48:06
+Dari ClsSQL, Proses SQLInsertIntoDatatable, Error : Table 'dev_jenius.TransactionStmTracknum' doesn't exist
+
+Tanggal Tracelog:08/10/2024 15:48:27
+Dari ClsSQL, Proses SQLInsertIntoDatatable, Error : Table 'dev_jenius.TransactionStmTracknum' doesn't exist
+
+Tanggal Tracelog:08/10/2024 15:54:52
+Dari ClsSQL, Proses SQLInsertIntoDatatable, Error : Table 'dev_jenius.TransactionStmTracknum' doesn't exist
+
+Tanggal Tracelog:08/10/2024 17:15:36
+Dari ClsFungsi, Proses GetECommerceList, Error : The method or operation is not implemented.
+
+Tanggal Tracelog:08/10/2024 17:15:58
+Dari Halaman LAPORAN PERMINTAAN TERMINAL AWB, Proses LoadData, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:08/10/2024 17:16:09
+Dari ClsFungsi, Proses GetECommerceList, Error : The method or operation is not implemented.
+
+Tanggal Tracelog:08/10/2024 17:16:30
+Dari Halaman LAPORAN PERMINTAAN TERMINAL AWB, Proses LoadData, Error : Object reference not set to an instance of an object.
+

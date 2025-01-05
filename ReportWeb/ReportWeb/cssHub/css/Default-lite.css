@@ -1,0 +1,270 @@
+html {
+	box-sizing: border-box;
+}
+input {
+	display: inline-block;
+}
+input[type=text], input[type=password] {
+	width: calc(100% - 8px);
+	height: 100%;
+}
+textarea {
+	width: 100%;
+	resize: none;
+}
+input[disabled="disabled"], input[disabled] {
+     background-color: Silver;
+}
+input[readonly="readonly"], input[readonly] {
+     background-color: Silver;
+}
+label {
+	display: inline-block;
+}
+table {
+	border-collapse: collapse;
+	empty-cells: show;
+}
+
+.MainTable {
+	width: 100%;
+}
+.MainTable td {
+	padding-bottom: 5px;
+}
+
+.button {
+	background-color: #4CAF50;
+	/*border: none;*/
+	color: white;
+	padding: 10px 15px;
+	margin: 4px 2px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	cursor: pointer;
+	border-radius: 10px;
+	box-sizing: content-box;
+	border-style:hidden;
+	font-weight:bolder;
+}
+.buttonWidth {
+	width: 90px;
+}
+.button2 {background-color: #008CBA;font-size: 12px;} /* Blue */
+.button3 {background-color: #f44336;font-size: 12px;} /* Red */
+.button4 {background-color: #e7e7e7; color: black;font-size: 12px;}
+.button5 {background-color: #555555;font-size: 12px;}
+.button6 {background-color: #DAA520;font-size: 12px;}
+.button7 {background-color: #5F9EA0;font-size: 12px;}
+.button8 {background-color: #516ccf;font-size: 12px;}
+.buttonstn {background-color: #32CD32;font-size: 12px;}
+
+.topmenu {
+	color: #fff;
+	font: normal 16px arial;
+	text-decoration: none;
+}
+
+.topmenu a {
+	color: #fff;
+	font: normal 16px arial;
+	text-decoration: none;
+}
+
+.LabelUser {
+	font-size:16px;
+	font-family: Verdana, Helvetica, Arial, Sans-Serif;
+}
+
+.classContent {
+    border-color: black;
+	border-radius: 5px;
+	border-style: solid;
+	padding: 10px;
+	font-family: Arial, Sans-Serif;
+}
+
+.WebName {
+    color: black;
+    /*font-family: Rofi;*/
+	padding:0.01em 16px;
+    text-align: center;
+	font-size:20px;
+	padding-bottom:5px;
+	font-family:verdana,helvetica,arial,sans-serif;
+}
+
+.WebName .VersiWeb {
+	font-size:10px;
+}
+
+.MiniTitle {
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+
+.MiniTitle a {
+	font-weight: bold;
+	text-decoration: none;
+	color: #3A99D9;
+}
+
+.MiniTitle a:hover {
+	color: black;
+}
+
+.MiniTitle a:visited {
+	font-weight: bold;
+	text-decoration: none;
+	color: #3A99D9;
+}
+
+.SectionTitle {
+	font-weight: bold;
+	color: black;
+    text-align: center;
+	font-size:12px;
+	font-family:verdana,helvetica,arial,sans-serif;
+}
+
+.buttonCek {
+	background-color: #555555;
+	font-size: 12px;
+	/*border: none;*/
+	color: white;
+	padding: 5px 1px 5px 1px;
+	margin: 0px 0px 0px 5px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	cursor: pointer;
+	border-radius: 10px;
+	box-sizing: content-box;
+	border-style:hidden;
+	width: 50px;
+	font-weight:bolder;
+}
+
+.buttonTambahData {
+	background-color: #555555;
+	font-size: 12px;
+	/*border: none;*/
+	color: white;
+	padding: 5px 1px 5px 1px;
+	margin: 0px 0px 0px 5px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	cursor: pointer;
+	border-radius: 10px;
+	box-sizing: content-box;
+	border-style:hidden;
+	width: 100px;
+	font-weight:bolder;
+}
+
+.ButtonPickDate {
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	height: 20px;
+	width: 20px;
+	border: none;
+	background: url("../css/Image/calendar.png") no-repeat;
+}
+
+.globallabel {
+	font-size: 12px;
+}
+
+.globalrbl {
+	font-size: 12px;
+}
+.globalrbl td {
+	padding: 0px 0px 0px 0px;
+	width: 50%;
+}
+.globalrbl table {
+	width: 100%;
+}
+
+.globalddl {
+	font-size: 12px;
+	width: 100%;
+	height: 25px;
+}
+
+input[type=text].globalinput, input[type=password].globalinput, .globalinput {
+	font-size: 12px;
+	height: 20px;
+}
+
+input[type=text].globalinputlink, input[type=password].globalinputlink, .globalinputlink {
+	font-size: 16px;
+	height: 30px;
+	width: calc(100% - 8px);
+}
+
+.globalcheckbox {
+	table-layout: table-cell;
+	text-align: left;
+	width: 100%;
+	font-size: 12px;
+}
+
+.TblGridView {
+	table-layout: table-cell;
+	text-align: center;
+	width: 100%;
+	font-size: 12px;
+}
+
+.TblGridView th {
+	text-align: center;
+}
+
+.TblGridView td {
+	word-break: break-all;
+	padding: 1px;
+}
+
+.TblGridViewLink {
+	font-size: 28px;
+}
+
+.TblGridViewLink a {
+	font-size: 28px;
+	text-decoration: none;
+	color: Blue;
+}
+
+.TblGridViewLink a:visited {
+	font-size: 28px;
+	text-decoration: none;
+	color: Blue;
+}
+
+.TblGridViewInput {
+	padding-right: 3px;
+}
+
+.BoxLblError {
+	display: table-cell;
+	width: inherit;
+	padding-top: 10px;
+	vertical-align: middle;
+}
+
+.graybackground-div {
+	position:absolute;
+	top:0px;
+	left:0px;
+	overflow:hidden;
+	width:100%;
+	height:100%;
+	background-color:#ffffff;
+	opacity:0.5;
+	filter:alpha(opacity=50);
+	z-index:10;
+	display:none;
+}

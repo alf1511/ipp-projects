@@ -1,0 +1,15 @@
+Tanggal Tracelog:07/10/2024 11:33:36
+Dari ClsSQL, Proses SQLInsertIntoDatatable, Error : PROCEDURE dev_jenius.report_flaghrb_reasonlist does not exist
+
+Tanggal Tracelog:07/10/2024 11:33:36
+Dari Halaman FLAG HRB, Proses LoadData, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:07/10/2024 11:34:46
+Dari ClsSQL, Proses SQLInsertIntoDatatable, Error : PROCEDURE dev_jenius.report_flaghrb_reasonlist does not exist
+
+Tanggal Tracelog:07/10/2024 11:34:46
+Dari Halaman FLAG HRB, Proses LoadData, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:07/10/2024 12:09:14
+Dari ClsSQL, Proses SQLInsertIntoDatatable, Error : PROCEDURE dev_jenius.report_flaghrb_reasonlist does not exist
+

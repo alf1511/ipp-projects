@@ -1,0 +1,21 @@
+Tanggal Tracelog:30/08/2024 08:33:01
+Dari ClsFungsi, Proses GetHubList, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:30/08/2024 08:33:19
+Dari ClsSQL, Proses SQLInsertIntoDataset, Error : Incorrect number of arguments for PROCEDURE dev_jenius.report_performance_awb; expected 10, got 13
+
+Tanggal Tracelog:30/08/2024 08:35:51
+Dari ClsFungsi, Proses GetHubList, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:30/08/2024 08:37:07
+Dari ClsSQL, Proses SQLInsertIntoDataset, Error : Incorrect number of arguments for PROCEDURE dev_jenius.report_performance_awb; expected 10, got 13
+
+Tanggal Tracelog:30/08/2024 08:57:37
+Dari ClsSQL, Proses SQLInsertIntoDataset, Error : Incorrect number of arguments for PROCEDURE dev_jenius.report_performance_awb; expected 10, got 13
+
+Tanggal Tracelog:30/08/2024 08:58:23
+Dari ClsFungsi, Proses GetHubList, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:30/08/2024 08:58:53
+Dari ClsSQL, Proses SQLInsertIntoDataset, Error : Incorrect number of arguments for PROCEDURE dev_jenius.report_performance_awb; expected 10, got 13
+

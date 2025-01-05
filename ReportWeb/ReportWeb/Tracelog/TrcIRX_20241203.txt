@@ -1,0 +1,51 @@
+Tanggal Tracelog:03/12/2024 15:26:50
+Dari ClsSQL, Proses SQLInsertIntoDatatable, Error : Duplicate entry 'CON-3000000-939-4508-2966' for key 'PRIMARY'
+
+Tanggal Tracelog:03/12/2024 15:28:06
+Dari ClsSQL, Proses SQLInsertIntoDatatable, Error : Duplicate entry 'CON-3000000-939-4508-2966' for key 'PRIMARY'
+
+Tanggal Tracelog:03/12/2024 15:29:32
+Dari ClsSQL, Proses SQLInsertIntoDatatable, Error : Duplicate entry 'CON-3000000-939-4508-2966' for key 'PRIMARY'
+
+Tanggal Tracelog:03/12/2024 15:32:20
+Dari ClsSQL, Proses SQLInsertIntoDatatable, Error : Duplicate entry 'CON-3000000-939-4508-2966' for key 'PRIMARY'
+
+Tanggal Tracelog:03/12/2024 15:38:48
+Dari ClsSQL, Proses SQLInsertIntoDatatable, Error : Duplicate entry 'CON-3000000-939-4508-2966' for key 'PRIMARY'
+
+Tanggal Tracelog:03/12/2024 15:41:53
+Dari ClsSQL, Proses SQLInsertIntoDatatable, Error : Duplicate entry 'CON-3000000-939-4508-2966' for key 'PRIMARY'
+
+Tanggal Tracelog:03/12/2024 16:15:05
+Dari ClsSQL, Proses SQLInsertIntoDatatable, Error : Unknown column 'i.account' in 'where clause'
+
+Tanggal Tracelog:03/12/2024 16:18:19
+Dari ClsSQL, Proses SQLInsertIntoDatatable, Error : Duplicate entry 'CON-3000000-939-4508-2966' for key 'PRIMARY'
+
+Tanggal Tracelog:03/12/2024 16:21:39
+Dari ClsSQL, Proses SQLInsertIntoDatatable, Error : Duplicate entry 'CON-3000000-939-4508-2966' for key 'PRIMARY'
+
+Tanggal Tracelog:03/12/2024 16:25:43
+Dari ClsSQL, Proses SQLInsertIntoDatatable, Error : Duplicate entry 'CON-3000000-939-4508-2966' for key 'PRIMARY'
+
+Tanggal Tracelog:03/12/2024 16:45:16
+Dari ClsSQL, Proses SQLInsertIntoDatatable, Error : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.') as Detail , count(Ekspedisi) as Qty From `TempLaporanRekapBASelisih` Where `' at line 1
+
+Tanggal Tracelog:03/12/2024 16:45:44
+Dari ClsSQL, Proses SQLInsertIntoDatatable, Error : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.') as Detail , count(Ekspedisi) as Qty From `TempLaporanRekapBASelisih` Where `' at line 1
+
+Tanggal Tracelog:03/12/2024 16:47:04
+Dari ClsSQL, Proses SQLInsertIntoDatatable, Error : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.') as Detail , count(Ekspedisi) as Qty From `TempLaporanRekapBASelisih` Where `' at line 1
+
+Tanggal Tracelog:03/12/2024 16:48:18
+Dari ClsSQL, Proses SQLInsertIntoDatatable, Error : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.') as Detail , count(Ekspedisi) as Qty From `TempLaporanRekapBASelisih` Where `' at line 1
+
+Tanggal Tracelog:03/12/2024 16:52:52
+Dari ClsSQL, Proses SQLInsertIntoDatatable, Error : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.') as Detail , count(Ekspedisi) as Qty From `TempLaporanRekapBASelisih` Where `' at line 1
+
+Tanggal Tracelog:03/12/2024 16:55:54
+Dari ClsSQL, Proses SQLInsertIntoDatatable, Error : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as Detail , count(Ekspedisi) as Qty From `TempLaporanRekapBASelisih` Where `Stat' at line 1
+
+Tanggal Tracelog:03/12/2024 16:56:09
+Dari ClsSQL, Proses SQLInsertIntoDatatable, Error : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as Detail , count(Ekspedisi) as Qty From `TempLaporanRekapBASelisih` Where `Stat' at line 1
+

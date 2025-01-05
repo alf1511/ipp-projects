@@ -1,0 +1,18 @@
+Tanggal Tracelog:24/10/2024 12:12:11
+Dari ClsFungsi, Proses GetHubList, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:24/10/2024 12:12:48
+Dari ClsSQL, Proses SQLInsertIntoDataset, Error : Incorrect number of arguments for PROCEDURE dev_jenius.resikonsol_datainfo; expected 3, got 2
+
+Tanggal Tracelog:24/10/2024 12:12:55
+Dari ClsFungsi, Proses DataReaderToFile, Error : Incorrect number of arguments for PROCEDURE dev_jenius.resikonsol_datainfo; expected 3, got 2
+
+Tanggal Tracelog:24/10/2024 12:14:56
+Dari ClsFungsi, Proses GetHubList, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:24/10/2024 12:16:34
+Dari ClsSQL, Proses SQLInsertIntoDataset, Error : Incorrect number of arguments for PROCEDURE dev_jenius.resikonsol_datainfo; expected 3, got 2
+
+Tanggal Tracelog:24/10/2024 12:17:42
+Dari ClsFungsi, Proses GetHubList, Error : Object reference not set to an instance of an object.
+

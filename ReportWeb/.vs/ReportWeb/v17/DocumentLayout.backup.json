@@ -1,0 +1,97 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\WebReportLocal\\ReportWeb\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}|ReportWeb\\ReportWeb.vbproj|d:\\webreportlocal\\reportweb\\reportweb\\processpickingdcreport.aspx.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}|ReportWeb\\ReportWeb.vbproj|solutionrelative:reportweb\\processpickingdcreport.aspx.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}|ReportWeb\\ReportWeb.vbproj|D:\\WebReportLocal\\ReportWeb\\reportweb\\clsfungsi.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}|ReportWeb\\ReportWeb.vbproj|solutionrelative:reportweb\\clsfungsi.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}|ReportWeb\\ReportWeb.vbproj|D:\\WebReportLocal\\ReportWeb\\reportweb\\laporanresikonsol.aspx.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}|ReportWeb\\ReportWeb.vbproj|solutionrelative:reportweb\\laporanresikonsol.aspx.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}|ReportWeb\\ReportWeb.vbproj|D:\\WebReportLocal\\ReportWeb\\reportweb\\processpickingdcreport.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}|ReportWeb\\ReportWeb.vbproj|solutionrelative:reportweb\\processpickingdcreport.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClsFungsi.vb",
+              "DocumentMoniker": "D:\\WebReportLocal\\ReportWeb\\ReportWeb\\ClsFungsi.vb",
+              "RelativeDocumentMoniker": "ReportWeb\\ClsFungsi.vb",
+              "ToolTip": "D:\\WebReportLocal\\ReportWeb\\ReportWeb\\ClsFungsi.vb",
+              "RelativeToolTip": "ReportWeb\\ClsFungsi.vb",
+              "ViewState": "AgIAAAMQAAAAAAAAAAAqwAsQAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-01-02T08:46:02.028Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LaporanResiKonsol.aspx.vb",
+              "DocumentMoniker": "D:\\WebReportLocal\\ReportWeb\\ReportWeb\\LaporanResiKonsol.aspx.vb",
+              "RelativeDocumentMoniker": "ReportWeb\\LaporanResiKonsol.aspx.vb",
+              "ToolTip": "D:\\WebReportLocal\\ReportWeb\\ReportWeb\\LaporanResiKonsol.aspx.vb",
+              "RelativeToolTip": "ReportWeb\\LaporanResiKonsol.aspx.vb",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAuwHIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-01-02T07:42:43.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProcessPickingDCReport.aspx.vb",
+              "DocumentMoniker": "D:\\WebReportLocal\\ReportWeb\\ReportWeb\\ProcessPickingDCReport.aspx.vb",
+              "RelativeDocumentMoniker": "ReportWeb\\ProcessPickingDCReport.aspx.vb",
+              "ToolTip": "D:\\WebReportLocal\\ReportWeb\\ReportWeb\\ProcessPickingDCReport.aspx.vb",
+              "RelativeToolTip": "ReportWeb\\ProcessPickingDCReport.aspx.vb",
+              "ViewState": "AgIAADkAAAAAAAAAAADwv0UAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-01-02T04:17:25.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProcessPickingDCReport.aspx",
+              "DocumentMoniker": "D:\\WebReportLocal\\ReportWeb\\ReportWeb\\ProcessPickingDCReport.aspx",
+              "RelativeDocumentMoniker": "ReportWeb\\ProcessPickingDCReport.aspx",
+              "ToolTip": "D:\\WebReportLocal\\ReportWeb\\ReportWeb\\ProcessPickingDCReport.aspx",
+              "RelativeToolTip": "ReportWeb\\ProcessPickingDCReport.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-01-02T04:01:26.757Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

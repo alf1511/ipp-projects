@@ -1,0 +1,27 @@
+Tanggal Tracelog:04/12/2024 08:13:57
+Dari ClsSQL, Proses SQLInsertIntoDatatable, Error : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as Detail , count(Ekspedisi) as Qty From `TempLaporanRekapBASelisih` Where `Stat' at line 1
+
+Tanggal Tracelog:04/12/2024 08:16:18
+Dari ClsSQL, Proses SQLInsertIntoDatatable, Error : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as Detail , count(Ekspedisi) as Qty From `TempLaporanRekapBASelisih` Where `Stat' at line 1
+
+Tanggal Tracelog:04/12/2024 08:20:33
+Dari ClsSQL, Proses SQLInsertIntoDatatable, Error : Duplicate entry 'CON-3000000-939-4508-2966' for key 'PRIMARY'
+
+Tanggal Tracelog:04/12/2024 08:26:59
+Dari ClsSQL, Proses SQLInsertIntoDatatable, Error : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as Detail , count(Ekspedisi) as Qty From `TempLaporanRekapBASelisih` Where `Stat' at line 1
+
+Tanggal Tracelog:04/12/2024 08:33:04
+Dari ClsSQL, Proses SQLInsertIntoDatatable, Error : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.') as Detail , count(Ekspedisi) as Qty From `TempLaporanRekapBASelisih` Where `' at line 1
+
+Tanggal Tracelog:04/12/2024 08:42:17
+Dari ClsSQL, Proses SQLInsertIntoDatatable, Error : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.') as Detail , count(Ekspedisi) as Qty From `TempLaporanRekapBASelisih` Where `' at line 1
+
+Tanggal Tracelog:04/12/2024 08:43:32
+Dari ClsSQL, Proses SQLInsertIntoDatatable, Error : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as Detail , count(Ekspedisi) as Qty From `TempLaporanRekapBASelisih` Where `Stat' at line 1
+
+Tanggal Tracelog:04/12/2024 08:45:43
+Dari ClsSQL, Proses SQLInsertIntoDatatable, Error : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as Detail , count(Ekspedisi) as Qty From `TempLaporanRekapBASelisih` Where `Stat' at line 1
+
+Tanggal Tracelog:04/12/2024 08:45:55
+Dari ClsSQL, Proses SQLInsertIntoDatatable, Error : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as Detail , count(Ekspedisi) as Qty From `TempLaporanRekapBASelisih` Where `Stat' at line 1
+

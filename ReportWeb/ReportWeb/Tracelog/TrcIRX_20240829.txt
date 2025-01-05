@@ -1,0 +1,315 @@
+Tanggal Tracelog:29/08/2024 09:53:53
+Dari ClsFungsi, Proses GetRegionList, Error : Unable to connect to the remote server
+
+Tanggal Tracelog:29/08/2024 09:53:54
+Dari ClsFungsi, Proses ddlBound, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:29/08/2024 09:53:54
+Dari ClsFungsi, Proses ddlBound, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:29/08/2024 09:53:54
+Dari Halaman Performance AWB, Proses LoadData, Error : Cannot find column [Value].
+
+Tanggal Tracelog:29/08/2024 09:59:00
+Dari ClsFungsi, Proses GetRegionList, Error : Unable to connect to the remote server
+
+Tanggal Tracelog:29/08/2024 09:59:00
+Dari ClsFungsi, Proses ddlBound, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:29/08/2024 09:59:00
+Dari ClsFungsi, Proses ddlBound, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:29/08/2024 09:59:00
+Dari Halaman Performance AWB, Proses LoadData, Error : Cannot find column [Value].
+
+Tanggal Tracelog:29/08/2024 10:01:40
+Dari ClsFungsi, Proses GetRegionList, Error : Unable to connect to the remote server
+
+Tanggal Tracelog:29/08/2024 10:02:18
+Dari ClsFungsi, Proses ddlBound, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:29/08/2024 10:02:21
+Dari ClsFungsi, Proses ddlBound, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:29/08/2024 10:02:21
+Dari Halaman Performance AWB, Proses LoadData, Error : Cannot find column [Value].
+
+Tanggal Tracelog:29/08/2024 10:15:52
+Dari ClsFungsi, Proses GetRegionList, Error : Unable to connect to the remote server
+
+Tanggal Tracelog:29/08/2024 10:18:13
+Dari ClsFungsi, Proses ddlBound, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:29/08/2024 10:19:33
+Dari ClsFungsi, Proses ddlBound, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:29/08/2024 10:19:49
+Dari Halaman Performance AWB, Proses LoadData, Error : Cannot find column [Value].
+
+Tanggal Tracelog:29/08/2024 10:26:08
+Dari ClsFungsi, Proses GetRegionList, Error : Unable to connect to the remote server
+
+Tanggal Tracelog:29/08/2024 10:29:04
+Dari ClsFungsi, Proses ddlBound, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:29/08/2024 10:29:16
+Dari ClsFungsi, Proses ddlBound, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:29/08/2024 10:29:16
+Dari Halaman Performance AWB, Proses LoadData, Error : Cannot find column [Value].
+
+Tanggal Tracelog:29/08/2024 10:29:20
+Dari ClsFungsi, Proses GetRegionList, Error : Unable to connect to the remote server
+
+Tanggal Tracelog:29/08/2024 10:30:21
+Dari ClsFungsi, Proses ddlBound, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:29/08/2024 10:30:24
+Dari ClsFungsi, Proses ddlBound, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:29/08/2024 10:30:24
+Dari Halaman Performance AWB, Proses LoadData, Error : Cannot find column [Value].
+
+Tanggal Tracelog:29/08/2024 10:30:30
+Dari ClsFungsi, Proses GetRegionList, Error : Unable to connect to the remote server
+
+Tanggal Tracelog:29/08/2024 10:30:34
+Dari ClsFungsi, Proses ddlBound, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:29/08/2024 10:30:36
+Dari ClsFungsi, Proses ddlBound, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:29/08/2024 10:30:36
+Dari Halaman Performance AWB, Proses LoadData, Error : Cannot find column [Value].
+
+Tanggal Tracelog:29/08/2024 10:41:42
+Dari ClsFungsi, Proses GetRegionList, Error : Unable to connect to the remote server
+
+Tanggal Tracelog:29/08/2024 10:41:43
+Dari ClsFungsi, Proses ddlBound, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:29/08/2024 10:41:43
+Dari ClsFungsi, Proses ddlBound, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:29/08/2024 10:41:43
+Dari Halaman Performance AWB, Proses LoadData, Error : Cannot find column [Value].
+
+Tanggal Tracelog:29/08/2024 10:58:09
+Dari ClsFungsi, Proses GetRegionList, Error : Unable to connect to the remote server
+
+Tanggal Tracelog:29/08/2024 10:58:09
+Dari ClsFungsi, Proses ddlBound, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:29/08/2024 10:58:09
+Dari ClsFungsi, Proses ddlBound, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:29/08/2024 10:58:09
+Dari Halaman Performance AWB, Proses LoadData, Error : Cannot find column [Value].
+
+Tanggal Tracelog:29/08/2024 11:27:15
+Dari ClsFungsi, Proses GetRegionList, Error : Unable to connect to the remote server
+
+Tanggal Tracelog:29/08/2024 11:27:15
+Dari ClsFungsi, Proses ddlBound, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:29/08/2024 11:27:15
+Dari ClsFungsi, Proses ddlBound, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:29/08/2024 11:27:15
+Dari Halaman Performance AWB, Proses LoadData, Error : Cannot find column [Value].
+
+Tanggal Tracelog:29/08/2024 11:27:53
+Dari ClsFungsi, Proses GetRegionList, Error : Unable to connect to the remote server
+
+Tanggal Tracelog:29/08/2024 11:27:53
+Dari ClsFungsi, Proses ddlBound, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:29/08/2024 11:27:53
+Dari ClsFungsi, Proses ddlBound, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:29/08/2024 11:27:53
+Dari Halaman Performance AWB, Proses LoadData, Error : Cannot find column [Value].
+
+Tanggal Tracelog:29/08/2024 11:34:40
+Dari ClsFungsi, Proses GetRegionList, Error : Unable to connect to the remote server
+
+Tanggal Tracelog:29/08/2024 11:34:40
+Dari ClsFungsi, Proses ddlBound, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:29/08/2024 11:34:40
+Dari ClsFungsi, Proses ddlBound, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:29/08/2024 11:34:40
+Dari Halaman Performance AWB, Proses LoadData, Error : Cannot find column [Value].
+
+Tanggal Tracelog:29/08/2024 11:34:44
+Dari ClsFungsi, Proses GetRegionList, Error : Unable to connect to the remote server
+
+Tanggal Tracelog:29/08/2024 11:34:44
+Dari ClsFungsi, Proses ddlBound, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:29/08/2024 11:34:44
+Dari ClsFungsi, Proses ddlBound, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:29/08/2024 11:34:44
+Dari Halaman Performance AWB, Proses LoadData, Error : Cannot find column [Value].
+
+Tanggal Tracelog:29/08/2024 11:52:13
+Dari ClsFungsi, Proses GetRegionList, Error : Unable to connect to the remote server
+
+Tanggal Tracelog:29/08/2024 12:00:47
+Dari ClsFungsi, Proses GetRegionList, Error : Value cannot be null.
+Parameter name: uriString
+
+Tanggal Tracelog:29/08/2024 12:00:47
+Dari ClsFungsi, Proses ddlBound, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:29/08/2024 12:00:47
+Dari ClsFungsi, Proses ddlBound, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:29/08/2024 12:00:47
+Dari Halaman Performance AWB, Proses LoadData, Error : Cannot find column [Value].
+
+Tanggal Tracelog:29/08/2024 12:11:01
+Dari ClsFungsi, Proses GetRegionList, Error : Value cannot be null.
+Parameter name: uriString
+
+Tanggal Tracelog:29/08/2024 12:11:02
+Dari ClsFungsi, Proses ddlBound, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:29/08/2024 12:11:02
+Dari ClsFungsi, Proses ddlBound, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:29/08/2024 12:11:02
+Dari Halaman Performance AWB, Proses LoadData, Error : Cannot find column [Value].
+
+Tanggal Tracelog:29/08/2024 12:12:00
+Dari ClsFungsi, Proses GetRegionList, Error : Value cannot be null.
+Parameter name: uriString
+
+Tanggal Tracelog:29/08/2024 12:12:33
+Dari ClsFungsi, Proses ddlBound, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:29/08/2024 12:12:34
+Dari ClsFungsi, Proses ddlBound, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:29/08/2024 12:12:34
+Dari Halaman Performance AWB, Proses LoadData, Error : Cannot find column [Value].
+
+Tanggal Tracelog:29/08/2024 12:13:40
+Dari ClsFungsi, Proses GetRegionList, Error : Value cannot be null.
+Parameter name: uriString
+
+Tanggal Tracelog:29/08/2024 12:21:44
+Dari ClsFungsi, Proses ddlBound, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:29/08/2024 12:29:24
+Dari ClsFungsi, Proses ddlBound, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:29/08/2024 12:29:25
+Dari Halaman Performance AWB, Proses LoadData, Error : Cannot find column [Value].
+
+Tanggal Tracelog:29/08/2024 12:31:10
+Dari ClsFungsi, Proses GetRegionList, Error : Value cannot be null.
+Parameter name: uriString
+
+Tanggal Tracelog:29/08/2024 12:31:14
+Dari ClsFungsi, Proses ddlBound, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:29/08/2024 12:31:21
+Dari ClsFungsi, Proses ddlBound, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:29/08/2024 12:31:33
+Dari Halaman Performance AWB, Proses LoadData, Error : Cannot find column [Value].
+
+Tanggal Tracelog:29/08/2024 12:38:17
+Dari ClsFungsi, Proses GetRegionList, Error : Value cannot be null.
+Parameter name: uriString
+
+Tanggal Tracelog:29/08/2024 12:38:25
+Dari ClsFungsi, Proses ddlBound, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:29/08/2024 12:38:27
+Dari ClsFungsi, Proses ddlBound, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:29/08/2024 12:38:27
+Dari Halaman Performance AWB, Proses LoadData, Error : Cannot find column [Value].
+
+Tanggal Tracelog:29/08/2024 13:40:04
+Dari ClsFungsi, Proses GetRegionList, Error : Value cannot be null.
+Parameter name: uriString
+
+Tanggal Tracelog:29/08/2024 13:40:04
+Dari ClsFungsi, Proses ddlBound, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:29/08/2024 13:40:04
+Dari ClsFungsi, Proses ddlBound, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:29/08/2024 13:40:04
+Dari Halaman Performance AWB, Proses LoadData, Error : Cannot find column [Value].
+
+Tanggal Tracelog:29/08/2024 13:43:34
+Dari ClsFungsi, Proses GetRegionList, Error : Value cannot be null.
+Parameter name: uriString
+
+Tanggal Tracelog:29/08/2024 13:51:39
+Dari ClsFungsi, Proses ddlBound, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:29/08/2024 14:01:55
+Dari ClsFungsi, Proses GetRegionList, Error : Value cannot be null.
+Parameter name: uriString
+
+Tanggal Tracelog:29/08/2024 14:04:44
+Dari ClsFungsi, Proses ddlBound, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:29/08/2024 14:04:45
+Dari ClsFungsi, Proses ddlBound, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:29/08/2024 14:04:45
+Dari Halaman Performance AWB, Proses LoadData, Error : Cannot find column [Value].
+
+Tanggal Tracelog:29/08/2024 14:07:05
+Dari Halaman Performance AWB, Proses LoadData, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:29/08/2024 14:08:33
+Dari Halaman Performance AWB, Proses LoadData, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:29/08/2024 14:08:50
+Dari Halaman Performance AWB, Proses LoadData, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:29/08/2024 14:11:39
+Dari Halaman Performance AWB, Proses LoadData, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:29/08/2024 14:22:02
+Dari ClsFungsi, Proses GetHubList, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:29/08/2024 14:22:04
+Dari Halaman Performance AWB, Proses LoadData, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:29/08/2024 14:25:53
+Dari ClsFungsi, Proses GetHubList, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:29/08/2024 14:27:44
+Dari ClsSQL, Proses SQLInsertIntoDataset, Error : Incorrect number of arguments for PROCEDURE dev_jenius.report_performance_awb; expected 10, got 12
+
+Tanggal Tracelog:29/08/2024 14:38:34
+Dari ClsSQL, Proses SQLInsertIntoDataset, Error : Incorrect number of arguments for PROCEDURE dev_jenius.report_performance_awb; expected 10, got 12
+
+Tanggal Tracelog:29/08/2024 15:35:13
+Dari ClsFungsi, Proses GetHubList, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:29/08/2024 15:35:45
+Dari ClsFungsi, Proses GetHubList, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:29/08/2024 16:38:15
+Dari ClsFungsi, Proses GetHubList, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:29/08/2024 16:46:16
+Dari ClsFungsi, Proses GetHubList, Error : Object reference not set to an instance of an object.
+
+Tanggal Tracelog:29/08/2024 16:46:17
+Dari ClsFungsi, Proses ConvertStringToDatatable, Error : Cannot find column 2.
+
+Tanggal Tracelog:29/08/2024 16:48:12
+Dari ClsFungsi, Proses GetHubList, Error : Object reference not set to an instance of an object.
+

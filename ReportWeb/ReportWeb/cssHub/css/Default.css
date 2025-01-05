@@ -1,0 +1,181 @@
+
+/*@font-face { font-family: Rofi; src: url('RofiTaste.otf'); } */
+
+td {
+	text-align:left;
+}
+
+.container
+{
+	/*
+	position: fixed;
+	left: 50%;
+	width:30em;
+	margin-left: -15em; /*set to a negative number 1/2 of your width*/
+}
+
+#WebName {
+    color: black;
+    /*font-family: Rofi;*/
+	padding:0.01em 16px;
+    text-align: center;
+	font-size:30px;
+	padding-bottom:15px;
+	font-family:verdana,helvetica,arial,sans-serif;
+	min-width:450px;
+}
+
+#WebName .VersiWeb{
+	font-size:10px;
+}
+
+#BoxMenu {
+	/*border-radius: 5px;
+	height: 38px;
+	padding: 10px 15px;*/
+	background-color: #222;
+	height: 30px;
+	padding: 10px;
+	border-radius: 4px;
+	box-sizing: content-box;
+	min-width:430px;
+}
+
+#BoxMenu a{
+	text-decoration: none;
+}
+
+.BoxMenu1 {
+	margin: 0 auto;
+
+	border-bottom: solid 1px #6C0000;
+	float:left;
+	width: 100%;
+	/*width: 322px;*/
+}
+
+.BoxMenu1 ul{
+	position: relative;
+	/*float: left;*/
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	width:100%;
+}
+
+.BoxMenu1 li{
+	float: left;
+	padding: 0;
+	margin: 0;
+}
+
+.BoxMenu1 li a{
+	padding-top: 8px;
+	padding-bottom: 8px;
+	margin: 0 20px;
+	color: #fff;
+	font: normal 12px arial;
+	text-align: center;
+	/*float: left;*/
+	display: block;
+}
+
+.BoxMenu1 li.highlight{
+    background-color:#800;
+    top:30px;
+    height:1px;
+    border-bottom:solid 1px #C00;
+    z-index: 1;
+    position: absolute;
+    overflow:hidden;
+}
+
+.date {
+  position: relative;
+  width: 70px;
+  font-family: Georgia, serif;
+  color: #999;
+  margin: 0 auto;
+ }
+
+.day, .month, .year {
+  position: absolute;
+  }
+
+.day {
+  font-size: 30px;
+  top: 15px;
+  }
+
+.month {
+  top: 0;
+  left: 0;
+  font-size: 18px;
+  }
+
+.year {
+  top: 19px;
+  right: 0;
+  font-size: 20px;
+  rotation: -90deg !important;
+  /* ** Hacks ** */
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  }
+
+.BoxContent
+  {
+	min-width: 450px;
+  }
+
+  .LabelUser {
+	  text-align: center;
+	  padding:10px;
+  }
+
+  .wrapper
+  {
+	text-align: center;
+	padding:15px;
+  }
+
+  .classContent
+  {
+	display: inline-block;
+	border-radius: 5px;
+	box-sizing: content-box;
+	border-style: solid;
+	padding: 10px;
+	margin-left:auto;margin-right:auto;
+  }
+
+  .MiniTitle {
+	font-weight: bold;
+  }
+
+.button {
+    background-color: #4CAF50; /* Green
+    border: none;*/
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+	border-radius: 10px;
+	box-sizing: content-box;
+	border-style:hidden;
+	font-weight:bolder;
+}
+
+.buttonWidth {
+	width: 90px;
+}
+
+.button2 {background-color: #008CBA;font-size: 12px;} /* Blue */
+.button3 {background-color: #f44336;font-size: 12px;} /* Red */
+.button4 {background-color: #e7e7e7; color: black;font-size: 12px;}
+.button5 {background-color: #555555;font-size: 12px;}
+.button6 {background-color: #DAA520;font-size: 12px;}
+.button7 {background-color: #5F9EA0;font-size: 12px;}

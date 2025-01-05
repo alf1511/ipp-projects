@@ -1,0 +1,15 @@
+Tanggal Tracelog:10/10/2024 10:46:47
+Dari ClsSQL, Proses SQLInsertIntoDatatable, Error : Unknown column 'th.Tracktime' in 'where clause'
+
+Tanggal Tracelog:10/10/2024 11:01:39
+Dari ClsSQL, Proses SQLInsertIntoDatatable, Error : Unknown column 'th.Tracktime' in 'where clause'
+
+Tanggal Tracelog:10/10/2024 12:56:59
+Dari ClsSQL, Proses SQLInsertIntoDatatable, Error : Incorrect number of arguments for PROCEDURE dev_jenius.report_tgf; expected 12, got 8
+
+Tanggal Tracelog:10/10/2024 12:59:19
+Dari ClsSQL, Proses SQLInsertIntoDatatable, Error : Incorrect number of arguments for PROCEDURE dev_jenius.report_tgf; expected 12, got 8
+
+Tanggal Tracelog:10/10/2024 12:59:22
+Dari ClsSQL, Proses SQLInsertIntoDatatable, Error : Incorrect number of arguments for PROCEDURE dev_jenius.report_tgf; expected 12, got 8
+
